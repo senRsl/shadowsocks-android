@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.github.shadowsocks"
+		module="plugin_2.11"
+		revision="0.0.3"
+		conf="runtime-internal"
+		confs="compile, runtime, test, provided, optional, androidTest, android-internal, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20170418095110"/>
+	<dependencies>
+		<module organisation="com.android.support" name="preference-v14">
+			<revision name="25.2.0" status="release" pubdate="20170417144243" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<metadata-artifact status="no" details="" size="3292" time="0" location="/home/senrsl/.ivy2/cache/com.android.support/preference-v14/ivy-25.2.0.xml" searched="false" origin-is-local="true" origin-location="/home/senrsl/android/android-sdk-linux/extras/android/m2repository/com/android/support/preference-v14/25.2.0/preference-v14-25.2.0.pom"/>
+				<caller organisation="com.github.shadowsocks" name="plugin_2.11" conf="compile, runtime-internal, runtime, optional" rev="25.2.0" rev-constraint-default="25.2.0" rev-constraint-dynamic="25.2.0" callerrev="0.0.3"/>
+				<artifacts>
+					<artifact name="preference-v14" type="aar" ext="aar" status="no" details="" size="66217" time="0" location="/home/senrsl/android/android-sdk-linux/extras/android/m2repository/com/android/support/preference-v14/25.2.0/preference-v14-25.2.0.aar">
+						<origin-location is-local="true" location="/home/senrsl/android/android-sdk-linux/extras/android/m2repository/com/android/support/preference-v14/25.2.0/preference-v14-25.2.0.aar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.android.support" name="preference-v7">
+			<revision name="25.2.0" status="release" pubdate="20170417144244" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<metadata-artifact status="no" details="" size="3058" time="0" location="/home/senrsl/.ivy2/cache/com.android.support/preference-v7/ivy-25.2.0.xml" searched="false" origin-is-local="true" origin-location="/home/senrsl/android/android-sdk-linux/extras/android/m2repository/com/android/support/preference-v7/25.2.0/preference-v7-25.2.0.pom"/>
+				<caller organisation="com.android.support" name="preference-v14" conf="default, compile, runtime, master" rev="25.2.0" rev-constraint-default="25.2.0" rev-constraint-dynamic="25.2.0" callerrev="25.2.0"/>
+				<artifacts>
+					<artifact name="preference-v7" type="aar" ext="aar" status="no" details="" size="128619" time="0" location="/home/senrsl/android/android-sdk-linux/extras/android/m2repository/com/android/support/preference-v7/25.2.0/preference-v7-25.2.0.aar">
+						<origin-location is-local="true" location="/home/senrsl/android/android-sdk-linux/extras/android/m2repository/com/android/support/preference-v7/25.2.0/preference-v7-25.2.0.aar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.android.support" name="recyclerview-v7">
+			<revision name="25.2.0" status="release" pubdate="20170417144245" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<metadata-artifact status="no" details="" size="2998" time="0" location="/home/senrsl/.ivy2/cache/com.android.support/recyclerview-v7/ivy-25.2.0.xml" searched="false" origin-is-local="true" origin-location="/home/senrsl/android/android-sdk-linux/extras/android/m2repository/com/android/support/recyclerview-v7/25.2.0/recyclerview-v7-25.2.0.pom"/>
+				<caller organisation="com.android.support" name="preference-v7" conf="compile, runtime" rev="25.2.0" rev-constraint-default="25.2.0" rev-constraint-dynamic="25.2.0" callerrev="25.2.0"/>
+				<caller organisation="com.android.support" name="preference-v14" conf="default, compile, runtime, master" rev="25.2.0" rev-constraint-default="25.2.0" rev-constraint-dynamic="25.2.0" callerrev="25.2.0"/>
+				<artifacts>
+					<artifact name="recyclerview-v7" type="aar" ext="aar" status="no" details="" size="324862" time="0" location="/home/senrsl/android/android-sdk-linux/extras/android/m2repository/com/android/support/recyclerview-v7/25.2.0/recyclerview-v7-25.2.0.aar">
+						<origin-location is-local="true" location="/home/senrsl/android/android-sdk-linux/extras/android/m2repository/com/android/support/recyclerview-v7/25.2.0/recyclerview-v7-25.2.0.aar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.android.support" name="appcompat-v7">
+			<revision name="25.2.0" status="release" pubdate="20170417144243" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<metadata-artifact status="no" details="" size="3254" time="0" location="/home/senrsl/.ivy2/cache/com.android.support/appcompat-v7/ivy-25.2.0.xml" searched="false" origin-is-local="true" origin-location="/home/senrsl/android/android-sdk-linux/extras/android/m2repository/com/android/support/appcompat-v7/25.2.0/appcompat-v7-25.2.0.pom"/>
+				<caller organisation="com.android.support" name="preference-v7" conf="compile, runtime" rev="25.2.0" rev-constraint-default="25.2.0" rev-constraint-dynamic="25.2.0" callerrev="25.2.0"/>
+				<caller organisation="com.android.support" name="preference-v14" conf="default, compile, runtime, master" rev="25.2.0" rev-constraint-default="25.2.0" rev-constraint-dynamic="25.2.0" callerrev="25.2.0"/>
+				<artifacts>
+					<artifact name="appcompat-v7" type="aar" ext="aar" status="no" details="" size="1026029" time="0" location="/home/senrsl/android/android-sdk-linux/extras/android/m2repository/com/android/support/appcompat-v7/25.2.0/appcompat-v7-25.2.0.aar">
+						<origin-location is-local="true" location="/home/senrsl/android/android-sdk-linux/extras/android/m2repository/com/android/support/appcompat-v7/25.2.0/appcompat-v7-25.2.0.aar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.android.support" name="animated-vector-drawable">
+			<revision name="25.2.0" status="release" pubdate="20170417144244" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<metadata-artifact status="no" details="" size="2640" time="0" location="/home/senrsl/.ivy2/cache/com.android.support/animated-vector-drawable/ivy-25.2.0.xml" searched="false" origin-is-local="true" origin-location="/home/senrsl/android/android-sdk-linux/extras/android/m2repository/com/android/support/animated-vector-drawable/25.2.0/animated-vector-drawable-25.2.0.pom"/>
+				<caller organisation="com.android.support" name="appcompat-v7" conf="compile, runtime" rev="25.2.0" rev-constraint-default="25.2.0" rev-constraint-dynamic="25.2.0" callerrev="25.2.0"/>
+				<artifacts>
+					<artifact name="animated-vector-drawable" type="aar" ext="aar" status="no" details="" size="12074" time="0" location="/home/senrsl/android/android-sdk-linux/extras/android/m2repository/com/android/support/animated-vector-drawable/25.2.0/animated-vector-drawable-25.2.0.aar">
+						<origin-location is-local="true" location="/home/senrsl/android/android-sdk-linux/extras/android/m2repository/com/android/support/animated-vector-drawable/25.2.0/animated-vector-drawable-25.2.0.aar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.android.support" name="support-vector-drawable">
+			<revision name="25.2.0" status="release" pubdate="20170417144243" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<metadata-artifact status="no" details="" size="2778" time="0" location="/home/senrsl/.ivy2/cache/com.android.support/support-vector-drawable/ivy-25.2.0.xml" searched="false" origin-is-local="true" origin-location="/home/senrsl/android/android-sdk-linux/extras/android/m2repository/com/android/support/support-vector-drawable/25.2.0/support-vector-drawable-25.2.0.pom"/>
+				<caller organisation="com.android.support" name="animated-vector-drawable" conf="compile, runtime" rev="25.2.0" rev-constraint-default="25.2.0" rev-constraint-dynamic="25.2.0" callerrev="25.2.0"/>
+				<caller organisation="com.android.support" name="appcompat-v7" conf="compile, runtime" rev="25.2.0" rev-constraint-default="25.2.0" rev-constraint-dynamic="25.2.0" callerrev="25.2.0"/>
+				<artifacts>
+					<artifact name="support-vector-drawable" type="aar" ext="aar" status="no" details="" size="38573" time="0" location="/home/senrsl/android/android-sdk-linux/extras/android/m2repository/com/android/support/support-vector-drawable/25.2.0/support-vector-drawable-25.2.0.aar">
+						<origin-location is-local="true" location="/home/senrsl/android/android-sdk-linux/extras/android/m2repository/com/android/support/support-vector-drawable/25.2.0/support-vector-drawable-25.2.0.aar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.android.support" name="support-v4">
+			<revision name="25.2.0" status="release" pubdate="20170417144244" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<metadata-artifact status="no" details="" size="3556" time="0" location="/home/senrsl/.ivy2/cache/com.android.support/support-v4/ivy-25.2.0.xml" searched="false" origin-is-local="true" origin-location="/home/senrsl/android/android-sdk-linux/extras/android/m2repository/com/android/support/support-v4/25.2.0/support-v4-25.2.0.pom"/>
+				<caller organisation="com.android.support" name="appcompat-v7" conf="compile, runtime" rev="25.2.0" rev-constraint-default="25.2.0" rev-constraint-dynamic="25.2.0" callerrev="25.2.0"/>
+				<caller organisation="com.android.support" name="preference-v7" conf="compile, runtime" rev="25.2.0" rev-constraint-default="25.2.0" rev-constraint-dynamic="25.2.0" callerrev="25.2.0"/>
+				<caller organisation="com.android.support" name="preference-v14" conf="default, compile, runtime, master" rev="25.2.0" rev-constraint-default="25.2.0" rev-constraint-dynamic="25.2.0" callerrev="25.2.0"/>
+				<artifacts>
+					<artifact name="support-v4" type="aar" ext="aar" status="no" details="" size="1728" time="0" location="/home/senrsl/android/android-sdk-linux/extras/android/m2repository/com/android/support/support-v4/25.2.0/support-v4-25.2.0.aar">
+						<origin-location is-local="true" location="/home/senrsl/android/android-sdk-linux/extras/android/m2repository/com/android/support/support-v4/25.2.0/support-v4-25.2.0.aar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.android.support" name="support-fragment">
+			<revision name="25.2.0" status="release" pubdate="20170417144245" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<metadata-artifact status="no" details="" size="3330" time="0" location="/home/senrsl/.ivy2/cache/com.android.support/support-fragment/ivy-25.2.0.xml" searched="false" origin-is-local="true" origin-location="/home/senrsl/android/android-sdk-linux/extras/android/m2repository/com/android/support/support-fragment/25.2.0/support-fragment-25.2.0.pom"/>
+				<caller organisation="com.android.support" name="support-v4" conf="compile, runtime" rev="25.2.0" rev-constraint-default="25.2.0" rev-constraint-dynamic="25.2.0" callerrev="25.2.0"/>
+				<artifacts>
+					<artifact name="support-fragment" type="aar" ext="aar" status="no" details="" size="156670" time="0" location="/home/senrsl/android/android-sdk-linux/extras/android/m2repository/com/android/support/support-fragment/25.2.0/support-fragment-25.2.0.aar">
+						<origin-location is-local="true" location="/home/senrsl/android/android-sdk-linux/extras/android/m2repository/com/android/support/support-fragment/25.2.0/support-fragment-25.2.0.aar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.android.support" name="support-core-ui">
+			<revision name="25.2.0" status="release" pubdate="20170417144243" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<metadata-artifact status="no" details="" size="2762" time="0" location="/home/senrsl/.ivy2/cache/com.android.support/support-core-ui/ivy-25.2.0.xml" searched="false" origin-is-local="true" origin-location="/home/senrsl/android/android-sdk-linux/extras/android/m2repository/com/android/support/support-core-ui/25.2.0/support-core-ui-25.2.0.pom"/>
+				<caller organisation="com.android.support" name="support-fragment" conf="compile, runtime" rev="25.2.0" rev-constraint-default="25.2.0" rev-constraint-dynamic="25.2.0" callerrev="25.2.0"/>
+				<caller organisation="com.android.support" name="support-v4" conf="compile, runtime" rev="25.2.0" rev-constraint-default="25.2.0" rev-constraint-dynamic="25.2.0" callerrev="25.2.0"/>
+				<caller organisation="com.android.support" name="recyclerview-v7" conf="compile, runtime" rev="25.2.0" rev-constraint-default="25.2.0" rev-constraint-dynamic="25.2.0" callerrev="25.2.0"/>
+				<artifacts>
+					<artifact name="support-core-ui" type="aar" ext="aar" status="no" details="" size="242618" time="0" location="/home/senrsl/android/android-sdk-linux/extras/android/m2repository/com/android/support/support-core-ui/25.2.0/support-core-ui-25.2.0.aar">
+						<origin-location is-local="true" location="/home/senrsl/android/android-sdk-linux/extras/android/m2repository/com/android/support/support-core-ui/25.2.0/support-core-ui-25.2.0.aar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.android.support" name="support-core-utils">
+			<revision name="25.2.0" status="release" pubdate="20170417144243" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<metadata-artifact status="no" details="" size="2768" time="0" location="/home/senrsl/.ivy2/cache/com.android.support/support-core-utils/ivy-25.2.0.xml" searched="false" origin-is-local="true" origin-location="/home/senrsl/android/android-sdk-linux/extras/android/m2repository/com/android/support/support-core-utils/25.2.0/support-core-utils-25.2.0.pom"/>
+				<caller organisation="com.android.support" name="support-fragment" conf="compile, runtime" rev="25.2.0" rev-constraint-default="25.2.0" rev-constraint-dynamic="25.2.0" callerrev="25.2.0"/>
+				<caller organisation="com.android.support" name="support-v4" conf="compile, runtime" rev="25.2.0" rev-constraint-default="25.2.0" rev-constraint-dynamic="25.2.0" callerrev="25.2.0"/>
+				<artifacts>
+					<artifact name="support-core-utils" type="aar" ext="aar" status="no" details="" size="94149" time="0" location="/home/senrsl/android/android-sdk-linux/extras/android/m2repository/com/android/support/support-core-utils/25.2.0/support-core-utils-25.2.0.aar">
+						<origin-location is-local="true" location="/home/senrsl/android/android-sdk-linux/extras/android/m2repository/com/android/support/support-core-utils/25.2.0/support-core-utils-25.2.0.aar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.android.support" name="support-media-compat">
+			<revision name="25.2.0" status="release" pubdate="20170417144243" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<metadata-artifact status="no" details="" size="2772" time="0" location="/home/senrsl/.ivy2/cache/com.android.support/support-media-compat/ivy-25.2.0.xml" searched="false" origin-is-local="true" origin-location="/home/senrsl/android/android-sdk-linux/extras/android/m2repository/com/android/support/support-media-compat/25.2.0/support-media-compat-25.2.0.pom"/>
+				<caller organisation="com.android.support" name="support-fragment" conf="compile, runtime" rev="25.2.0" rev-constraint-default="25.2.0" rev-constraint-dynamic="25.2.0" callerrev="25.2.0"/>
+				<caller organisation="com.android.support" name="support-v4" conf="compile, runtime" rev="25.2.0" rev-constraint-default="25.2.0" rev-constraint-dynamic="25.2.0" callerrev="25.2.0"/>
+				<artifacts>
+					<artifact name="support-media-compat" type="aar" ext="aar" status="no" details="" size="263007" time="0" location="/home/senrsl/android/android-sdk-linux/extras/android/m2repository/com/android/support/support-media-compat/25.2.0/support-media-compat-25.2.0.aar">
+						<origin-location is-local="true" location="/home/senrsl/android/android-sdk-linux/extras/android/m2repository/com/android/support/support-media-compat/25.2.0/support-media-compat-25.2.0.aar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.android.support" name="support-compat">
+			<revision name="25.2.0" status="release" pubdate="20170417144244" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<metadata-artifact status="no" details="" size="2526" time="0" location="/home/senrsl/.ivy2/cache/com.android.support/support-compat/ivy-25.2.0.xml" searched="false" origin-is-local="true" origin-location="/home/senrsl/android/android-sdk-linux/extras/android/m2repository/com/android/support/support-compat/25.2.0/support-compat-25.2.0.pom"/>
+				<caller organisation="com.android.support" name="support-fragment" conf="compile, runtime" rev="25.2.0" rev-constraint-default="25.2.0" rev-constraint-dynamic="25.2.0" callerrev="25.2.0"/>
+				<caller organisation="com.android.support" name="support-vector-drawable" conf="compile, runtime" rev="25.2.0" rev-constraint-default="25.2.0" rev-constraint-dynamic="25.2.0" callerrev="25.2.0"/>
+				<caller organisation="com.android.support" name="support-v4" conf="compile, runtime" rev="25.2.0" rev-constraint-default="25.2.0" rev-constraint-dynamic="25.2.0" callerrev="25.2.0"/>
+				<caller organisation="com.android.support" name="support-core-ui" conf="compile, runtime" rev="25.2.0" rev-constraint-default="25.2.0" rev-constraint-dynamic="25.2.0" callerrev="25.2.0"/>
+				<caller organisation="com.android.support" name="recyclerview-v7" conf="compile, runtime" rev="25.2.0" rev-constraint-default="25.2.0" rev-constraint-dynamic="25.2.0" callerrev="25.2.0"/>
+				<caller organisation="com.android.support" name="support-media-compat" conf="compile, runtime" rev="25.2.0" rev-constraint-default="25.2.0" rev-constraint-dynamic="25.2.0" callerrev="25.2.0"/>
+				<caller organisation="com.android.support" name="support-core-utils" conf="compile, runtime" rev="25.2.0" rev-constraint-default="25.2.0" rev-constraint-dynamic="25.2.0" callerrev="25.2.0"/>
+				<artifacts>
+					<artifact name="support-compat" type="aar" ext="aar" status="no" details="" size="636061" time="0" location="/home/senrsl/android/android-sdk-linux/extras/android/m2repository/com/android/support/support-compat/25.2.0/support-compat-25.2.0.aar">
+						<origin-location is-local="true" location="/home/senrsl/android/android-sdk-linux/extras/android/m2repository/com/android/support/support-compat/25.2.0/support-compat-25.2.0.aar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.android.support" name="support-annotations">
+			<revision name="25.2.0" status="release" pubdate="20170417144244" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<metadata-artifact status="no" details="" size="2345" time="0" location="/home/senrsl/.ivy2/cache/com.android.support/support-annotations/ivy-25.2.0.xml" searched="false" origin-is-local="true" origin-location="/home/senrsl/android/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.pom"/>
+				<caller organisation="com.android.support" name="appcompat-v7" conf="compile, runtime" rev="25.2.0" rev-constraint-default="25.2.0" rev-constraint-dynamic="25.2.0" callerrev="25.2.0"/>
+				<caller organisation="com.android.support" name="support-vector-drawable" conf="compile, runtime" rev="25.2.0" rev-constraint-default="25.2.0" rev-constraint-dynamic="25.2.0" callerrev="25.2.0"/>
+				<caller organisation="com.android.support" name="support-core-ui" conf="compile, runtime" rev="25.2.0" rev-constraint-default="25.2.0" rev-constraint-dynamic="25.2.0" callerrev="25.2.0"/>
+				<caller organisation="com.android.support" name="recyclerview-v7" conf="compile, runtime" rev="25.2.0" rev-constraint-default="25.2.0" rev-constraint-dynamic="25.2.0" callerrev="25.2.0"/>
+				<caller organisation="com.android.support" name="support-media-compat" conf="compile, runtime" rev="25.2.0" rev-constraint-default="25.2.0" rev-constraint-dynamic="25.2.0" callerrev="25.2.0"/>
+				<caller organisation="com.android.support" name="support-core-utils" conf="compile, runtime" rev="25.2.0" rev-constraint-default="25.2.0" rev-constraint-dynamic="25.2.0" callerrev="25.2.0"/>
+				<caller organisation="com.android.support" name="support-compat" conf="compile, runtime" rev="25.2.0" rev-constraint-default="25.2.0" rev-constraint-dynamic="25.2.0" callerrev="25.2.0"/>
+				<artifacts>
+					<artifact name="support-annotations" type="jar" ext="jar" status="no" details="" size="22926" time="0" location="/home/senrsl/android/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar">
+						<origin-location is-local="true" location="/home/senrsl/android/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.9" status="release" pubdate="20170328151514" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.9/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/home/senrsl/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.9/scala-library-2.11.9.pom"/>
+				<caller organisation="com.github.shadowsocks" name="plugin_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.11.9" rev-constraint-default="2.11.9" rev-constraint-dynamic="2.11.9" callerrev="0.0.3"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5764041" time="0" location="/home/senrsl/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.9/scala-library-2.11.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

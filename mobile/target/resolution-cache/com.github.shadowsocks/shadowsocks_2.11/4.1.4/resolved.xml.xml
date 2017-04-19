@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
+	<info organisation="com.github.shadowsocks"
+		module="shadowsocks_2.11"
+		revision="4.1.4"
+		status="integration"
+		publication="20170418153052"
+	>
+		<description>
+		shadowsocks
+		</description>
+	</info>
+	<configurations>
+		<conf name="compile" visibility="public" description=""/>
+		<conf name="runtime" visibility="public" description="" extends="compile"/>
+		<conf name="test" visibility="public" description="" extends="runtime"/>
+		<conf name="provided" visibility="public" description=""/>
+		<conf name="optional" visibility="public" description=""/>
+		<conf name="androidTest" visibility="private" description="" extends="runtime"/>
+		<conf name="android-internal" visibility="private" description=""/>
+		<conf name="compile-internal" visibility="private" description="" extends="compile,optional,provided"/>
+		<conf name="runtime-internal" visibility="private" description="" extends="runtime,optional"/>
+		<conf name="test-internal" visibility="private" description="" extends="test,optional,provided"/>
+		<conf name="plugin" visibility="private" description=""/>
+		<conf name="sources" visibility="public" description=""/>
+		<conf name="docs" visibility="public" description=""/>
+		<conf name="pom" visibility="public" description=""/>
+		<conf name="scala-tool" visibility="private" description=""/>
+	</configurations>
+	<publications>
+		<artifact name="shadowsocks_2.11" type="pom" ext="pom" conf="pom"/>
+		<artifact name="shadowsocks_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		<artifact name="shadowsocks_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+	</publications>
+	<dependencies>
+		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.9" conf="scala-tool->default,optional(default)"/>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.11.9" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="com.github.shadowsocks" name="plugin_2.11" rev="0.0.3" conf="compile->default(compile)"/>
+		<dependency org="net.sf.proguard" name="proguard-base" rev="5.3.3" conf="android-internal->default(compile)"/>
+		<dependency org="com.android.support" name="cardview-v7" rev="25.2.0" conf="compile->default(compile)"/>
+		<dependency org="com.android.support" name="customtabs" rev="25.2.0" conf="compile->default(compile)"/>
+		<dependency org="com.android.support" name="design" rev="25.2.0" conf="compile->default(compile)"/>
+		<dependency org="com.android.support" name="gridlayout-v7" rev="25.2.0" conf="compile->default(compile)"/>
+		<dependency org="com.futuremind.recyclerfastscroll" name="fastscroll" rev="0.2.5" conf="compile->default(compile)"/>
+		<dependency org="com.evernote" name="android-job" rev="1.1.8" conf="compile->default(compile)"/>
+		<dependency org="com.github.jorgecastilloprz" name="fabprogresscircle" rev="1.01" conf="compile->default(compile)"/>
+		<dependency org="com.j256.ormlite" name="ormlite-android" rev="5.0" conf="compile->default(compile)"/>
+		<dependency org="com.mikepenz" name="crossfader" rev="1.5.0" conf="compile->default(compile)"/>
+		<dependency org="com.mikepenz" name="fastadapter" rev="2.5.0" conf="compile->default(compile)"/>
+		<dependency org="com.mikepenz" name="iconics-core" rev="2.8.2" conf="compile->default(compile)"/>
+		<dependency org="com.mikepenz" name="materialdrawer" rev="5.9.0" conf="compile->default(compile)"/>
+		<dependency org="com.mikepenz" name="materialize" rev="1.0.1" conf="compile->default(compile)"/>
+		<dependency org="com.squareup.okhttp3" name="okhttp" rev="3.6.0" conf="compile->default(compile)"/>
+		<dependency org="com.twofortyfouram" name="android-plugin-api-for-locale" rev="1.0.2" conf="compile->default(compile)"/>
+		<dependency org="dnsjava" name="dnsjava" rev="2.1.8" conf="compile->default(compile)"/>
+		<dependency org="eu.chainfire" name="libsuperuser" rev="1.0.0.201704021214" conf="compile->default(compile)"/>
+		<dependency org="net.glxn.qrgen" name="android" rev="2.0" conf="compile->default(compile)"/>
+		<dependency org="com.google.android.gms" name="play-services-ads" rev="10.2.1" conf="compile->default(compile)"/>
+		<dependency org="com.google.android.gms" name="play-services-analytics" rev="10.2.1" conf="compile->default(compile)"/>
+		<dependency org="com.google.android.gms" name="play-services-gcm" rev="10.2.1" conf="compile->default(compile)"/>
+	</dependencies>
+</ivy-module>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.github.shadowsocks"
+		module="shadowsocks_2.11"
+		revision="4.1.4"
+		conf="android-internal"
+		confs="compile, runtime, test, provided, optional, androidTest, android-internal, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20170418153052"/>
+	<dependencies>
+		<module organisation="net.sf.proguard" name="proguard-base">
+			<revision name="5.3.3" status="release" pubdate="20170402180205" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="GNU General Public License, Version 2" url="http://www.gnu.org/licenses/gpl-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3115" time="0" location="/home/senrsl/.ivy2/cache/net.sf.proguard/proguard-base/ivy-5.3.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/sf/proguard/proguard-base/5.3.3/proguard-base-5.3.3.pom"/>
+				<caller organisation="com.github.shadowsocks" name="shadowsocks_2.11" conf="android-internal" rev="5.3.3" rev-constraint-default="5.3.3" rev-constraint-dynamic="5.3.3" callerrev="4.1.4"/>
+				<artifacts>
+					<artifact name="proguard-base" type="jar" ext="jar" status="no" details="" size="940163" time="0" location="/home/senrsl/.ivy2/cache/net.sf.proguard/proguard-base/jars/proguard-base-5.3.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/sf/proguard/proguard-base/5.3.3/proguard-base-5.3.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

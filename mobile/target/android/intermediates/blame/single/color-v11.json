@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/mobile/target/android/intermediates/res/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/mobile/target/android/intermediates/res/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    }
+]

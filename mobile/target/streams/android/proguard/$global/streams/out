@@ -1,0 +1,1173 @@
+[0m[[0mdebug[0m] [0m###[0m
+[0m[[0mdebug[0m] [0m# Generic proguard options useful in non-release builds[0m
+[0m[[0mdebug[0m] [0m###[0m
+[0m[[0mdebug[0m] [0m-dontobfuscate[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m-renamesourcefileattribute SourceFile[0m
+[0m[[0mdebug[0m] [0m-keepattributes SourceFile,LineNumberTable,Signature[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m-flattenpackagehierarchy[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m-optimizations !code/simplification/arithmetic,!code/simplification/cast,!field/*,!class/merging/*,!code/allocation/variable[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m-dontnote android.support.**[0m
+[0m[[0mdebug[0m] [0m-dontnote org.apache.http.**[0m
+[0m[[0mdebug[0m] [0m-dontnote android.net.http.**[0m
+[0m[[0mdebug[0m] [0m-dontnote android.annotation.**[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m-dontnote com.android.vending.licensing.**[0m
+[0m[[0mdebug[0m] [0m-dontnote com.google.vending.licensing.**[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# For debugIncludesTests[0m
+[0m[[0mdebug[0m] [0m-keep class * extends junit.framework.TestCase { *; }[0m
+[0m[[0mdebug[0m] [0m-keepclasseswithmembers class * { @org.junit.** *; }[0m
+[0m[[0mdebug[0m] [0m-dontwarn junit.**[0m
+[0m[[0mdebug[0m] [0m-dontnote junit.**[0m
+[0m[[0mdebug[0m] [0m-dontwarn org.junit.**[0m
+[0m[[0mdebug[0m] [0m-dontnote org.junit.**[0m
+[0m[[0mdebug[0m] [0m-dontwarn org.hamcrest.**[0m
+[0m[[0mdebug[0m] [0m-dontwarn com.squareup.**[0m
+[0m[[0mdebug[0m] [0m-dontnote org.hamcrest.**[0m
+[0m[[0mdebug[0m] [0m-keep class android.support.test.** { *; }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m###[0m
+[0m[[0mdebug[0m] [0m# Scala-specific proguard config[0m
+[0m[[0mdebug[0m] [0m###[0m
+[0m[[0mdebug[0m] [0m# keep Dynamic because proguard cache fails to handle it gracefully[0m
+[0m[[0mdebug[0m] [0m-keep class scala.Dynamic { *; }[0m
+[0m[[0mdebug[0m] [0m-dontnote scala.concurrent.util.Unsafe[0m
+[0m[[0mdebug[0m] [0m-dontnote scala.Enumeration**[0m
+[0m[[0mdebug[0m] [0m-dontnote scala.ScalaObject[0m
+[0m[[0mdebug[0m] [0m-dontnote org.xml.sax.EntityResolver[0m
+[0m[[0mdebug[0m] [0m-dontnote scala.concurrent.forkjoin.**[0m
+[0m[[0mdebug[0m] [0m-dontwarn scala.beans.ScalaBeanInfo[0m
+[0m[[0mdebug[0m] [0m-dontwarn scala.concurrent.**[0m
+[0m[[0mdebug[0m] [0m-dontnote scala.reflect.**[0m
+[0m[[0mdebug[0m] [0m-dontwarn scala.reflect.**[0m
+[0m[[0mdebug[0m] [0m-dontwarn scala.sys.process.package$[0m
+[0m[[0mdebug[0m] [0m-dontwarn **$$anonfun$*[0m
+[0m[[0mdebug[0m] [0m-dontwarn scala.collection.immutable.RedBlack$Empty[0m
+[0m[[0mdebug[0m] [0m-dontwarn scala.tools.**,plugintemplate.**[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m-keep public class scala.reflect.ScalaSignature[0m
+[0m[[0mdebug[0m] [0m# This is gone in 2.11[0m
+[0m[[0mdebug[0m] [0m-keep public interface scala.ScalaObject[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m-keepclassmembers class * {[0m
+[0m[[0mdebug[0m] [0m    ** MODULE$;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m-keep class scala.collection.SeqLike {[0m
+[0m[[0mdebug[0m] [0m    public java.lang.String toString();[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m-keepclassmembernames class scala.concurrent.forkjoin.ForkJoinPool {[0m
+[0m[[0mdebug[0m] [0m    long eventCount;[0m
+[0m[[0mdebug[0m] [0m    int  workerCounts;[0m
+[0m[[0mdebug[0m] [0m    int  runControl;[0m
+[0m[[0mdebug[0m] [0m    scala.concurrent.forkjoin.ForkJoinPool$WaitQueueNode syncStack;[0m
+[0m[[0mdebug[0m] [0m    scala.concurrent.forkjoin.ForkJoinPool$WaitQueueNode spareStack;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m-keepclassmembernames class scala.concurrent.forkjoin.ForkJoinWorkerThread {[0m
+[0m[[0mdebug[0m] [0m    int base;[0m
+[0m[[0mdebug[0m] [0m    int sp;[0m
+[0m[[0mdebug[0m] [0m    int runState;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m-keepclassmembernames class scala.concurrent.forkjoin.ForkJoinTask {[0m
+[0m[[0mdebug[0m] [0m    int status;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m-keepclassmembernames class scala.concurrent.forkjoin.LinkedTransferQueue {[0m
+[0m[[0mdebug[0m] [0m    scala.concurrent.forkjoin.LinkedTransferQueue$PaddedAtomicReference head;[0m
+[0m[[0mdebug[0m] [0m    scala.concurrent.forkjoin.LinkedTransferQueue$PaddedAtomicReference tail;[0m
+[0m[[0mdebug[0m] [0m    scala.concurrent.forkjoin.LinkedTransferQueue$PaddedAtomicReference cleanMe;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m# This is a configuration file for ProGuard.[0m
+[0m[[0mdebug[0m] [0m# http://proguard.sourceforge.net/index.html#manual/usage.html[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m-dontusemixedcaseclassnames[0m
+[0m[[0mdebug[0m] [0m-dontskipnonpubliclibraryclasses[0m
+[0m[[0mdebug[0m] [0m-verbose[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Optimization is turned off by default. Dex does not like code run[0m
+[0m[[0mdebug[0m] [0m# through the ProGuard optimize and preverify steps (and performs some[0m
+[0m[[0mdebug[0m] [0m# of these optimizations on its own).[0m
+[0m[[0mdebug[0m] [0m-dontoptimize[0m
+[0m[[0mdebug[0m] [0m-dontpreverify[0m
+[0m[[0mdebug[0m] [0m# Note that if you want to enable optimization, you cannot just[0m
+[0m[[0mdebug[0m] [0m# include optimization flags in your own project configuration file;[0m
+[0m[[0mdebug[0m] [0m# instead you will need to point to the[0m
+[0m[[0mdebug[0m] [0m# "proguard-android-optimize.txt" file instead of this one from your[0m
+[0m[[0mdebug[0m] [0m# project.properties file.[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m-keepattributes *Annotation*[0m
+[0m[[0mdebug[0m] [0m-keep public class com.google.vending.licensing.ILicensingService[0m
+[0m[[0mdebug[0m] [0m-keep public class com.android.vending.licensing.ILicensingService[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# For native methods, see http://proguard.sourceforge.net/manual/examples.html#native[0m
+[0m[[0mdebug[0m] [0m-keepclasseswithmembernames class * {[0m
+[0m[[0mdebug[0m] [0m    native <methods>;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# keep setters in Views so that animations can still work.[0m
+[0m[[0mdebug[0m] [0m# see http://proguard.sourceforge.net/manual/examples.html#beans[0m
+[0m[[0mdebug[0m] [0m-keepclassmembers public class * extends android.view.View {[0m
+[0m[[0mdebug[0m] [0m   void set*(***);[0m
+[0m[[0mdebug[0m] [0m   *** get*();[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# We want to keep methods in Activity that could be used in the XML attribute onClick[0m
+[0m[[0mdebug[0m] [0m-keepclassmembers class * extends android.app.Activity {[0m
+[0m[[0mdebug[0m] [0m   public void *(android.view.View);[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# For enumeration classes, see http://proguard.sourceforge.net/manual/examples.html#enumerations[0m
+[0m[[0mdebug[0m] [0m-keepclassmembers enum * {[0m
+[0m[[0mdebug[0m] [0m    public static **[] values();[0m
+[0m[[0mdebug[0m] [0m    public static ** valueOf(java.lang.String);[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m-keepclassmembers class * implements android.os.Parcelable {[0m
+[0m[[0mdebug[0m] [0m  public static final android.os.Parcelable$Creator CREATOR;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m-keepclassmembers class **.R$* {[0m
+[0m[[0mdebug[0m] [0m    public static <fields>;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# The support library contains references to newer platform versions.[0m
+[0m[[0mdebug[0m] [0m# Don't warn about those in case this app is linking against an older[0m
+[0m[[0mdebug[0m] [0m# platform version.  We know about them, and they are safe.[0m
+[0m[[0mdebug[0m] [0m-dontwarn android.support.**[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Understand the @Keep support annotation.[0m
+[0m[[0mdebug[0m] [0m-keep class android.support.annotation.Keep[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m-keep @android.support.annotation.Keep class * {*;}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m-keepclasseswithmembers class * {[0m
+[0m[[0mdebug[0m] [0m    @android.support.annotation.Keep <methods>;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m-keepclasseswithmembers class * {[0m
+[0m[[0mdebug[0m] [0m    @android.support.annotation.Keep <fields>;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m-keepclasseswithmembers class * {[0m
+[0m[[0mdebug[0m] [0m    @android.support.annotation.Keep <init>(...);[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m# view res/layout/design_bottom_navigation_item.xml #generated:26[0m
+[0m[[0mdebug[0m] [0m-keep class android.support.design.internal.BaselineLayout { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view res/layout/design_navigation_item.xml #generated:17[0m
+[0m[[0mdebug[0m] [0m-keep class android.support.design.internal.NavigationMenuItemView { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view res/layout/design_navigation_menu.xml #generated:17[0m
+[0m[[0mdebug[0m] [0m-keep class android.support.design.internal.NavigationMenuView { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view res/layout/design_layout_snackbar_include.xml #generated:18[0m
+[0m[[0mdebug[0m] [0m-keep class android.support.design.internal.SnackbarContentLayout { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view res/layout/design_text_input_password_icon.xml #generated:18[0m
+[0m[[0mdebug[0m] [0m-keep class android.support.design.widget.CheckableImageButton { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view res/layout/design_bottom_sheet_dialog.xml #generated:17[0m
+[0m[[0mdebug[0m] [0m# view res/layout/layout_main.xml #generated:86[0m
+[0m[[0mdebug[0m] [0m-keep class android.support.design.widget.CoordinatorLayout { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view res/layout/layout_main.xml #generated:78[0m
+[0m[[0mdebug[0m] [0m-keep class android.support.design.widget.FloatingActionButton { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view res/layout/design_layout_snackbar.xml #generated:18[0m
+[0m[[0mdebug[0m] [0m# view sw600dp-v13/res/layout-sw600dp-v13/design_layout_snackbar.xml #generated:18[0m
+[0m[[0mdebug[0m] [0m-keep class android.support.design.widget.Snackbar$SnackbarLayout { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view res/layout/material_drawer.xml #generated:2[0m
+[0m[[0mdebug[0m] [0m# view res/layout/material_drawer_fits_not.xml #generated:2[0m
+[0m[[0mdebug[0m] [0m-keep class android.support.v4.widget.DrawerLayout { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view res/layout/abc_alert_dialog_material.xml #generated:41[0m
+[0m[[0mdebug[0m] [0m-keep class android.support.v4.widget.NestedScrollView { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view res/layout/abc_alert_dialog_button_bar_material.xml #generated:43[0m
+[0m[[0mdebug[0m] [0m# view res/layout/abc_alert_dialog_material.xml #generated:52[0m
+[0m[[0mdebug[0m] [0m# view res/layout/abc_alert_dialog_material.xml #generated:66[0m
+[0m[[0mdebug[0m] [0m# view res/layout/abc_alert_dialog_title_material.xml #generated:56[0m
+[0m[[0mdebug[0m] [0m-keep class android.support.v4.widget.Space { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view res/layout/abc_select_dialog_material.xml #generated:23[0m
+[0m[[0mdebug[0m] [0m-keep class android.support.v7.app.AlertController$RecycleListView { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view v11/res/layout-v11/preference.xml #generated:32[0m
+[0m[[0mdebug[0m] [0m# view v11/res/layout-v11/preference_dropdown.xml #generated:38[0m
+[0m[[0mdebug[0m] [0m# view v17/res/layout-v17/preference_dropdown_material.xml #generated:47[0m
+[0m[[0mdebug[0m] [0m# view v17/res/layout-v17/preference_material.xml #generated:41[0m
+[0m[[0mdebug[0m] [0m# view v21/res/layout-v21/preference_dropdown_material.xml #generated:47[0m
+[0m[[0mdebug[0m] [0m# view v21/res/layout-v21/preference_material.xml #generated:41[0m
+[0m[[0mdebug[0m] [0m-keep class android.support.v7.internal.widget.PreferenceImageView { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view res/layout/preference_widget_seekbar.xml #generated:66[0m
+[0m[[0mdebug[0m] [0m-keep class android.support.v7.preference.UnPressableLinearLayout { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view res/layout/abc_action_menu_item_layout.xml #generated:17[0m
+[0m[[0mdebug[0m] [0m-keep class android.support.v7.view.menu.ActionMenuItemView { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view res/layout/abc_expanded_menu_layout.xml #generated:17[0m
+[0m[[0mdebug[0m] [0m-keep class android.support.v7.view.menu.ExpandedMenuView { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view res/layout/abc_list_menu_item_layout.xml #generated:17[0m
+[0m[[0mdebug[0m] [0m# view res/layout/abc_popup_menu_item_layout.xml #generated:17[0m
+[0m[[0mdebug[0m] [0m-keep class android.support.v7.view.menu.ListMenuItemView { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view res/layout/abc_screen_toolbar.xml #generated:27[0m
+[0m[[0mdebug[0m] [0m-keep class android.support.v7.widget.ActionBarContainer { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view res/layout/abc_action_mode_bar.xml #generated:19[0m
+[0m[[0mdebug[0m] [0m# view res/layout/abc_screen_toolbar.xml #generated:43[0m
+[0m[[0mdebug[0m] [0m-keep class android.support.v7.widget.ActionBarContextView { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view res/layout/abc_screen_toolbar.xml #generated:17[0m
+[0m[[0mdebug[0m] [0m-keep class android.support.v7.widget.ActionBarOverlayLayout { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view res/layout/abc_action_menu_layout.xml #generated:17[0m
+[0m[[0mdebug[0m] [0m-keep class android.support.v7.widget.ActionMenuView { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view res/layout/abc_activity_chooser_view.xml #generated:19[0m
+[0m[[0mdebug[0m] [0m-keep class android.support.v7.widget.ActivityChooserView$InnerLayout { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view res/layout/abc_alert_dialog_material.xml #generated:18[0m
+[0m[[0mdebug[0m] [0m-keep class android.support.v7.widget.AlertDialogLayout { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view res/layout/layout_profile.xml #generated:37[0m
+[0m[[0mdebug[0m] [0m# view res/layout/layout_profile.xml #generated:49[0m
+[0m[[0mdebug[0m] [0m-keep class android.support.v7.widget.AppCompatImageView { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view res/layout/abc_alert_dialog_button_bar_material.xml #generated:26[0m
+[0m[[0mdebug[0m] [0m-keep class android.support.v7.widget.ButtonBarLayout { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view res/layout/abc_screen_content_include.xml #generated:19[0m
+[0m[[0mdebug[0m] [0m-keep class android.support.v7.widget.ContentFrameLayout { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view res/layout/abc_alert_dialog_title_material.xml #generated:45[0m
+[0m[[0mdebug[0m] [0m-keep class android.support.v7.widget.DialogTitle { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view res/layout/abc_screen_simple_overlay_action_mode.xml #generated:23[0m
+[0m[[0mdebug[0m] [0m-keep class android.support.v7.widget.FitWindowsFrameLayout { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view res/layout/abc_dialog_title_material.xml #generated:22[0m
+[0m[[0mdebug[0m] [0m# view res/layout/abc_screen_simple.xml #generated:17[0m
+[0m[[0mdebug[0m] [0m-keep class android.support.v7.widget.FitWindowsLinearLayout { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view res/layout/layout_apps.xml #generated:47[0m
+[0m[[0mdebug[0m] [0m# view res/layout/layout_custom_rules.xml #generated:11[0m
+[0m[[0mdebug[0m] [0m# view res/layout/layout_list.xml #generated:7[0m
+[0m[[0mdebug[0m] [0m# view res/layout/layout_tasker.xml #generated:18[0m
+[0m[[0mdebug[0m] [0m# view res/layout/material_drawer_recycler_view.xml #generated:2[0m
+[0m[[0mdebug[0m] [0m# view res/layout/preference_recyclerview.xml #generated:18[0m
+[0m[[0mdebug[0m] [0m-keep class android.support.v7.widget.RecyclerView { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view res/layout/abc_search_view.xml #generated:75[0m
+[0m[[0mdebug[0m] [0m-keep class android.support.v7.widget.SearchView$SearchAutoComplete { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view res/layout/material_drawer_item_secondary_switch.xml #generated:58[0m
+[0m[[0mdebug[0m] [0m# view res/layout/material_drawer_item_switch.xml #generated:58[0m
+[0m[[0mdebug[0m] [0m# view res/layout/preference_widget_switch_compat.xml #generated:20[0m
+[0m[[0mdebug[0m] [0m-keep class android.support.v7.widget.SwitchCompat { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view res/layout/abc_screen_toolbar.xml #generated:36[0m
+[0m[[0mdebug[0m] [0m# view res/layout/toolbar_light_dark.xml #generated:2[0m
+[0m[[0mdebug[0m] [0m-keep class android.support.v7.widget.Toolbar { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view res/layout/abc_screen_simple.xml #generated:25[0m
+[0m[[0mdebug[0m] [0m# view res/layout/abc_screen_simple_overlay_action_mode.xml #generated:32[0m
+[0m[[0mdebug[0m] [0m-keep class android.support.v7.widget.ViewStubCompat { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view res/xml/pref_profile.xml #generated:13[0m
+[0m[[0mdebug[0m] [0m# view res/xml/pref_profile.xml #generated:29[0m
+[0m[[0mdebug[0m] [0m# view res/xml/pref_profile.xml #generated:5[0m
+[0m[[0mdebug[0m] [0m# view res/xml/pref_profile.xml #generated:52[0m
+[0m[[0mdebug[0m] [0m# view res/xml/pref_profile.xml #generated:79[0m
+[0m[[0mdebug[0m] [0m-keep class be.mygod.preference.EditTextPreference { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view res/xml/pref_profile.xml #generated:17[0m
+[0m[[0mdebug[0m] [0m# view res/xml/pref_profile.xml #generated:23[0m
+[0m[[0mdebug[0m] [0m-keep class be.mygod.preference.NumberPickerPreference { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view res/xml/pref_profile.xml #generated:10[0m
+[0m[[0mdebug[0m] [0m# view res/xml/pref_profile.xml #generated:43[0m
+[0m[[0mdebug[0m] [0m# view res/xml/pref_profile.xml #generated:71[0m
+[0m[[0mdebug[0m] [0m-keep class be.mygod.preference.PreferenceCategory { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view AndroidManifest.xml #generated:193[0m
+[0m[[0mdebug[0m] [0m-keep class com.evernote.android.job.JobBootReceiver { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view AndroidManifest.xml #generated:177[0m
+[0m[[0mdebug[0m] [0m-keep class com.evernote.android.job.JobRescheduleService { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view AndroidManifest.xml #generated:167[0m
+[0m[[0mdebug[0m] [0m-keep class com.evernote.android.job.gcm.PlatformGcmService { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view AndroidManifest.xml #generated:182[0m
+[0m[[0mdebug[0m] [0m-keep class com.evernote.android.job.v14.PlatformAlarmReceiver { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view AndroidManifest.xml #generated:163[0m
+[0m[[0mdebug[0m] [0m-keep class com.evernote.android.job.v14.PlatformAlarmService { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view AndroidManifest.xml #generated:158[0m
+[0m[[0mdebug[0m] [0m-keep class com.evernote.android.job.v21.PlatformJobService { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view res/layout/layout_apps.xml #generated:52[0m
+[0m[[0mdebug[0m] [0m# view res/layout/layout_custom_rules.xml #generated:16[0m
+[0m[[0mdebug[0m] [0m-keep class com.futuremind.recyclerviewfastscroll.FastScroller { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view res/layout/layout_main.xml #generated:69[0m
+[0m[[0mdebug[0m] [0m-keep class com.github.jorgecastilloprz.FABProgressCircle { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view AndroidManifest.xml #generated:89[0m
+[0m[[0mdebug[0m] [0m-keep class com.github.shadowsocks.AppManager { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view AndroidManifest.xml #generated:144[0m
+[0m[[0mdebug[0m] [0m-keep class com.github.shadowsocks.BootReceiver { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view AndroidManifest.xml #generated:45[0m
+[0m[[0mdebug[0m] [0m-keep class com.github.shadowsocks.MainActivity { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view AndroidManifest.xml #generated:78[0m
+[0m[[0mdebug[0m] [0m-keep class com.github.shadowsocks.ProfileConfigActivity { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view res/layout/layout_profile_config.xml #generated:7[0m
+[0m[[0mdebug[0m] [0m-keep class com.github.shadowsocks.ProfileConfigFragment { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view AndroidManifest.xml #generated:102[0m
+[0m[[0mdebug[0m] [0m-keep class com.github.shadowsocks.QuickToggleShortcut { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view AndroidManifest.xml #generated:33[0m
+[0m[[0mdebug[0m] [0m-keep class com.github.shadowsocks.ShadowsocksApplication { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view AndroidManifest.xml #generated:33[0m
+[0m[[0mdebug[0m] [0m-keep class com.github.shadowsocks.ShadowsocksBackupAgent { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view AndroidManifest.xml #generated:118[0m
+[0m[[0mdebug[0m] [0m-keep class com.github.shadowsocks.ShadowsocksNatService { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view AndroidManifest.xml #generated:83[0m
+[0m[[0mdebug[0m] [0m-keep class com.github.shadowsocks.ShadowsocksRunnerActivity { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view AndroidManifest.xml #generated:114[0m
+[0m[[0mdebug[0m] [0m-keep class com.github.shadowsocks.ShadowsocksRunnerService { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view AndroidManifest.xml #generated:133[0m
+[0m[[0mdebug[0m] [0m-keep class com.github.shadowsocks.ShadowsocksTileService { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view AndroidManifest.xml #generated:123[0m
+[0m[[0mdebug[0m] [0m-keep class com.github.shadowsocks.ShadowsocksVpnService { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view AndroidManifest.xml #generated:95[0m
+[0m[[0mdebug[0m] [0m-keep class com.github.shadowsocks.TaskerActivity { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view AndroidManifest.xml #generated:151[0m
+[0m[[0mdebug[0m] [0m-keep class com.github.shadowsocks.TaskerReceiver { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view res/xml/pref_profile.xml #generated:74[0m
+[0m[[0mdebug[0m] [0m-keep class com.github.shadowsocks.preference.IconListPreference { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view res/layout/layout_profile.xml #generated:7[0m
+[0m[[0mdebug[0m] [0m-keep class com.github.shadowsocks.widget.BoundedCardView { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view res/layout/layout_main.xml #generated:30[0m
+[0m[[0mdebug[0m] [0m-keep class com.github.shadowsocks.widget.BoundedGridLayout { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view AndroidManifest.xml #generated:208[0m
+[0m[[0mdebug[0m] [0m-keep class com.google.android.gms.ads.AdActivity { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view AndroidManifest.xml #generated:212[0m
+[0m[[0mdebug[0m] [0m-keep class com.google.android.gms.ads.purchase.InAppPurchaseActivity { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view AndroidManifest.xml #generated:215[0m
+[0m[[0mdebug[0m] [0m-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view res/layout/crossfader_base.xml #generated:1[0m
+[0m[[0mdebug[0m] [0m-keep class com.mikepenz.crossfader.view.CrossFadeSlidingPaneLayout { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view res/layout/crossfader_gmail_style.xml #generated:1[0m
+[0m[[0mdebug[0m] [0m-keep class com.mikepenz.crossfader.view.GmailStyleCrossFadeSlidingPaneLayout { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view res/layout/material_drawer_item_expandable.xml #generated:67[0m
+[0m[[0mdebug[0m] [0m# view res/layout/material_drawer_item_expandable_badge.xml #generated:93[0m
+[0m[[0mdebug[0m] [0m-keep class com.mikepenz.iconics.view.IconicsImageView { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view res/layout/material_drawer_compact_header.xml #generated:18[0m
+[0m[[0mdebug[0m] [0m# view res/layout/material_drawer_compact_header.xml #generated:24[0m
+[0m[[0mdebug[0m] [0m# view res/layout/material_drawer_compact_header.xml #generated:30[0m
+[0m[[0mdebug[0m] [0m# view res/layout/material_drawer_compact_header.xml #generated:36[0m
+[0m[[0mdebug[0m] [0m# view res/layout/material_drawer_header.xml #generated:17[0m
+[0m[[0mdebug[0m] [0m# view res/layout/material_drawer_header.xml #generated:36[0m
+[0m[[0mdebug[0m] [0m# view res/layout/material_drawer_header.xml #generated:45[0m
+[0m[[0mdebug[0m] [0m# view res/layout/material_drawer_header.xml #generated:54[0m
+[0m[[0mdebug[0m] [0m# view res/layout/material_drawer_item_mini_profile.xml #generated:6[0m
+[0m[[0mdebug[0m] [0m# view res/layout/material_drawer_item_profile.xml #generated:22[0m
+[0m[[0mdebug[0m] [0m-keep class com.mikepenz.materialdrawer.view.BezelImageView { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view res/layout/materialize.xml #generated:5[0m
+[0m[[0mdebug[0m] [0m-keep class com.mikepenz.materialize.view.ScrimInsetsFrameLayout { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# view res/layout/material_drawer_slider.xml #generated:2[0m
+[0m[[0mdebug[0m] [0m-keep class com.mikepenz.materialize.view.ScrimInsetsRelativeLayout { <init>(...); }[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Copyright (C) 2016 The Android Open Source Project[0m
+[0m[[0mdebug[0m] [0m#[0m
+[0m[[0mdebug[0m] [0m# Licensed under the Apache License, Version 2.0 (the "License");[0m
+[0m[[0mdebug[0m] [0m# you may not use this file except in compliance with the License.[0m
+[0m[[0mdebug[0m] [0m# You may obtain a copy of the License at[0m
+[0m[[0mdebug[0m] [0m#[0m
+[0m[[0mdebug[0m] [0m#      http://www.apache.org/licenses/LICENSE-2.0[0m
+[0m[[0mdebug[0m] [0m#[0m
+[0m[[0mdebug[0m] [0m# Unless required by applicable law or agreed to in writing, software[0m
+[0m[[0mdebug[0m] [0m# distributed under the License is distributed on an "AS IS" BASIS,[0m
+[0m[[0mdebug[0m] [0m# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.[0m
+[0m[[0mdebug[0m] [0m# See the License for the specific language governing permissions and[0m
+[0m[[0mdebug[0m] [0m# limitations under the License.[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Make sure we keep annotations for ViewPager's DecorView[0m
+[0m[[0mdebug[0m] [0m-keepattributes *Annotation*[0m
+[0m[[0mdebug[0m] [0m# Copyright (C) 2016 The Android Open Source Project[0m
+[0m[[0mdebug[0m] [0m#[0m
+[0m[[0mdebug[0m] [0m# Licensed under the Apache License, Version 2.0 (the "License");[0m
+[0m[[0mdebug[0m] [0m# you may not use this file except in compliance with the License.[0m
+[0m[[0mdebug[0m] [0m# You may obtain a copy of the License at[0m
+[0m[[0mdebug[0m] [0m#[0m
+[0m[[0mdebug[0m] [0m#      http://www.apache.org/licenses/LICENSE-2.0[0m
+[0m[[0mdebug[0m] [0m#[0m
+[0m[[0mdebug[0m] [0m# Unless required by applicable law or agreed to in writing, software[0m
+[0m[[0mdebug[0m] [0m# distributed under the License is distributed on an "AS IS" BASIS,[0m
+[0m[[0mdebug[0m] [0m# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.[0m
+[0m[[0mdebug[0m] [0m# See the License for the specific language governing permissions and[0m
+[0m[[0mdebug[0m] [0m# limitations under the License.[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# keep setters in VectorDrawables so that animations can still work.[0m
+[0m[[0mdebug[0m] [0m-keepclassmembers class android.support.graphics.drawable.VectorDrawableCompat$* {[0m
+[0m[[0mdebug[0m] [0m   void set*(***);[0m
+[0m[[0mdebug[0m] [0m   *** get*();[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m# Copyright (C) 2015 The Android Open Source Project[0m
+[0m[[0mdebug[0m] [0m#[0m
+[0m[[0mdebug[0m] [0m# Licensed under the Apache License, Version 2.0 (the "License");[0m
+[0m[[0mdebug[0m] [0m# you may not use this file except in compliance with the License.[0m
+[0m[[0mdebug[0m] [0m# You may obtain a copy of the License at[0m
+[0m[[0mdebug[0m] [0m#[0m
+[0m[[0mdebug[0m] [0m#      http://www.apache.org/licenses/LICENSE-2.0[0m
+[0m[[0mdebug[0m] [0m#[0m
+[0m[[0mdebug[0m] [0m# Unless required by applicable law or agreed to in writing, software[0m
+[0m[[0mdebug[0m] [0m# distributed under the License is distributed on an "AS IS" BASIS,[0m
+[0m[[0mdebug[0m] [0m# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.[0m
+[0m[[0mdebug[0m] [0m# See the License for the specific language governing permissions and[0m
+[0m[[0mdebug[0m] [0m# limitations under the License.[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# When layoutManager xml attribute is used, RecyclerView inflates[0m
+[0m[[0mdebug[0m] [0m#LayoutManagers' constructors using reflection.[0m
+[0m[[0mdebug[0m] [0m-keep public class * extends android.support.v7.widget.RecyclerView$LayoutManager {[0m
+[0m[[0mdebug[0m] [0m    public <init>(...);[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m# Copyright (C) 2015 The Android Open Source Project[0m
+[0m[[0mdebug[0m] [0m#[0m
+[0m[[0mdebug[0m] [0m# Licensed under the Apache License, Version 2.0 (the "License");[0m
+[0m[[0mdebug[0m] [0m# you may not use this file except in compliance with the License.[0m
+[0m[[0mdebug[0m] [0m# You may obtain a copy of the License at[0m
+[0m[[0mdebug[0m] [0m#[0m
+[0m[[0mdebug[0m] [0m#      http://www.apache.org/licenses/LICENSE-2.0[0m
+[0m[[0mdebug[0m] [0m#[0m
+[0m[[0mdebug[0m] [0m# Unless required by applicable law or agreed to in writing, software[0m
+[0m[[0mdebug[0m] [0m# distributed under the License is distributed on an "AS IS" BASIS,[0m
+[0m[[0mdebug[0m] [0m# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.[0m
+[0m[[0mdebug[0m] [0m# See the License for the specific language governing permissions and[0m
+[0m[[0mdebug[0m] [0m# limitations under the License.[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Preference objects are inflated via reflection[0m
+[0m[[0mdebug[0m] [0m-keep public class android.support.v7.preference.Preference {[0m
+[0m[[0mdebug[0m] [0m    public <init>(android.content.Context, android.util.AttributeSet);[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m-keep public class * extends android.support.v7.preference.Preference {[0m
+[0m[[0mdebug[0m] [0m    public <init>(android.content.Context, android.util.AttributeSet);[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m-dontwarn com.evernote.android.job.gcm.**[0m
+[0m[[0mdebug[0m] [0m-dontwarn com.evernote.android.job.util.GcmAvailableHelper[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m-keep public class com.evernote.android.job.v21.PlatformJobService[0m
+[0m[[0mdebug[0m] [0m-keep public class com.evernote.android.job.v14.PlatformAlarmService[0m
+[0m[[0mdebug[0m] [0m-keep public class com.evernote.android.job.v14.PlatformAlarmReceiver[0m
+[0m[[0mdebug[0m] [0m-keep public class com.evernote.android.job.JobBootReceiver[0m
+[0m[[0mdebug[0m] [0m-keep public class com.evernote.android.job.JobRescheduleService[0m
+[0m[[0mdebug[0m] [0m# Copyright (C) 2015 The Android Open Source Project[0m
+[0m[[0mdebug[0m] [0m#[0m
+[0m[[0mdebug[0m] [0m# Licensed under the Apache License, Version 2.0 (the "License");[0m
+[0m[[0mdebug[0m] [0m# you may not use this file except in compliance with the License.[0m
+[0m[[0mdebug[0m] [0m# You may obtain a copy of the License at[0m
+[0m[[0mdebug[0m] [0m#[0m
+[0m[[0mdebug[0m] [0m#      http://www.apache.org/licenses/LICENSE-2.0[0m
+[0m[[0mdebug[0m] [0m#[0m
+[0m[[0mdebug[0m] [0m# Unless required by applicable law or agreed to in writing, software[0m
+[0m[[0mdebug[0m] [0m# distributed under the License is distributed on an "AS IS" BASIS,[0m
+[0m[[0mdebug[0m] [0m# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.[0m
+[0m[[0mdebug[0m] [0m# See the License for the specific language governing permissions and[0m
+[0m[[0mdebug[0m] [0m# limitations under the License.[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# CoordinatorLayout resolves the behaviors of its child components with reflection.[0m
+[0m[[0mdebug[0m] [0m-keep public class * extends android.support.design.widget.CoordinatorLayout$Behavior {[0m
+[0m[[0mdebug[0m] [0m    public <init>(android.content.Context, android.util.AttributeSet);[0m
+[0m[[0mdebug[0m] [0m    public <init>();[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Make sure we keep annotations for CoordinatorLayout's DefaultBehavior[0m
+[0m[[0mdebug[0m] [0m-keepattributes *Annotation*[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Proguard flags for consumers of the Google Play services SDK[0m
+[0m[[0mdebug[0m] [0m# https://developers.google.com/android/guides/setup#add_google_play_services_to_your_project[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Keep SafeParcelable value, needed for reflection. This is required to support backwards[0m
+[0m[[0mdebug[0m] [0m# compatibility of some classes.[0m
+[0m[[0mdebug[0m] [0m-keep public class com.google.android.gms.common.internal.safeparcel.SafeParcelable {[0m
+[0m[[0mdebug[0m] [0m    public static final *** NULL;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Needed for Parcelable/SafeParcelable classes & their creators to not get renamed, as they are[0m
+[0m[[0mdebug[0m] [0m# found via reflection.[0m
+[0m[[0mdebug[0m] [0m-keep class com.google.android.gms.common.internal.ReflectedParcelable[0m
+[0m[[0mdebug[0m] [0m-keepnames class * implements com.google.android.gms.common.internal.ReflectedParcelable[0m
+[0m[[0mdebug[0m] [0m-keepclassmembers class * implements android.os.Parcelable {[0m
+[0m[[0mdebug[0m] [0m  public static final *** CREATOR;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Keep the classes/members we need for client functionality.[0m
+[0m[[0mdebug[0m] [0m-keep @interface android.support.annotation.Keep[0m
+[0m[[0mdebug[0m] [0m-keep @android.support.annotation.Keep class *[0m
+[0m[[0mdebug[0m] [0m-keepclasseswithmembers class * {[0m
+[0m[[0mdebug[0m] [0m  @android.support.annotation.Keep <fields>;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m-keepclasseswithmembers class * {[0m
+[0m[[0mdebug[0m] [0m  @android.support.annotation.Keep <methods>;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Keep the names of classes/members we need for client functionality.[0m
+[0m[[0mdebug[0m] [0m-keep @interface com.google.android.gms.common.annotation.KeepName[0m
+[0m[[0mdebug[0m] [0m-keepnames @com.google.android.gms.common.annotation.KeepName class *[0m
+[0m[[0mdebug[0m] [0m-keepclassmembernames class * {[0m
+[0m[[0mdebug[0m] [0m  @com.google.android.gms.common.annotation.KeepName *;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Keep Dynamite API entry points[0m
+[0m[[0mdebug[0m] [0m-keep @interface com.google.android.gms.common.util.DynamiteApi[0m
+[0m[[0mdebug[0m] [0m-keep @com.google.android.gms.common.util.DynamiteApi public class * {[0m
+[0m[[0mdebug[0m] [0m  public <fields>;[0m
+[0m[[0mdebug[0m] [0m  public <methods>;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Needed when building against pre-Marshmallow SDK.[0m
+[0m[[0mdebug[0m] [0m-dontwarn android.security.NetworkSecurityPolicy[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Needed when building against Marshmallow SDK.[0m
+[0m[[0mdebug[0m] [0m-dontwarn android.app.Notification[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Ensure that proguard will not strip GcmListenerService.handleIntent()[0m
+[0m[[0mdebug[0m] [0m-keepclassmembers class com.google.android.gms.gcm.GcmListenerService {[0m
+[0m[[0mdebug[0m] [0m    public void handleIntent(android.content.Intent);[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Proguard flags for consumers of the Google Play services SDK[0m
+[0m[[0mdebug[0m] [0m# https://developers.google.com/android/guides/setup#add_google_play_services_to_your_project[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Keep SafeParcelable value, needed for reflection. This is required to support backwards[0m
+[0m[[0mdebug[0m] [0m# compatibility of some classes.[0m
+[0m[[0mdebug[0m] [0m-keep public class com.google.android.gms.common.internal.safeparcel.SafeParcelable {[0m
+[0m[[0mdebug[0m] [0m    public static final *** NULL;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Needed for Parcelable/SafeParcelable classes & their creators to not get renamed, as they are[0m
+[0m[[0mdebug[0m] [0m# found via reflection.[0m
+[0m[[0mdebug[0m] [0m-keep class com.google.android.gms.common.internal.ReflectedParcelable[0m
+[0m[[0mdebug[0m] [0m-keepnames class * implements com.google.android.gms.common.internal.ReflectedParcelable[0m
+[0m[[0mdebug[0m] [0m-keepclassmembers class * implements android.os.Parcelable {[0m
+[0m[[0mdebug[0m] [0m  public static final *** CREATOR;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Keep the classes/members we need for client functionality.[0m
+[0m[[0mdebug[0m] [0m-keep @interface android.support.annotation.Keep[0m
+[0m[[0mdebug[0m] [0m-keep @android.support.annotation.Keep class *[0m
+[0m[[0mdebug[0m] [0m-keepclasseswithmembers class * {[0m
+[0m[[0mdebug[0m] [0m  @android.support.annotation.Keep <fields>;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m-keepclasseswithmembers class * {[0m
+[0m[[0mdebug[0m] [0m  @android.support.annotation.Keep <methods>;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Keep the names of classes/members we need for client functionality.[0m
+[0m[[0mdebug[0m] [0m-keep @interface com.google.android.gms.common.annotation.KeepName[0m
+[0m[[0mdebug[0m] [0m-keepnames @com.google.android.gms.common.annotation.KeepName class *[0m
+[0m[[0mdebug[0m] [0m-keepclassmembernames class * {[0m
+[0m[[0mdebug[0m] [0m  @com.google.android.gms.common.annotation.KeepName *;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Keep Dynamite API entry points[0m
+[0m[[0mdebug[0m] [0m-keep @interface com.google.android.gms.common.util.DynamiteApi[0m
+[0m[[0mdebug[0m] [0m-keep @com.google.android.gms.common.util.DynamiteApi public class * {[0m
+[0m[[0mdebug[0m] [0m  public <fields>;[0m
+[0m[[0mdebug[0m] [0m  public <methods>;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Needed when building against pre-Marshmallow SDK.[0m
+[0m[[0mdebug[0m] [0m-dontwarn android.security.NetworkSecurityPolicy[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Needed when building against Marshmallow SDK.[0m
+[0m[[0mdebug[0m] [0m-dontwarn android.app.Notification[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Ensure that proguard will not strip GcmListenerService.handleIntent()[0m
+[0m[[0mdebug[0m] [0m-keepclassmembers class com.google.android.gms.gcm.GcmListenerService {[0m
+[0m[[0mdebug[0m] [0m    public void handleIntent(android.content.Intent);[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Proguard flags for consumers of the Google Play services SDK[0m
+[0m[[0mdebug[0m] [0m# https://developers.google.com/android/guides/setup#add_google_play_services_to_your_project[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Keep SafeParcelable value, needed for reflection. This is required to support backwards[0m
+[0m[[0mdebug[0m] [0m# compatibility of some classes.[0m
+[0m[[0mdebug[0m] [0m-keep public class com.google.android.gms.common.internal.safeparcel.SafeParcelable {[0m
+[0m[[0mdebug[0m] [0m    public static final *** NULL;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Needed for Parcelable/SafeParcelable classes & their creators to not get renamed, as they are[0m
+[0m[[0mdebug[0m] [0m# found via reflection.[0m
+[0m[[0mdebug[0m] [0m-keep class com.google.android.gms.common.internal.ReflectedParcelable[0m
+[0m[[0mdebug[0m] [0m-keepnames class * implements com.google.android.gms.common.internal.ReflectedParcelable[0m
+[0m[[0mdebug[0m] [0m-keepclassmembers class * implements android.os.Parcelable {[0m
+[0m[[0mdebug[0m] [0m  public static final *** CREATOR;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Keep the classes/members we need for client functionality.[0m
+[0m[[0mdebug[0m] [0m-keep @interface android.support.annotation.Keep[0m
+[0m[[0mdebug[0m] [0m-keep @android.support.annotation.Keep class *[0m
+[0m[[0mdebug[0m] [0m-keepclasseswithmembers class * {[0m
+[0m[[0mdebug[0m] [0m  @android.support.annotation.Keep <fields>;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m-keepclasseswithmembers class * {[0m
+[0m[[0mdebug[0m] [0m  @android.support.annotation.Keep <methods>;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Keep the names of classes/members we need for client functionality.[0m
+[0m[[0mdebug[0m] [0m-keep @interface com.google.android.gms.common.annotation.KeepName[0m
+[0m[[0mdebug[0m] [0m-keepnames @com.google.android.gms.common.annotation.KeepName class *[0m
+[0m[[0mdebug[0m] [0m-keepclassmembernames class * {[0m
+[0m[[0mdebug[0m] [0m  @com.google.android.gms.common.annotation.KeepName *;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Keep Dynamite API entry points[0m
+[0m[[0mdebug[0m] [0m-keep @interface com.google.android.gms.common.util.DynamiteApi[0m
+[0m[[0mdebug[0m] [0m-keep @com.google.android.gms.common.util.DynamiteApi public class * {[0m
+[0m[[0mdebug[0m] [0m  public <fields>;[0m
+[0m[[0mdebug[0m] [0m  public <methods>;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Needed when building against pre-Marshmallow SDK.[0m
+[0m[[0mdebug[0m] [0m-dontwarn android.security.NetworkSecurityPolicy[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Needed when building against Marshmallow SDK.[0m
+[0m[[0mdebug[0m] [0m-dontwarn android.app.Notification[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Ensure that proguard will not strip GcmListenerService.handleIntent()[0m
+[0m[[0mdebug[0m] [0m-keepclassmembers class com.google.android.gms.gcm.GcmListenerService {[0m
+[0m[[0mdebug[0m] [0m    public void handleIntent(android.content.Intent);[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Proguard flags for consumers of the Google Play services SDK[0m
+[0m[[0mdebug[0m] [0m# https://developers.google.com/android/guides/setup#add_google_play_services_to_your_project[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Keep SafeParcelable value, needed for reflection. This is required to support backwards[0m
+[0m[[0mdebug[0m] [0m# compatibility of some classes.[0m
+[0m[[0mdebug[0m] [0m-keep public class com.google.android.gms.common.internal.safeparcel.SafeParcelable {[0m
+[0m[[0mdebug[0m] [0m    public static final *** NULL;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Needed for Parcelable/SafeParcelable classes & their creators to not get renamed, as they are[0m
+[0m[[0mdebug[0m] [0m# found via reflection.[0m
+[0m[[0mdebug[0m] [0m-keep class com.google.android.gms.common.internal.ReflectedParcelable[0m
+[0m[[0mdebug[0m] [0m-keepnames class * implements com.google.android.gms.common.internal.ReflectedParcelable[0m
+[0m[[0mdebug[0m] [0m-keepclassmembers class * implements android.os.Parcelable {[0m
+[0m[[0mdebug[0m] [0m  public static final *** CREATOR;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Keep the classes/members we need for client functionality.[0m
+[0m[[0mdebug[0m] [0m-keep @interface android.support.annotation.Keep[0m
+[0m[[0mdebug[0m] [0m-keep @android.support.annotation.Keep class *[0m
+[0m[[0mdebug[0m] [0m-keepclasseswithmembers class * {[0m
+[0m[[0mdebug[0m] [0m  @android.support.annotation.Keep <fields>;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m-keepclasseswithmembers class * {[0m
+[0m[[0mdebug[0m] [0m  @android.support.annotation.Keep <methods>;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Keep the names of classes/members we need for client functionality.[0m
+[0m[[0mdebug[0m] [0m-keep @interface com.google.android.gms.common.annotation.KeepName[0m
+[0m[[0mdebug[0m] [0m-keepnames @com.google.android.gms.common.annotation.KeepName class *[0m
+[0m[[0mdebug[0m] [0m-keepclassmembernames class * {[0m
+[0m[[0mdebug[0m] [0m  @com.google.android.gms.common.annotation.KeepName *;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Keep Dynamite API entry points[0m
+[0m[[0mdebug[0m] [0m-keep @interface com.google.android.gms.common.util.DynamiteApi[0m
+[0m[[0mdebug[0m] [0m-keep @com.google.android.gms.common.util.DynamiteApi public class * {[0m
+[0m[[0mdebug[0m] [0m  public <fields>;[0m
+[0m[[0mdebug[0m] [0m  public <methods>;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Needed when building against pre-Marshmallow SDK.[0m
+[0m[[0mdebug[0m] [0m-dontwarn android.security.NetworkSecurityPolicy[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Needed when building against Marshmallow SDK.[0m
+[0m[[0mdebug[0m] [0m-dontwarn android.app.Notification[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Ensure that proguard will not strip GcmListenerService.handleIntent()[0m
+[0m[[0mdebug[0m] [0m-keepclassmembers class com.google.android.gms.gcm.GcmListenerService {[0m
+[0m[[0mdebug[0m] [0m    public void handleIntent(android.content.Intent);[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Proguard flags for consumers of the Google Play services SDK[0m
+[0m[[0mdebug[0m] [0m# https://developers.google.com/android/guides/setup#add_google_play_services_to_your_project[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Keep SafeParcelable value, needed for reflection. This is required to support backwards[0m
+[0m[[0mdebug[0m] [0m# compatibility of some classes.[0m
+[0m[[0mdebug[0m] [0m-keep public class com.google.android.gms.common.internal.safeparcel.SafeParcelable {[0m
+[0m[[0mdebug[0m] [0m    public static final *** NULL;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Needed for Parcelable/SafeParcelable classes & their creators to not get renamed, as they are[0m
+[0m[[0mdebug[0m] [0m# found via reflection.[0m
+[0m[[0mdebug[0m] [0m-keep class com.google.android.gms.common.internal.ReflectedParcelable[0m
+[0m[[0mdebug[0m] [0m-keepnames class * implements com.google.android.gms.common.internal.ReflectedParcelable[0m
+[0m[[0mdebug[0m] [0m-keepclassmembers class * implements android.os.Parcelable {[0m
+[0m[[0mdebug[0m] [0m  public static final *** CREATOR;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Keep the classes/members we need for client functionality.[0m
+[0m[[0mdebug[0m] [0m-keep @interface android.support.annotation.Keep[0m
+[0m[[0mdebug[0m] [0m-keep @android.support.annotation.Keep class *[0m
+[0m[[0mdebug[0m] [0m-keepclasseswithmembers class * {[0m
+[0m[[0mdebug[0m] [0m  @android.support.annotation.Keep <fields>;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m-keepclasseswithmembers class * {[0m
+[0m[[0mdebug[0m] [0m  @android.support.annotation.Keep <methods>;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Keep the names of classes/members we need for client functionality.[0m
+[0m[[0mdebug[0m] [0m-keep @interface com.google.android.gms.common.annotation.KeepName[0m
+[0m[[0mdebug[0m] [0m-keepnames @com.google.android.gms.common.annotation.KeepName class *[0m
+[0m[[0mdebug[0m] [0m-keepclassmembernames class * {[0m
+[0m[[0mdebug[0m] [0m  @com.google.android.gms.common.annotation.KeepName *;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Keep Dynamite API entry points[0m
+[0m[[0mdebug[0m] [0m-keep @interface com.google.android.gms.common.util.DynamiteApi[0m
+[0m[[0mdebug[0m] [0m-keep @com.google.android.gms.common.util.DynamiteApi public class * {[0m
+[0m[[0mdebug[0m] [0m  public <fields>;[0m
+[0m[[0mdebug[0m] [0m  public <methods>;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Needed when building against pre-Marshmallow SDK.[0m
+[0m[[0mdebug[0m] [0m-dontwarn android.security.NetworkSecurityPolicy[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Needed when building against Marshmallow SDK.[0m
+[0m[[0mdebug[0m] [0m-dontwarn android.app.Notification[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Ensure that proguard will not strip GcmListenerService.handleIntent()[0m
+[0m[[0mdebug[0m] [0m-keepclassmembers class com.google.android.gms.gcm.GcmListenerService {[0m
+[0m[[0mdebug[0m] [0m    public void handleIntent(android.content.Intent);[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Proguard flags for consumers of the Google Play services SDK[0m
+[0m[[0mdebug[0m] [0m# https://developers.google.com/android/guides/setup#add_google_play_services_to_your_project[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Keep SafeParcelable value, needed for reflection. This is required to support backwards[0m
+[0m[[0mdebug[0m] [0m# compatibility of some classes.[0m
+[0m[[0mdebug[0m] [0m-keep public class com.google.android.gms.common.internal.safeparcel.SafeParcelable {[0m
+[0m[[0mdebug[0m] [0m    public static final *** NULL;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Needed for Parcelable/SafeParcelable classes & their creators to not get renamed, as they are[0m
+[0m[[0mdebug[0m] [0m# found via reflection.[0m
+[0m[[0mdebug[0m] [0m-keep class com.google.android.gms.common.internal.ReflectedParcelable[0m
+[0m[[0mdebug[0m] [0m-keepnames class * implements com.google.android.gms.common.internal.ReflectedParcelable[0m
+[0m[[0mdebug[0m] [0m-keepclassmembers class * implements android.os.Parcelable {[0m
+[0m[[0mdebug[0m] [0m  public static final *** CREATOR;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Keep the classes/members we need for client functionality.[0m
+[0m[[0mdebug[0m] [0m-keep @interface android.support.annotation.Keep[0m
+[0m[[0mdebug[0m] [0m-keep @android.support.annotation.Keep class *[0m
+[0m[[0mdebug[0m] [0m-keepclasseswithmembers class * {[0m
+[0m[[0mdebug[0m] [0m  @android.support.annotation.Keep <fields>;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m-keepclasseswithmembers class * {[0m
+[0m[[0mdebug[0m] [0m  @android.support.annotation.Keep <methods>;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Keep the names of classes/members we need for client functionality.[0m
+[0m[[0mdebug[0m] [0m-keep @interface com.google.android.gms.common.annotation.KeepName[0m
+[0m[[0mdebug[0m] [0m-keepnames @com.google.android.gms.common.annotation.KeepName class *[0m
+[0m[[0mdebug[0m] [0m-keepclassmembernames class * {[0m
+[0m[[0mdebug[0m] [0m  @com.google.android.gms.common.annotation.KeepName *;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Keep Dynamite API entry points[0m
+[0m[[0mdebug[0m] [0m-keep @interface com.google.android.gms.common.util.DynamiteApi[0m
+[0m[[0mdebug[0m] [0m-keep @com.google.android.gms.common.util.DynamiteApi public class * {[0m
+[0m[[0mdebug[0m] [0m  public <fields>;[0m
+[0m[[0mdebug[0m] [0m  public <methods>;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Needed when building against pre-Marshmallow SDK.[0m
+[0m[[0mdebug[0m] [0m-dontwarn android.security.NetworkSecurityPolicy[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Needed when building against Marshmallow SDK.[0m
+[0m[[0mdebug[0m] [0m-dontwarn android.app.Notification[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Ensure that proguard will not strip GcmListenerService.handleIntent()[0m
+[0m[[0mdebug[0m] [0m-keepclassmembers class com.google.android.gms.gcm.GcmListenerService {[0m
+[0m[[0mdebug[0m] [0m    public void handleIntent(android.content.Intent);[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Proguard flags for consumers of the Google Play services SDK[0m
+[0m[[0mdebug[0m] [0m# https://developers.google.com/android/guides/setup#add_google_play_services_to_your_project[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Keep SafeParcelable value, needed for reflection. This is required to support backwards[0m
+[0m[[0mdebug[0m] [0m# compatibility of some classes.[0m
+[0m[[0mdebug[0m] [0m-keep public class com.google.android.gms.common.internal.safeparcel.SafeParcelable {[0m
+[0m[[0mdebug[0m] [0m    public static final *** NULL;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Needed for Parcelable/SafeParcelable classes & their creators to not get renamed, as they are[0m
+[0m[[0mdebug[0m] [0m# found via reflection.[0m
+[0m[[0mdebug[0m] [0m-keep class com.google.android.gms.common.internal.ReflectedParcelable[0m
+[0m[[0mdebug[0m] [0m-keepnames class * implements com.google.android.gms.common.internal.ReflectedParcelable[0m
+[0m[[0mdebug[0m] [0m-keepclassmembers class * implements android.os.Parcelable {[0m
+[0m[[0mdebug[0m] [0m  public static final *** CREATOR;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Keep the classes/members we need for client functionality.[0m
+[0m[[0mdebug[0m] [0m-keep @interface android.support.annotation.Keep[0m
+[0m[[0mdebug[0m] [0m-keep @android.support.annotation.Keep class *[0m
+[0m[[0mdebug[0m] [0m-keepclasseswithmembers class * {[0m
+[0m[[0mdebug[0m] [0m  @android.support.annotation.Keep <fields>;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m-keepclasseswithmembers class * {[0m
+[0m[[0mdebug[0m] [0m  @android.support.annotation.Keep <methods>;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Keep the names of classes/members we need for client functionality.[0m
+[0m[[0mdebug[0m] [0m-keep @interface com.google.android.gms.common.annotation.KeepName[0m
+[0m[[0mdebug[0m] [0m-keepnames @com.google.android.gms.common.annotation.KeepName class *[0m
+[0m[[0mdebug[0m] [0m-keepclassmembernames class * {[0m
+[0m[[0mdebug[0m] [0m  @com.google.android.gms.common.annotation.KeepName *;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Keep Dynamite API entry points[0m
+[0m[[0mdebug[0m] [0m-keep @interface com.google.android.gms.common.util.DynamiteApi[0m
+[0m[[0mdebug[0m] [0m-keep @com.google.android.gms.common.util.DynamiteApi public class * {[0m
+[0m[[0mdebug[0m] [0m  public <fields>;[0m
+[0m[[0mdebug[0m] [0m  public <methods>;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Needed when building against pre-Marshmallow SDK.[0m
+[0m[[0mdebug[0m] [0m-dontwarn android.security.NetworkSecurityPolicy[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Needed when building against Marshmallow SDK.[0m
+[0m[[0mdebug[0m] [0m-dontwarn android.app.Notification[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Ensure that proguard will not strip GcmListenerService.handleIntent()[0m
+[0m[[0mdebug[0m] [0m-keepclassmembers class com.google.android.gms.gcm.GcmListenerService {[0m
+[0m[[0mdebug[0m] [0m    public void handleIntent(android.content.Intent);[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Proguard flags for consumers of the Google Play services SDK[0m
+[0m[[0mdebug[0m] [0m# https://developers.google.com/android/guides/setup#add_google_play_services_to_your_project[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Keep SafeParcelable value, needed for reflection. This is required to support backwards[0m
+[0m[[0mdebug[0m] [0m# compatibility of some classes.[0m
+[0m[[0mdebug[0m] [0m-keep public class com.google.android.gms.common.internal.safeparcel.SafeParcelable {[0m
+[0m[[0mdebug[0m] [0m    public static final *** NULL;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Needed for Parcelable/SafeParcelable classes & their creators to not get renamed, as they are[0m
+[0m[[0mdebug[0m] [0m# found via reflection.[0m
+[0m[[0mdebug[0m] [0m-keep class com.google.android.gms.common.internal.ReflectedParcelable[0m
+[0m[[0mdebug[0m] [0m-keepnames class * implements com.google.android.gms.common.internal.ReflectedParcelable[0m
+[0m[[0mdebug[0m] [0m-keepclassmembers class * implements android.os.Parcelable {[0m
+[0m[[0mdebug[0m] [0m  public static final *** CREATOR;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Keep the classes/members we need for client functionality.[0m
+[0m[[0mdebug[0m] [0m-keep @interface android.support.annotation.Keep[0m
+[0m[[0mdebug[0m] [0m-keep @android.support.annotation.Keep class *[0m
+[0m[[0mdebug[0m] [0m-keepclasseswithmembers class * {[0m
+[0m[[0mdebug[0m] [0m  @android.support.annotation.Keep <fields>;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m-keepclasseswithmembers class * {[0m
+[0m[[0mdebug[0m] [0m  @android.support.annotation.Keep <methods>;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Keep the names of classes/members we need for client functionality.[0m
+[0m[[0mdebug[0m] [0m-keep @interface com.google.android.gms.common.annotation.KeepName[0m
+[0m[[0mdebug[0m] [0m-keepnames @com.google.android.gms.common.annotation.KeepName class *[0m
+[0m[[0mdebug[0m] [0m-keepclassmembernames class * {[0m
+[0m[[0mdebug[0m] [0m  @com.google.android.gms.common.annotation.KeepName *;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Keep Dynamite API entry points[0m
+[0m[[0mdebug[0m] [0m-keep @interface com.google.android.gms.common.util.DynamiteApi[0m
+[0m[[0mdebug[0m] [0m-keep @com.google.android.gms.common.util.DynamiteApi public class * {[0m
+[0m[[0mdebug[0m] [0m  public <fields>;[0m
+[0m[[0mdebug[0m] [0m  public <methods>;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Needed when building against pre-Marshmallow SDK.[0m
+[0m[[0mdebug[0m] [0m-dontwarn android.security.NetworkSecurityPolicy[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Needed when building against Marshmallow SDK.[0m
+[0m[[0mdebug[0m] [0m-dontwarn android.app.Notification[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Ensure that proguard will not strip GcmListenerService.handleIntent()[0m
+[0m[[0mdebug[0m] [0m-keepclassmembers class com.google.android.gms.gcm.GcmListenerService {[0m
+[0m[[0mdebug[0m] [0m    public void handleIntent(android.content.Intent);[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Proguard flags for consumers of the Google Play services SDK[0m
+[0m[[0mdebug[0m] [0m# https://developers.google.com/android/guides/setup#add_google_play_services_to_your_project[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Keep SafeParcelable value, needed for reflection. This is required to support backwards[0m
+[0m[[0mdebug[0m] [0m# compatibility of some classes.[0m
+[0m[[0mdebug[0m] [0m-keep public class com.google.android.gms.common.internal.safeparcel.SafeParcelable {[0m
+[0m[[0mdebug[0m] [0m    public static final *** NULL;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Needed for Parcelable/SafeParcelable classes & their creators to not get renamed, as they are[0m
+[0m[[0mdebug[0m] [0m# found via reflection.[0m
+[0m[[0mdebug[0m] [0m-keep class com.google.android.gms.common.internal.ReflectedParcelable[0m
+[0m[[0mdebug[0m] [0m-keepnames class * implements com.google.android.gms.common.internal.ReflectedParcelable[0m
+[0m[[0mdebug[0m] [0m-keepclassmembers class * implements android.os.Parcelable {[0m
+[0m[[0mdebug[0m] [0m  public static final *** CREATOR;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Keep the classes/members we need for client functionality.[0m
+[0m[[0mdebug[0m] [0m-keep @interface android.support.annotation.Keep[0m
+[0m[[0mdebug[0m] [0m-keep @android.support.annotation.Keep class *[0m
+[0m[[0mdebug[0m] [0m-keepclasseswithmembers class * {[0m
+[0m[[0mdebug[0m] [0m  @android.support.annotation.Keep <fields>;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m-keepclasseswithmembers class * {[0m
+[0m[[0mdebug[0m] [0m  @android.support.annotation.Keep <methods>;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Keep the names of classes/members we need for client functionality.[0m
+[0m[[0mdebug[0m] [0m-keep @interface com.google.android.gms.common.annotation.KeepName[0m
+[0m[[0mdebug[0m] [0m-keepnames @com.google.android.gms.common.annotation.KeepName class *[0m
+[0m[[0mdebug[0m] [0m-keepclassmembernames class * {[0m
+[0m[[0mdebug[0m] [0m  @com.google.android.gms.common.annotation.KeepName *;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Keep Dynamite API entry points[0m
+[0m[[0mdebug[0m] [0m-keep @interface com.google.android.gms.common.util.DynamiteApi[0m
+[0m[[0mdebug[0m] [0m-keep @com.google.android.gms.common.util.DynamiteApi public class * {[0m
+[0m[[0mdebug[0m] [0m  public <fields>;[0m
+[0m[[0mdebug[0m] [0m  public <methods>;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Needed when building against pre-Marshmallow SDK.[0m
+[0m[[0mdebug[0m] [0m-dontwarn android.security.NetworkSecurityPolicy[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Needed when building against Marshmallow SDK.[0m
+[0m[[0mdebug[0m] [0m-dontwarn android.app.Notification[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Ensure that proguard will not strip GcmListenerService.handleIntent()[0m
+[0m[[0mdebug[0m] [0m-keepclassmembers class com.google.android.gms.gcm.GcmListenerService {[0m
+[0m[[0mdebug[0m] [0m    public void handleIntent(android.content.Intent);[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Proguard flags for consumers of the Google Play services SDK[0m
+[0m[[0mdebug[0m] [0m# https://developers.google.com/android/guides/setup#add_google_play_services_to_your_project[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Keep SafeParcelable value, needed for reflection. This is required to support backwards[0m
+[0m[[0mdebug[0m] [0m# compatibility of some classes.[0m
+[0m[[0mdebug[0m] [0m-keep public class com.google.android.gms.common.internal.safeparcel.SafeParcelable {[0m
+[0m[[0mdebug[0m] [0m    public static final *** NULL;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Needed for Parcelable/SafeParcelable classes & their creators to not get renamed, as they are[0m
+[0m[[0mdebug[0m] [0m# found via reflection.[0m
+[0m[[0mdebug[0m] [0m-keep class com.google.android.gms.common.internal.ReflectedParcelable[0m
+[0m[[0mdebug[0m] [0m-keepnames class * implements com.google.android.gms.common.internal.ReflectedParcelable[0m
+[0m[[0mdebug[0m] [0m-keepclassmembers class * implements android.os.Parcelable {[0m
+[0m[[0mdebug[0m] [0m  public static final *** CREATOR;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Keep the classes/members we need for client functionality.[0m
+[0m[[0mdebug[0m] [0m-keep @interface android.support.annotation.Keep[0m
+[0m[[0mdebug[0m] [0m-keep @android.support.annotation.Keep class *[0m
+[0m[[0mdebug[0m] [0m-keepclasseswithmembers class * {[0m
+[0m[[0mdebug[0m] [0m  @android.support.annotation.Keep <fields>;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m-keepclasseswithmembers class * {[0m
+[0m[[0mdebug[0m] [0m  @android.support.annotation.Keep <methods>;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Keep the names of classes/members we need for client functionality.[0m
+[0m[[0mdebug[0m] [0m-keep @interface com.google.android.gms.common.annotation.KeepName[0m
+[0m[[0mdebug[0m] [0m-keepnames @com.google.android.gms.common.annotation.KeepName class *[0m
+[0m[[0mdebug[0m] [0m-keepclassmembernames class * {[0m
+[0m[[0mdebug[0m] [0m  @com.google.android.gms.common.annotation.KeepName *;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Keep Dynamite API entry points[0m
+[0m[[0mdebug[0m] [0m-keep @interface com.google.android.gms.common.util.DynamiteApi[0m
+[0m[[0mdebug[0m] [0m-keep @com.google.android.gms.common.util.DynamiteApi public class * {[0m
+[0m[[0mdebug[0m] [0m  public <fields>;[0m
+[0m[[0mdebug[0m] [0m  public <methods>;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Needed when building against pre-Marshmallow SDK.[0m
+[0m[[0mdebug[0m] [0m-dontwarn android.security.NetworkSecurityPolicy[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Needed when building against Marshmallow SDK.[0m
+[0m[[0mdebug[0m] [0m-dontwarn android.app.Notification[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Ensure that proguard will not strip GcmListenerService.handleIntent()[0m
+[0m[[0mdebug[0m] [0m-keepclassmembers class com.google.android.gms.gcm.GcmListenerService {[0m
+[0m[[0mdebug[0m] [0m    public void handleIntent(android.content.Intent);[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Proguard flags for consumers of the Google Play services SDK[0m
+[0m[[0mdebug[0m] [0m# https://developers.google.com/android/guides/setup#add_google_play_services_to_your_project[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Keep SafeParcelable value, needed for reflection. This is required to support backwards[0m
+[0m[[0mdebug[0m] [0m# compatibility of some classes.[0m
+[0m[[0mdebug[0m] [0m-keep public class com.google.android.gms.common.internal.safeparcel.SafeParcelable {[0m
+[0m[[0mdebug[0m] [0m    public static final *** NULL;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Needed for Parcelable/SafeParcelable classes & their creators to not get renamed, as they are[0m
+[0m[[0mdebug[0m] [0m# found via reflection.[0m
+[0m[[0mdebug[0m] [0m-keep class com.google.android.gms.common.internal.ReflectedParcelable[0m
+[0m[[0mdebug[0m] [0m-keepnames class * implements com.google.android.gms.common.internal.ReflectedParcelable[0m
+[0m[[0mdebug[0m] [0m-keepclassmembers class * implements android.os.Parcelable {[0m
+[0m[[0mdebug[0m] [0m  public static final *** CREATOR;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Keep the classes/members we need for client functionality.[0m
+[0m[[0mdebug[0m] [0m-keep @interface android.support.annotation.Keep[0m
+[0m[[0mdebug[0m] [0m-keep @android.support.annotation.Keep class *[0m
+[0m[[0mdebug[0m] [0m-keepclasseswithmembers class * {[0m
+[0m[[0mdebug[0m] [0m  @android.support.annotation.Keep <fields>;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m-keepclasseswithmembers class * {[0m
+[0m[[0mdebug[0m] [0m  @android.support.annotation.Keep <methods>;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Keep the names of classes/members we need for client functionality.[0m
+[0m[[0mdebug[0m] [0m-keep @interface com.google.android.gms.common.annotation.KeepName[0m
+[0m[[0mdebug[0m] [0m-keepnames @com.google.android.gms.common.annotation.KeepName class *[0m
+[0m[[0mdebug[0m] [0m-keepclassmembernames class * {[0m
+[0m[[0mdebug[0m] [0m  @com.google.android.gms.common.annotation.KeepName *;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Keep Dynamite API entry points[0m
+[0m[[0mdebug[0m] [0m-keep @interface com.google.android.gms.common.util.DynamiteApi[0m
+[0m[[0mdebug[0m] [0m-keep @com.google.android.gms.common.util.DynamiteApi public class * {[0m
+[0m[[0mdebug[0m] [0m  public <fields>;[0m
+[0m[[0mdebug[0m] [0m  public <methods>;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Needed when building against pre-Marshmallow SDK.[0m
+[0m[[0mdebug[0m] [0m-dontwarn android.security.NetworkSecurityPolicy[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Needed when building against Marshmallow SDK.[0m
+[0m[[0mdebug[0m] [0m-dontwarn android.app.Notification[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Ensure that proguard will not strip GcmListenerService.handleIntent()[0m
+[0m[[0mdebug[0m] [0m-keepclassmembers class com.google.android.gms.gcm.GcmListenerService {[0m
+[0m[[0mdebug[0m] [0m    public void handleIntent(android.content.Intent);[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Proguard flags for consumers of the Google Play services SDK[0m
+[0m[[0mdebug[0m] [0m# https://developers.google.com/android/guides/setup#add_google_play_services_to_your_project[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Keep SafeParcelable value, needed for reflection. This is required to support backwards[0m
+[0m[[0mdebug[0m] [0m# compatibility of some classes.[0m
+[0m[[0mdebug[0m] [0m-keep public class com.google.android.gms.common.internal.safeparcel.SafeParcelable {[0m
+[0m[[0mdebug[0m] [0m    public static final *** NULL;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Needed for Parcelable/SafeParcelable classes & their creators to not get renamed, as they are[0m
+[0m[[0mdebug[0m] [0m# found via reflection.[0m
+[0m[[0mdebug[0m] [0m-keep class com.google.android.gms.common.internal.ReflectedParcelable[0m
+[0m[[0mdebug[0m] [0m-keepnames class * implements com.google.android.gms.common.internal.ReflectedParcelable[0m
+[0m[[0mdebug[0m] [0m-keepclassmembers class * implements android.os.Parcelable {[0m
+[0m[[0mdebug[0m] [0m  public static final *** CREATOR;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Keep the classes/members we need for client functionality.[0m
+[0m[[0mdebug[0m] [0m-keep @interface android.support.annotation.Keep[0m
+[0m[[0mdebug[0m] [0m-keep @android.support.annotation.Keep class *[0m
+[0m[[0mdebug[0m] [0m-keepclasseswithmembers class * {[0m
+[0m[[0mdebug[0m] [0m  @android.support.annotation.Keep <fields>;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m-keepclasseswithmembers class * {[0m
+[0m[[0mdebug[0m] [0m  @android.support.annotation.Keep <methods>;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Keep the names of classes/members we need for client functionality.[0m
+[0m[[0mdebug[0m] [0m-keep @interface com.google.android.gms.common.annotation.KeepName[0m
+[0m[[0mdebug[0m] [0m-keepnames @com.google.android.gms.common.annotation.KeepName class *[0m
+[0m[[0mdebug[0m] [0m-keepclassmembernames class * {[0m
+[0m[[0mdebug[0m] [0m  @com.google.android.gms.common.annotation.KeepName *;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Keep Dynamite API entry points[0m
+[0m[[0mdebug[0m] [0m-keep @interface com.google.android.gms.common.util.DynamiteApi[0m
+[0m[[0mdebug[0m] [0m-keep @com.google.android.gms.common.util.DynamiteApi public class * {[0m
+[0m[[0mdebug[0m] [0m  public <fields>;[0m
+[0m[[0mdebug[0m] [0m  public <methods>;[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Needed when building against pre-Marshmallow SDK.[0m
+[0m[[0mdebug[0m] [0m-dontwarn android.security.NetworkSecurityPolicy[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Needed when building against Marshmallow SDK.[0m
+[0m[[0mdebug[0m] [0m-dontwarn android.app.Notification[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m# Ensure that proguard will not strip GcmListenerService.handleIntent()[0m
+[0m[[0mdebug[0m] [0m-keepclassmembers class com.google.android.gms.gcm.GcmListenerService {[0m
+[0m[[0mdebug[0m] [0m    public void handleIntent(android.content.Intent);[0m
+[0m[[0mdebug[0m] [0m}[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0m-keep class com.github.shadowsocks.JniHelper { *; }[0m
+[0m[[0mdebug[0m] [0m-dontwarn com.google.android.gms.internal.**[0m
+[0m[[0mdebug[0m] [0m-dontwarn com.j256.ormlite.**[0m
+[0m[[0mdebug[0m] [0m-dontwarn okio.**[0m
+[0m[[0mdebug[0m] [0m-dontwarn org.xbill.**[0m
+[0m[[0mdebug[0m] [0m-keep class com.github.shadowsocks.JniHelper { *; }[0m
+[0m[[0mdebug[0m] [0m-dontwarn com.google.android.gms.internal.**[0m
+[0m[[0mdebug[0m] [0m-dontwarn com.j256.ormlite.**[0m
+[0m[[0mdebug[0m] [0m-dontwarn okio.**[0m
+[0m[[0mdebug[0m] [0m-dontwarn org.xbill.**[0m
+[0m[[0mdebug[0m] [0m-libraryjars "/home/senrsl/android/android-sdk-linux/platforms/android-25/android.jar"[0m
+[0m[[0mdebug[0m] [0m-printmapping "/home/senrsl/test/temp/ss/shadowsocks-android/mobile/target/android/intermediates/proguard/mappings.txt"[0m
+[0m[[0mdebug[0m] [0m-injars "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/classes.jar"(!META-INF/**,!rootdoc.txt):"/home/senrsl/.android/sbt/exploded-aars/com.android.support-cardview-v7-25.2.0/classes.jar"(!META-INF/**,!rootdoc.txt):"/home/senrsl/.android/sbt/exploded-aars/com.android.support-customtabs-25.2.0/classes.jar"(!META-INF/**,!rootdoc.txt):"/home/senrsl/.android/sbt/exploded-aars/com.android.support-gridlayout-v7-25.2.0/classes.jar"(!META-INF/**,!rootdoc.txt):"/home/senrsl/.android/sbt/exploded-aars/com.futuremind.recyclerfastscroll-fastscroll-0.2.5/classes.jar"(!META-INF/**,!rootdoc.txt):"/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/classes.jar"(!META-INF/**,!rootdoc.txt):"/home/senrsl/.android/sbt/exploded-aars/net.vrallev.android-cat-1.0.5/classes.jar"(!META-INF/**,!rootdoc.txt):"/home/senrsl/.android/sbt/exploded-aars/com.github.jorgecastilloprz-fabprogresscircle-1.01/classes.jar"(!META-INF/**,!rootdoc.txt):"/home/senrsl/.android/sbt/exploded-aars/com.mikepenz-crossfader-1.5.0/classes.jar"(!META-INF/**,!rootdoc.txt):"/home/senrsl/.android/sbt/exploded-aars/com.mikepenz-fastadapter-2.5.0/classes.jar"(!META-INF/**,!rootdoc.txt):"/home/senrsl/.android/sbt/exploded-aars/com.mikepenz-iconics-core-2.8.2/classes.jar"(!META-INF/**,!rootdoc.txt):"/home/senrsl/.android/sbt/exploded-aars/com.mikepenz-materialdrawer-5.9.0/classes.jar"(!META-INF/**,!rootdoc.txt):"/home/senrsl/.android/sbt/exploded-aars/com.android.support-design-25.3.1/classes.jar"(!META-INF/**,!rootdoc.txt):"/home/senrsl/.android/sbt/exploded-aars/com.android.support-transition-25.3.1/classes.jar"(!META-INF/**,!rootdoc.txt):"/home/senrsl/.android/sbt/exploded-aars/com.mikepenz-materialize-1.0.1/classes.jar"(!META-INF/**,!rootdoc.txt):"/home/senrsl/.android/sbt/exploded-aars/com.twofortyfouram-android-plugin-api-for-locale-1.0.2/classes.jar"(!META-INF/**,!rootdoc.txt):"/home/senrsl/.android/sbt/exploded-aars/eu.chainfire-libsuperuser-1.0.0.201704021214/classes.jar"(!META-INF/**,!rootdoc.txt):"/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-10.2.1/classes.jar"(!META-INF/**,!rootdoc.txt):"/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-lite-10.2.1/classes.jar"(!META-INF/**,!rootdoc.txt):"/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-basement-10.2.1/classes.jar"(!META-INF/**,!rootdoc.txt):"/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-base-10.2.1/classes.jar"(!META-INF/**,!rootdoc.txt):"/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-tasks-10.2.1/classes.jar"(!META-INF/**,!rootdoc.txt):"/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-clearcut-10.2.1/classes.jar"(!META-INF/**,!rootdoc.txt):"/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-gass-10.2.1/classes.jar"(!META-INF/**,!rootdoc.txt):"/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-analytics-10.2.1/classes.jar"(!META-INF/**,!rootdoc.txt):"/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-analytics-impl-10.2.1/classes.jar"(!META-INF/**,!rootdoc.txt):"/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-tagmanager-v4-impl-10.2.1/classes.jar"(!META-INF/**,!rootdoc.txt):"/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-gcm-10.2.1/classes.jar"(!META-INF/**,!rootdoc.txt):"/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-iid-10.2.1/classes.jar"(!META-INF/**,!rootdoc.txt):"/home/senrsl/.android/sbt/exploded-aars/com.android.support-preference-v14-25.2.0/classes.jar"(!META-INF/**,!rootdoc.txt):"/home/senrsl/.android/sbt/exploded-aars/com.android.support-support-v4-25.2.0/classes.jar"(!META-INF/**,!rootdoc.txt):"/home/senrsl/.android/sbt/exploded-aars/com.android.support-support-compat-25.2.0/classes.jar"(!META-INF/**,!rootdoc.txt):"/home/senrsl/.android/sbt/exploded-aars/com.android.support-support-media-compat-25.2.0/classes.jar"(!META-INF/**,!rootdoc.txt):"/home/senrsl/.android/sbt/exploded-aars/com.android.support-support-core-utils-25.2.0/classes.jar"(!META-INF/**,!rootdoc.txt):"/home/senrsl/.android/sbt/exploded-aars/com.android.support-support-core-ui-25.2.0/classes.jar"(!META-INF/**,!rootdoc.txt):"/home/senrsl/.android/sbt/exploded-aars/com.android.support-support-fragment-25.2.0/classes.jar"(!META-INF/**,!rootdoc.txt):"/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/classes.jar"(!META-INF/**,!rootdoc.txt):"/home/senrsl/.android/sbt/exploded-aars/com.android.support-support-vector-drawable-25.2.0/classes.jar"(!META-INF/**,!rootdoc.txt):"/home/senrsl/.android/sbt/exploded-aars/com.android.support-animated-vector-drawable-25.2.0/classes.jar"(!META-INF/**,!rootdoc.txt):"/home/senrsl/.android/sbt/exploded-aars/com.android.support-recyclerview-v7-25.2.0/classes.jar"(!META-INF/**,!rootdoc.txt):"/home/senrsl/.android/sbt/exploded-aars/com.android.support-preference-v7-25.2.0/classes.jar"(!META-INF/**,!rootdoc.txt):"/home/senrsl/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.9.jar"(!META-INF/**,!rootdoc.txt):"/home/senrsl/.ivy2/cache/com.j256.ormlite/ormlite-android/jars/ormlite-android-5.0.jar"(!META-INF/**,!rootdoc.txt):"/home/senrsl/.ivy2/cache/com.j256.ormlite/ormlite-core/jars/ormlite-core-5.0.jar"(!META-INF/**,!rootdoc.txt):"/home/senrsl/android/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"(!META-INF/**,!rootdoc.txt):"/home/senrsl/.ivy2/cache/com.squareup.okhttp3/okhttp/jars/okhttp-3.6.0.jar"(!META-INF/**,!rootdoc.txt):"/home/senrsl/.ivy2/cache/com.squareup.okio/okio/jars/okio-1.11.0.jar"(!META-INF/**,!rootdoc.txt):"/home/senrsl/.ivy2/cache/net.jcip/jcip-annotations/jars/jcip-annotations-1.0.jar"(!META-INF/**,!rootdoc.txt):"/home/senrsl/.ivy2/cache/dnsjava/dnsjava/jars/dnsjava-2.1.8.jar"(!META-INF/**,!rootdoc.txt):"/home/senrsl/.ivy2/cache/net.glxn.qrgen/android/jars/android-2.0.jar"(!META-INF/**,!rootdoc.txt):"/home/senrsl/.ivy2/cache/net.glxn.qrgen/core/jars/core-2.0.jar"(!META-INF/**,!rootdoc.txt):"/home/senrsl/.ivy2/cache/com.google.zxing/core/jars/core-3.1.0.jar"(!META-INF/**,!rootdoc.txt):"/home/senrsl/test/temp/ss/shadowsocks-android/mobile/target/android/intermediates/classes.jar"(!META-INF/**,!rootdoc.txt)[0m
+[0m[[0mdebug[0m] [0m-outjars "/home/senrsl/test/temp/ss/shadowsocks-android/mobile/target/android/intermediates/proguard/classes.proguard.jar"[0m

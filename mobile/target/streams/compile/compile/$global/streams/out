@@ -1,0 +1,30 @@
+[0m[[31merror[0m] [0m[NewApi] target/scala-2.11/classes/com/github/shadowsocks/QuickToggleShortcut.class:Class requires API level 25 (current min is 19): android.content.pm.ShortcutManager[0m
+[0m[[31merror[0m] [0m[NewApi] target/scala-2.11/classes/com/github/shadowsocks/ShadowsocksApplication.class:Call requires API level 21 (current min is 19): java.util.Locale#getScript[0m
+[0m[[31merror[0m] [0m[NewApi] target/scala-2.11/classes/com/github/shadowsocks/ShadowsocksApplication.class:Call requires API level 21 (current min is 19): java.util.Locale#toLanguageTag[0m
+[0m[[31merror[0m] [0m[NewApi] target/scala-2.11/classes/com/github/shadowsocks/ShadowsocksVpnService$$anonfun$startVpn$2.class:Call requires API level 21 (current min is 19): android.net.VpnService.Builder#addAllowedApplication[0m
+[0m[[31merror[0m] [0m[NewApi] target/scala-2.11/classes/com/github/shadowsocks/ShadowsocksVpnService$$anonfun$startVpn$2.class:Call requires API level 21 (current min is 19): android.net.VpnService.Builder#addDisallowedApplication[0m
+[0m[[33mwarn[0m] [0m[UnusedAttribute] src/main/AndroidManifest.xml:24:Attribute banner is only used in API level 21 and higher (current min is 19)[0m
+[0m[[33mwarn[0m] [0m            android:banner="@drawable/ic_start_connected">[0m
+[0m[[33mwarn[0m] [0m            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[0m[[33mwarn[0m] [0m[UnusedAttribute] src/main/res/layout/layout_apps.xml:13:Attribute elevation is only used in API level 21 and higher (current min is 19)[0m
+[0m[[33mwarn[0m] [0m                android:elevation="1dp"[0m
+[0m[[33mwarn[0m] [0m                ~~~~~~~~~~~~~~~~~~~~~~~[0m
+[0m[[33mwarn[0m] [0m[UnusedAttribute] src/main/res/layout/layout_main.xml:13:Attribute elevation is only used in API level 21 and higher (current min is 19)[0m
+[0m[[33mwarn[0m] [0m                  android:elevation="4dp"[0m
+[0m[[33mwarn[0m] [0m                  ~~~~~~~~~~~~~~~~~~~~~~~[0m
+[0m[[33mwarn[0m] [0m[UnusedAttribute] src/main/res/layout/layout_main.xml:73:Attribute elevation is only used in API level 21 and higher (current min is 19)[0m
+[0m[[33mwarn[0m] [0m                                                   android:elevation="6dp"[0m
+[0m[[33mwarn[0m] [0m                                                   ~~~~~~~~~~~~~~~~~~~~~~~[0m
+[0m[[33mwarn[0m] [0m[UnusedAttribute] src/main/res/layout/layout_tasker.xml:9:Attribute elevation is only used in API level 21 and higher (current min is 19)[0m
+[0m[[33mwarn[0m] [0m                 android:elevation="1dp"[0m
+[0m[[33mwarn[0m] [0m                 ~~~~~~~~~~~~~~~~~~~~~~~[0m
+[0m[[33mwarn[0m] [0m[UnusedAttribute] src/main/res/xml/shortcuts.xml:3:Attribute shortcutId is only used in API level 25 and higher (current min is 19)[0m
+[0m[[33mwarn[0m] [0m    <shortcut android:shortcutId="toggle"[0m
+[0m[[33mwarn[0m] [0m              ~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[0m[[33mwarn[0m] [0m[UnusedAttribute] src/main/res/xml/shortcuts.xml:5:Attribute shortcutShortLabel is only used in API level 25 and higher (current min is 19)[0m
+[0m[[33mwarn[0m] [0m              android:shortcutShortLabel="@string/quick_toggle"[0m
+[0m[[33mwarn[0m] [0m              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[0m[[33mwarn[0m] [0m[UnusedAttribute] src/main/res/xml/shortcuts.xml:6:Attribute shortcutLongLabel is only used in API level 25 and higher (current min is 19)[0m
+[0m[[33mwarn[0m] [0m              android:shortcutLongLabel="@string/quick_toggle">[0m
+[0m[[33mwarn[0m] [0m              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[0m[[31merror[0m] [0mlint found 5 errors, 8 warnings[0m

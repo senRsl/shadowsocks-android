@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/mobile/target/android/intermediates/res/xml/tracker.xml",
+        "source": "/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/res/xml/tracker.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/mobile/target/android/intermediates/res/xml/pref_profile.xml",
+        "source": "/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/res/xml/pref_profile.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/mobile/target/android/intermediates/res/xml/shortcuts.xml",
+        "source": "/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/res/xml/shortcuts.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/mobile/target/android/intermediates/res/xml/pref_global.xml",
+        "source": "/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/res/xml/pref_global.xml"
+    }
+]

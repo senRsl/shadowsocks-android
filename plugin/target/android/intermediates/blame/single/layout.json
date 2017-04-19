@@ -1,0 +1,198 @@
+[
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout/select_dialog_multichoice_material.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout/abc_list_menu_item_radio.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout/abc_alert_dialog_title_material.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/layout/abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout/preference_recyclerview.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-preference-v7-25.2.0/res/layout/preference_recyclerview.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout/notification_template_part_time.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout/abc_action_mode_bar.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout/abc_screen_content_include.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout/notification_template_icon_group.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout/preference_information.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-preference-v7-25.2.0/res/layout/preference_information.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout/notification_action.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout/abc_select_dialog_material.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout/abc_list_menu_item_icon.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout/preference_widget_seekbar.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-preference-v7-25.2.0/res/layout/preference_widget_seekbar.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout/notification_template_lines_media.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/layout/notification_template_lines_media.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout/preference_widget_switch.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-preference-v14-25.2.0/res/layout/preference_widget_switch.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout/notification_action_tombstone.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout/abc_action_mode_close_item_material.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout/select_dialog_item_material.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout/abc_action_bar_up_container.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout/notification_template_media.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout/select_dialog_singlechoice_material.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout/abc_screen_simple.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout/abc_alert_dialog_material.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout/abc_popup_menu_item_layout.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout/abc_action_bar_title_item.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout/abc_search_view.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout/preference_widget_checkbox.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-preference-v7-25.2.0/res/layout/preference_widget_checkbox.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout/preference_category.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-preference-v7-25.2.0/res/layout/preference_category.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout/abc_expanded_menu_layout.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout/preference_dialog_edittext.xml",
+        "source": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/src/main/res/layout/preference_dialog_edittext.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout/abc_list_menu_item_layout.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout/preference_list_fragment.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-preference-v7-25.2.0/res/layout/preference_list_fragment.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout/abc_dialog_title_material.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout/abc_popup_menu_header_item_layout.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/layout/abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout/abc_action_menu_layout.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout/abc_activity_chooser_view.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout/toolbar_light_dark.xml",
+        "source": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/src/main/res/layout/toolbar_light_dark.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout/abc_screen_toolbar.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout/notification_template_part_chronometer.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout/preference_widget_switch_compat.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-preference-v7-25.2.0/res/layout/preference_widget_switch_compat.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout/notification_template_media_custom.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/layout/notification_template_media_custom.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout/abc_action_menu_item_layout.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/layout/abc_action_menu_item_layout.xml"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/mobile/target/android/intermediates/res/menu/profile_manager_menu.xml",
+        "source": "/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/res/menu/profile_manager_menu.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/mobile/target/android/intermediates/res/menu/app_manager_menu.xml",
+        "source": "/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/res/menu/app_manager_menu.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/mobile/target/android/intermediates/res/menu/profile_config_menu.xml",
+        "source": "/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/res/menu/profile_config_menu.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/mobile/target/android/intermediates/res/menu/profile_share_popup.xml",
+        "source": "/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/res/menu/profile_share_popup.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/mobile/target/android/intermediates/res/menu/custom_rules_menu.xml",
+        "source": "/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/res/menu/custom_rules_menu.xml"
+    }
+]

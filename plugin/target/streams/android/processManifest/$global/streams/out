@@ -1,0 +1,27 @@
+[0m[[0mdebug[0m] [0mMerging main manifest /home/senrsl/test/temp/ss/shadowsocks-android/plugin/src/main/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mMerging result:SUCCESS[0m
+[0m[[0mdebug[0m] [0m1<?xml version="1.0" encoding="utf-8"?>[0m
+[0m[[0mdebug[0m] [0m2<manifest xmlns:android="http://schemas.android.com/apk/res/android"[0m
+[0m[[0mdebug[0m] [0m3    package="com.github.shadowsocks.plugin"[0m
+[0m[[0mdebug[0m] [0m4    android:versionName="0.0.3" >[0m
+[0m[[0mdebug[0m] [0m5[0m
+[0m[[0mdebug[0m] [0m6    <uses-sdk[0m
+[0m[[0mdebug[0m] [0m6-->/home/senrsl/test/temp/ss/shadowsocks-android/plugin/src/main/AndroidManifest.xml:3:5-5:44[0m
+[0m[[0mdebug[0m] [0m7        android:minSdkVersion="19"[0m
+[0m[[0mdebug[0m] [0m7-->/home/senrsl/test/temp/ss/shadowsocks-android/plugin/src/main/AndroidManifest.xml:4:13-39[0m
+[0m[[0mdebug[0m] [0m8        android:targetSdkVersion="25" />[0m
+[0m[[0mdebug[0m] [0m8-->/home/senrsl/test/temp/ss/shadowsocks-android/plugin/src/main/AndroidManifest.xml:5:13-42[0m
+[0m[[0mdebug[0m] [0m9[0m
+[0m[[0mdebug[0m] [0m10    <application android:theme="@style/Theme.Shadowsocks" >[0m
+[0m[[0mdebug[0m] [0m10-->/home/senrsl/test/temp/ss/shadowsocks-android/plugin/src/main/AndroidManifest.xml:6:5-10:19[0m
+[0m[[0mdebug[0m] [0m10-->/home/senrsl/test/temp/ss/shadowsocks-android/plugin/src/main/AndroidManifest.xml:7:13-53[0m
+[0m[[0mdebug[0m] [0m11        <meta-data[0m
+[0m[[0mdebug[0m] [0m11-->/home/senrsl/test/temp/ss/shadowsocks-android/plugin/src/main/AndroidManifest.xml:8:9-9:43[0m
+[0m[[0mdebug[0m] [0m12            android:name="com.github.shadowsocks.plugin.version"[0m
+[0m[[0mdebug[0m] [0m12-->/home/senrsl/test/temp/ss/shadowsocks-android/plugin/src/main/AndroidManifest.xml:8:20-72[0m
+[0m[[0mdebug[0m] [0m13            android:value="0.0.2" />[0m
+[0m[[0mdebug[0m] [0m13-->/home/senrsl/test/temp/ss/shadowsocks-android/plugin/src/main/AndroidManifest.xml:9:20-41[0m
+[0m[[0mdebug[0m] [0m14    </application>[0m
+[0m[[0mdebug[0m] [0m15[0m
+[0m[[0mdebug[0m] [0m16</manifest>[0m
+[0m[[0mdebug[0m] [0mMerged manifest saved to /home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/manifest/AndroidManifest.xml[0m

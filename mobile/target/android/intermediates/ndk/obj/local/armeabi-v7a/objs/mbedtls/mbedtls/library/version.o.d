@@ -1,0 +1,11 @@
+/home/senrsl/test/temp/ss/shadowsocks-android/mobile/target/android/intermediates/ndk/obj/local/armeabi-v7a/objs/mbedtls/mbedtls/library/version.o: \
+  /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/jni/../jni/mbedtls/library/version.c \
+  /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/jni/../jni/mbedtls/include/mbedtls/config.h \
+  /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/jni/../jni/mbedtls/include/mbedtls/check_config.h \
+  /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/jni/../jni/mbedtls/include/mbedtls/version.h
+
+/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/jni/../jni/mbedtls/include/mbedtls/config.h:
+
+/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/jni/../jni/mbedtls/include/mbedtls/check_config.h:
+
+/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/jni/../jni/mbedtls/include/mbedtls/version.h:

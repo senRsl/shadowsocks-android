@@ -1,0 +1,504 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:1:1-154:12
+	package
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:2:58-81
+		INJECTED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml
+		INJECTED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml
+		INJECTED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:2:11-57
+	xmlns:android
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:1:11-69
+	android:versionCode
+		INJECTED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml
+		INJECTED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:4:5-66
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-lite-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-lite-10.2.1/AndroidManifest.xml:19:5-66
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-analytics-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-analytics-10.2.1/AndroidManifest.xml:20:5-66
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-analytics-impl-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-analytics-impl-10.2.1/AndroidManifest.xml:20:5-66
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-gcm-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-gcm-10.2.1/AndroidManifest.xml:21:5-66
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-iid-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-iid-10.2.1/AndroidManifest.xml:21:5-66
+	android:name
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:5:5-80
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:5:22-78
+uses-permission#android.permission.NFC
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:6:5-62
+	android:name
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:6:22-59
+uses-feature#android.hardware.touchscreen
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:8:5-9:45
+	android:required
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:9:19-43
+	android:name
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:8:19-62
+uses-feature#android.hardware.nfc
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:10:5-11:45
+	android:required
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:11:19-43
+	android:name
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:10:19-54
+uses-feature#android.software.leanback
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:12:5-13:45
+	android:required
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:13:19-43
+	android:name
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:12:19-59
+uses-sdk
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:15:5-17:44
+MERGED from [/home/senrsl/test/temp/ss/shadowsocks-android/plugin] /home/senrsl/test/temp/ss/shadowsocks-android/plugin/src/main/AndroidManifest.xml:3:5-5:44
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.android.support-support-v4-25.2.0] /home/senrsl/.android/sbt/exploded-aars/com.android.support-support-v4-25.2.0/AndroidManifest.xml:21:5-23:54
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.android.support-preference-v7-25.2.0] /home/senrsl/.android/sbt/exploded-aars/com.android.support-preference-v7-25.2.0/AndroidManifest.xml:7:5-43
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0] /home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/AndroidManifest.xml:21:5-23:78
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.android.support-support-core-utils-25.2.0] /home/senrsl/.android/sbt/exploded-aars/com.android.support-support-core-utils-25.2.0/AndroidManifest.xml:21:5-23:61
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.android.support-recyclerview-v7-25.2.0] /home/senrsl/.android/sbt/exploded-aars/com.android.support-recyclerview-v7-25.2.0/AndroidManifest.xml:20:5-43
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.android.support-support-vector-drawable-25.2.0] /home/senrsl/.android/sbt/exploded-aars/com.android.support-support-vector-drawable-25.2.0/AndroidManifest.xml:21:5-43
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.android.support-animated-vector-drawable-25.2.0] /home/senrsl/.android/sbt/exploded-aars/com.android.support-animated-vector-drawable-25.2.0/AndroidManifest.xml:20:5-44
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.android.support-support-fragment-25.2.0] /home/senrsl/.android/sbt/exploded-aars/com.android.support-support-fragment-25.2.0/AndroidManifest.xml:21:5-23:60
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.android.support-support-core-ui-25.2.0] /home/senrsl/.android/sbt/exploded-aars/com.android.support-support-core-ui-25.2.0/AndroidManifest.xml:21:5-23:58
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.android.support-support-media-compat-25.2.0] /home/senrsl/.android/sbt/exploded-aars/com.android.support-support-media-compat-25.2.0/AndroidManifest.xml:21:5-23:63
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.android.support-support-compat-25.2.0] /home/senrsl/.android/sbt/exploded-aars/com.android.support-support-compat-25.2.0/AndroidManifest.xml:21:5-23:58
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.android.support-preference-v14-25.2.0] /home/senrsl/.android/sbt/exploded-aars/com.android.support-preference-v14-25.2.0/AndroidManifest.xml:7:5-44
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.android.support-cardview-v7-25.2.0] /home/senrsl/.android/sbt/exploded-aars/com.android.support-cardview-v7-25.2.0/AndroidManifest.xml:20:5-43
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.android.support-customtabs-25.2.0] /home/senrsl/.android/sbt/exploded-aars/com.android.support-customtabs-25.2.0/AndroidManifest.xml:20:5-44
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.android.support-gridlayout-v7-25.2.0] /home/senrsl/.android/sbt/exploded-aars/com.android.support-gridlayout-v7-25.2.0/AndroidManifest.xml:20:5-43
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.futuremind.recyclerfastscroll-fastscroll-0.2.5] /home/senrsl/.android/sbt/exploded-aars/com.futuremind.recyclerfastscroll-fastscroll-0.2.5/AndroidManifest.xml:7:5-9:41
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:8:5-10:41
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/net.vrallev.android-cat-1.0.5] /home/senrsl/.android/sbt/exploded-aars/net.vrallev.android-cat-1.0.5/AndroidManifest.xml:7:5-9:41
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.github.jorgecastilloprz-fabprogresscircle-1.01] /home/senrsl/.android/sbt/exploded-aars/com.github.jorgecastilloprz-fabprogresscircle-1.01/AndroidManifest.xml:7:5-9:41
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.mikepenz-crossfader-1.5.0] /home/senrsl/.android/sbt/exploded-aars/com.mikepenz-crossfader-1.5.0/AndroidManifest.xml:8:5-10:41
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.mikepenz-fastadapter-2.5.0] /home/senrsl/.android/sbt/exploded-aars/com.mikepenz-fastadapter-2.5.0/AndroidManifest.xml:8:5-10:41
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.mikepenz-iconics-core-2.8.2] /home/senrsl/.android/sbt/exploded-aars/com.mikepenz-iconics-core-2.8.2/AndroidManifest.xml:8:5-10:41
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.mikepenz-materialdrawer-5.9.0] /home/senrsl/.android/sbt/exploded-aars/com.mikepenz-materialdrawer-5.9.0/AndroidManifest.xml:8:5-10:41
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.android.support-design-25.3.1] /home/senrsl/.android/sbt/exploded-aars/com.android.support-design-25.3.1/AndroidManifest.xml:21:5-23:62
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.android.support-transition-25.3.1] /home/senrsl/.android/sbt/exploded-aars/com.android.support-transition-25.3.1/AndroidManifest.xml:20:5-44
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.mikepenz-materialize-1.0.1] /home/senrsl/.android/sbt/exploded-aars/com.mikepenz-materialize-1.0.1/AndroidManifest.xml:8:5-10:41
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.twofortyfouram-android-plugin-api-for-locale-1.0.2] /home/senrsl/.android/sbt/exploded-aars/com.twofortyfouram-android-plugin-api-for-locale-1.0.2/AndroidManifest.xml:8:5-10:41
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/eu.chainfire-libsuperuser-1.0.0.201704021214] /home/senrsl/.android/sbt/exploded-aars/eu.chainfire-libsuperuser-1.0.0.201704021214/AndroidManifest.xml:7:5-9:41
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-10.2.1/AndroidManifest.xml:17:5-43
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-lite-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-lite-10.2.1/AndroidManifest.xml:22:5-43
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-basement-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-basement-10.2.1/AndroidManifest.xml:17:5-43
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-base-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-base-10.2.1/AndroidManifest.xml:17:5-43
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-tasks-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-tasks-10.2.1/AndroidManifest.xml:3:5-43
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-clearcut-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-clearcut-10.2.1/AndroidManifest.xml:17:5-43
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-gass-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-gass-10.2.1/AndroidManifest.xml:3:5-43
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-analytics-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-analytics-10.2.1/AndroidManifest.xml:17:5-43
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-analytics-impl-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-analytics-impl-10.2.1/AndroidManifest.xml:17:5-43
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-tagmanager-v4-impl-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-tagmanager-v4-impl-10.2.1/AndroidManifest.xml:17:5-43
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-gcm-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-gcm-10.2.1/AndroidManifest.xml:17:5-43
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-iid-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-iid-10.2.1/AndroidManifest.xml:17:5-43
+	tools:overrideLibrary
+		ADDED from [/home/senrsl/.android/sbt/exploded-aars/com.android.support-support-v4-25.2.0] /home/senrsl/.android/sbt/exploded-aars/com.android.support-support-v4-25.2.0/AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:17:13-42
+		INJECTED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml
+		INJECTED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:16:13-39
+		INJECTED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml
+		INJECTED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml
+application
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:19:5-152:19
+MERGED from [/home/senrsl/test/temp/ss/shadowsocks-android/plugin] /home/senrsl/test/temp/ss/shadowsocks-android/plugin/src/main/AndroidManifest.xml:6:5-10:19
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.android.support-support-v4-25.2.0] /home/senrsl/.android/sbt/exploded-aars/com.android.support-support-v4-25.2.0/AndroidManifest.xml:25:5-20
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.android.support-preference-v7-25.2.0] /home/senrsl/.android/sbt/exploded-aars/com.android.support-preference-v7-25.2.0/AndroidManifest.xml:9:5-20
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0] /home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/AndroidManifest.xml:25:5-20
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.android.support-support-core-utils-25.2.0] /home/senrsl/.android/sbt/exploded-aars/com.android.support-support-core-utils-25.2.0/AndroidManifest.xml:25:5-20
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.android.support-support-vector-drawable-25.2.0] /home/senrsl/.android/sbt/exploded-aars/com.android.support-support-vector-drawable-25.2.0/AndroidManifest.xml:23:5-20
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.android.support-animated-vector-drawable-25.2.0] /home/senrsl/.android/sbt/exploded-aars/com.android.support-animated-vector-drawable-25.2.0/AndroidManifest.xml:22:5-20
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.android.support-support-fragment-25.2.0] /home/senrsl/.android/sbt/exploded-aars/com.android.support-support-fragment-25.2.0/AndroidManifest.xml:25:5-20
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.android.support-support-core-ui-25.2.0] /home/senrsl/.android/sbt/exploded-aars/com.android.support-support-core-ui-25.2.0/AndroidManifest.xml:25:5-20
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.android.support-support-media-compat-25.2.0] /home/senrsl/.android/sbt/exploded-aars/com.android.support-support-media-compat-25.2.0/AndroidManifest.xml:25:5-20
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.android.support-support-compat-25.2.0] /home/senrsl/.android/sbt/exploded-aars/com.android.support-support-compat-25.2.0/AndroidManifest.xml:25:5-20
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.android.support-preference-v14-25.2.0] /home/senrsl/.android/sbt/exploded-aars/com.android.support-preference-v14-25.2.0/AndroidManifest.xml:9:5-20
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.android.support-cardview-v7-25.2.0] /home/senrsl/.android/sbt/exploded-aars/com.android.support-cardview-v7-25.2.0/AndroidManifest.xml:22:5-20
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.android.support-customtabs-25.2.0] /home/senrsl/.android/sbt/exploded-aars/com.android.support-customtabs-25.2.0/AndroidManifest.xml:22:5-20
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.android.support-gridlayout-v7-25.2.0] /home/senrsl/.android/sbt/exploded-aars/com.android.support-gridlayout-v7-25.2.0/AndroidManifest.xml:22:5-20
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.futuremind.recyclerfastscroll-fastscroll-0.2.5] /home/senrsl/.android/sbt/exploded-aars/com.futuremind.recyclerfastscroll-fastscroll-0.2.5/AndroidManifest.xml:11:5-20
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:16:5-58:19
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.github.jorgecastilloprz-fabprogresscircle-1.01] /home/senrsl/.android/sbt/exploded-aars/com.github.jorgecastilloprz-fabprogresscircle-1.01/AndroidManifest.xml:11:5-14:19
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.android.support-design-25.3.1] /home/senrsl/.android/sbt/exploded-aars/com.android.support-design-25.3.1/AndroidManifest.xml:29:5-20
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.android.support-transition-25.3.1] /home/senrsl/.android/sbt/exploded-aars/com.android.support-transition-25.3.1/AndroidManifest.xml:26:5-20
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.twofortyfouram-android-plugin-api-for-locale-1.0.2] /home/senrsl/.android/sbt/exploded-aars/com.twofortyfouram-android-plugin-api-for-locale-1.0.2/AndroidManifest.xml:12:5-20
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-lite-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-lite-10.2.1/AndroidManifest.xml:23:5-27:19
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-basement-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-basement-10.2.1/AndroidManifest.xml:19:5-21:19
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-base-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-base-10.2.1/AndroidManifest.xml:18:5-20:19
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-tasks-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-tasks-10.2.1/AndroidManifest.xml:4:5-19
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-clearcut-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-clearcut-10.2.1/AndroidManifest.xml:18:5-19
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-gass-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-gass-10.2.1/AndroidManifest.xml:4:5-19
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-analytics-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-analytics-10.2.1/AndroidManifest.xml:26:5-19
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-analytics-impl-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-analytics-impl-10.2.1/AndroidManifest.xml:26:5-19
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-tagmanager-v4-impl-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-tagmanager-v4-impl-10.2.1/AndroidManifest.xml:19:5-19
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-gcm-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-gcm-10.2.1/AndroidManifest.xml:23:5-19
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-iid-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-iid-10.2.1/AndroidManifest.xml:23:5-19
+	android:backupAgent
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:22:13-80
+	android:label
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:23:13-45
+	tools:ignore
+		ADDED from [/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:16:18-44
+	android:icon
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:21:13-47
+	android:allowBackup
+		ADDED from [/home/senrsl/.android/sbt/exploded-aars/com.github.jorgecastilloprz-fabprogresscircle-1.01] /home/senrsl/.android/sbt/exploded-aars/com.github.jorgecastilloprz-fabprogresscircle-1.01/AndroidManifest.xml:12:9-35
+	android:banner
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:24:13-58
+	android:theme
+		ADDED from [/home/senrsl/test/temp/ss/shadowsocks-android/plugin] /home/senrsl/test/temp/ss/shadowsocks-android/plugin/src/main/AndroidManifest.xml:7:13-53
+	android:name
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:20:13-73
+meta-data#com.google.android.gms.version
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:26:9-27:75
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-basement-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-basement-10.2.1/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:27:20-73
+	android:name
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:26:20-65
+activity#com.github.shadowsocks.MainActivity
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:29:9-54:20
+	android:label
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:31:17-49
+	android:launchMode
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:32:17-48
+	android:name
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:30:17-67
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER+android.intent.category.LEANBACK_LAUNCHER
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:33:13-37:29
+action#android.intent.action.MAIN
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:34:17-68
+	android:name
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:34:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:35:17-76
+	android:name
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:35:27-74
+category#android.intent.category.LEANBACK_LAUNCHER
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:36:17-85
+	android:name
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:36:27-83
+intent-filter#android.service.quicksettings.action.QS_TILE_PREFERENCES
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:38:13-40:29
+action#android.service.quicksettings.action.QS_TILE_PREFERENCES
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:39:17-99
+	android:name
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:39:25-96
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:41:13-46:29
+action#android.intent.action.VIEW
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:42:17-68
+	android:name
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:42:25-66
+category#android.intent.category.DEFAULT
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:43:17-75
+	android:name
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:43:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:44:17-77
+	android:name
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:44:27-75
+data
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:45:17-44
+	android:scheme
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:45:23-42
+intent-filter#android.intent.category.DEFAULT+android.nfc.action.NDEF_DISCOVERED
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:47:13-51:29
+action#android.nfc.action.NDEF_DISCOVERED
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:48:17-76
+	android:name
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:48:25-74
+meta-data#android.app.shortcuts
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:52:13-53:59
+	android:resource
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:53:24-57
+	android:name
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:52:24-60
+activity#com.github.shadowsocks.ProfileConfigActivity
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:56:9-60:50
+	android:label
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:59:17-55
+	android:excludeFromRecents
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:58:17-50
+	android:launchMode
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:60:17-48
+	android:name
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:57:17-76
+activity#com.github.shadowsocks.ShadowsocksRunnerActivity
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:62:9-67:50
+	android:excludeFromRecents
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:65:17-50
+	android:launchMode
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:67:17-48
+	android:theme
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:64:17-76
+	android:taskAffinity
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:66:11-34
+	android:name
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:63:17-80
+activity#com.github.shadowsocks.AppManager
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:69:9-74:50
+	android:label
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:71:17-53
+	android:parentActivityName
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:72:17-68
+	android:excludeFromRecents
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:73:17-50
+	android:launchMode
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:74:17-48
+	android:name
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:70:17-65
+activity#com.github.shadowsocks.TaskerActivity
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:76:9-81:20
+	android:icon
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:77:19-53
+	android:name
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:76:19-71
+intent-filter#com.twofortyfouram.locale.intent.action.EDIT_SETTING
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:78:13-80:29
+action#com.twofortyfouram.locale.intent.action.EDIT_SETTING
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:79:17-95
+	android:name
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:79:25-92
+activity#com.github.shadowsocks.QuickToggleShortcut
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:83:9-93:20
+	android:label
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:85:17-53
+	android:excludeFromRecents
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:87:17-50
+	android:launchMode
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:89:17-48
+	android:theme
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:86:17-76
+	android:taskAffinity
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:88:3-26
+	android:name
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:84:17-74
+intent-filter#android.intent.action.CREATE_SHORTCUT
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:90:13-92:29
+action#android.intent.action.CREATE_SHORTCUT
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:91:17-80
+	android:name
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:91:25-77
+service#com.github.shadowsocks.ShadowsocksRunnerService
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:95:9-98:19
+	android:exported
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:97:17-41
+	android:name
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:96:17-79
+service#com.github.shadowsocks.ShadowsocksNatService
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:100:9-104:19
+	android:process
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:102:17-38
+	android:exported
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:103:17-41
+	android:name
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:101:17-76
+service#com.github.shadowsocks.ShadowsocksVpnService
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:106:9-115:19
+	android:process
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:108:17-38
+	android:label
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:109:17-49
+	android:exported
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:111:17-41
+	android:permission
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:110:17-73
+	android:name
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:107:17-76
+intent-filter#android.net.VpnService
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:112:13-114:29
+action#android.net.VpnService
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:113:17-64
+	android:name
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:113:25-62
+service#com.github.shadowsocks.ShadowsocksTileService
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:117:9-124:19
+	android:process
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:118:18-39
+	android:label
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:117:79-115
+	android:permission
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:120:18-82
+	android:icon
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:119:18-61
+	android:name
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:117:18-78
+intent-filter#android.service.quicksettings.action.QS_TILE
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:121:13-123:29
+action#android.service.quicksettings.action.QS_TILE
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:122:17-87
+	android:name
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:122:25-84
+receiver#com.github.shadowsocks.BootReceiver
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:126:9-130:20
+	android:enabled
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:126:70-93
+	android:name
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:126:19-69
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:127:13-129:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:128:17-78
+	android:name
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:128:25-76
+receiver#com.github.shadowsocks.TaskerReceiver
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:132:9-136:20
+	tools:ignore
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:132:72-103
+	android:name
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:132:19-71
+intent-filter#com.twofortyfouram.locale.intent.action.FIRE_SETTING
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:133:13-135:29
+action#com.twofortyfouram.locale.intent.action.FIRE_SETTING
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:134:17-94
+	android:name
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:134:25-92
+service#com.evernote.android.job.v21.PlatformJobService
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:139:9-140:41
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:17:9-20:72
+	android:process
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:140:18-39
+	android:exported
+		ADDED from [/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:19:13-37
+	android:permission
+		ADDED from [/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:20:13-69
+	android:name
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:139:18-80
+service#com.evernote.android.job.v14.PlatformAlarmService
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:141:9-142:41
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:21:9-23:40
+	android:process
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:142:18-39
+	android:exported
+		ADDED from [/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:23:13-37
+	android:name
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:141:18-82
+service#com.evernote.android.job.gcm.PlatformGcmService
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:143:9-144:41
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:46:9-54:19
+	android:process
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:144:18-39
+	android:enabled
+		ADDED from [/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:48:13-36
+	android:exported
+		ADDED from [/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:49:13-36
+	android:permission
+		ADDED from [/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:50:13-93
+	android:name
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:143:18-80
+service#com.evernote.android.job.JobRescheduleService
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:145:9-146:41
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:55:9-57:40
+	android:process
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:146:18-39
+	android:exported
+		ADDED from [/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:57:13-37
+	android:name
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:145:18-78
+receiver#com.evernote.android.job.v14.PlatformAlarmReceiver
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:147:9-148:42
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:25:9-34:20
+	android:process
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:148:19-40
+	android:exported
+		ADDED from [/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:147:19-84
+receiver#com.evernote.android.job.JobBootReceiver
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:149:9-150:42
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:35:9-44:20
+	android:process
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:150:19-40
+	android:exported
+		ADDED from [/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:37:13-37
+	android:name
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:149:19-74
+meta-data#com.github.shadowsocks.plugin.version
+ADDED from [/home/senrsl/test/temp/ss/shadowsocks-android/plugin] /home/senrsl/test/temp/ss/shadowsocks-android/plugin/src/main/AndroidManifest.xml:8:9-9:43
+	android:value
+		ADDED from [/home/senrsl/test/temp/ss/shadowsocks-android/plugin] /home/senrsl/test/temp/ss/shadowsocks-android/plugin/src/main/AndroidManifest.xml:9:20-41
+	android:name
+		ADDED from [/home/senrsl/test/temp/ss/shadowsocks-android/plugin] /home/senrsl/test/temp/ss/shadowsocks-android/plugin/src/main/AndroidManifest.xml:8:20-72
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:12:5-68
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-analytics-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-analytics-10.2.1/AndroidManifest.xml:24:5-67
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-analytics-impl-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-analytics-impl-10.2.1/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from [/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:12:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:13:5-79
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-lite-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-lite-10.2.1/AndroidManifest.xml:20:5-78
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-analytics-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-analytics-10.2.1/AndroidManifest.xml:21:5-78
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-analytics-impl-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-analytics-impl-10.2.1/AndroidManifest.xml:21:5-78
+	android:name
+		ADDED from [/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:13:22-76
+intent-filter#com.evernote.android.job.v14.RUN_JOB+net.vrallev.android.job.v14.RUN_JOB
+ADDED from [/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:28:13-33:29
+action#com.evernote.android.job.v14.RUN_JOB
+ADDED from [/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:31:17-79
+	android:name
+		ADDED from [/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:31:25-76
+action#net.vrallev.android.job.v14.RUN_JOB
+ADDED from [/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:32:17-78
+	android:name
+		ADDED from [/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:32:25-75
+intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.action.MY_PACKAGE_REPLACED+android.intent.action.QUICKBOOT_POWERON+com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from [/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:38:13-43:29
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from [/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:40:17-82
+	android:name
+		ADDED from [/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:40:25-79
+action#com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from [/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:41:17-82
+	android:name
+		ADDED from [/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:41:25-79
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:42:17-84
+	android:name
+		ADDED from [/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:42:25-81
+intent-filter#com.google.android.gms.gcm.ACTION_TASK_READY
+ADDED from [/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:51:13-53:29
+action#com.google.android.gms.gcm.ACTION_TASK_READY
+ADDED from [/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:52:17-87
+	android:name
+		ADDED from [/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:52:25-84
+meta-data#android.support.VERSION
+ADDED from [/home/senrsl/.android/sbt/exploded-aars/com.android.support-design-25.3.1] /home/senrsl/.android/sbt/exploded-aars/com.android.support-design-25.3.1/AndroidManifest.xml:25:5-27:34
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.android.support-transition-25.3.1] /home/senrsl/.android/sbt/exploded-aars/com.android.support-transition-25.3.1/AndroidManifest.xml:22:5-24:34
+	android:value
+		ADDED from [/home/senrsl/.android/sbt/exploded-aars/com.android.support-design-25.3.1] /home/senrsl/.android/sbt/exploded-aars/com.android.support-design-25.3.1/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [/home/senrsl/.android/sbt/exploded-aars/com.android.support-design-25.3.1] /home/senrsl/.android/sbt/exploded-aars/com.android.support-design-25.3.1/AndroidManifest.xml:26:9-47
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-lite-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-lite-10.2.1/AndroidManifest.xml:25:9-232
+	android:configChanges
+		ADDED from [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-lite-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-lite-10.2.1/AndroidManifest.xml:25:72-181
+	android:theme
+		ADDED from [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-lite-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-lite-10.2.1/AndroidManifest.xml:25:182-230
+	android:name
+		ADDED from [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-lite-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-lite-10.2.1/AndroidManifest.xml:25:19-71
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-lite-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-lite-10.2.1/AndroidManifest.xml:26:9-131
+	android:theme
+		ADDED from [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-lite-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-lite-10.2.1/AndroidManifest.xml:26:92-129
+	android:name
+		ADDED from [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-lite-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-lite-10.2.1/AndroidManifest.xml:26:19-91
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-base-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-base-10.2.1/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-base-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-base-10.2.1/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-base-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-base-10.2.1/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-base-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-base-10.2.1/AndroidManifest.xml:19:19-85
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-gcm-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-gcm-10.2.1/AndroidManifest.xml:20:5-81
+MERGED from [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-iid-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-iid-10.2.1/AndroidManifest.xml:20:5-81
+	android:name
+		ADDED from [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-gcm-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-gcm-10.2.1/AndroidManifest.xml:20:22-79

@@ -4,6 +4,10 @@ function try () {
 "$@" || exit -1
 }
 
+export ANDROID_HOME=~/android/android-sdk-linux
+export ANDROID_NDK_HOME=~/android/android-ndk-r14b
+export GOROOT_BOOTSTRAP=/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/overture/go
+
 [ -z "$ANDROID_NDK_HOME" ] && ANDROID_NDK_HOME=~/android-ndk-r12b
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"

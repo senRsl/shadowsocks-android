@@ -38,9 +38,9 @@ import com.github.shadowsocks.acl.DonaldTrump
 import com.github.shadowsocks.database.{DBHelper, Profile, ProfileManager}
 import com.github.shadowsocks.utils.CloseUtils._
 import com.github.shadowsocks.utils._
-import com.google.android.gms.analytics.{GoogleAnalytics, HitBuilders, StandardExceptionParser, Tracker}
-import com.google.android.gms.common.api.ResultCallback
-import com.google.android.gms.tagmanager.{ContainerHolder, TagManager}
+//import com.google.android.gms.analytics.{GoogleAnalytics, HitBuilders, StandardExceptionParser, Tracker}
+//import com.google.android.gms.common.api.ResultCallback
+//import com.google.android.gms.tagmanager.{ContainerHolder, TagManager}
 import com.j256.ormlite.logger.LocalLog
 import eu.chainfire.libsuperuser.Shell
 
@@ -62,8 +62,8 @@ class ShadowsocksApplication extends Application {
   import ShadowsocksApplication._
 
   final val SIG_FUNC = "getSignature"
-  var containerHolder: ContainerHolder = _
-  lazy val tracker: Tracker = GoogleAnalytics.getInstance(this).newTracker(R.xml.tracker)
+//  var containerHolder: ContainerHolder = _
+//  lazy val tracker: Tracker = GoogleAnalytics.getInstance(this).newTracker(R.xml.tracker)
   lazy val settings: SharedPreferences = PreferenceManager.getDefaultSharedPreferences(this)
   lazy val editor: SharedPreferences.Editor = settings.edit
   lazy val profileManager = new ProfileManager(new DBHelper(this))
@@ -72,7 +72,10 @@ class ShadowsocksApplication extends Application {
   def isVpnEnabled: Boolean = !isNatEnabled
 
   // send event
-  def track(category: String, action: String): Unit = tracker.send(new HitBuilders.EventBuilder()
+def track(category: String, action: String): Unit = {}
+ def track(t: Throwable): Unit ={}
+  /*
+def track(category: String, action: String): Unit = tracker.send(new HitBuilders.EventBuilder()
     .setAction(action)
     .setLabel(BuildConfig.VERSION_NAME)
     .build())
@@ -80,6 +83,7 @@ class ShadowsocksApplication extends Application {
     .setDescription(new StandardExceptionParser(this, null).getDescription(Thread.currentThread.getName, t))
     .setFatal(false)
     .build())
+*/
 
   def profileId: Int = settings.getInt(Key.id, 0)
   def profileId(i: Int): Unit = editor.putInt(Key.id, i).apply()
@@ -149,7 +153,8 @@ class ShadowsocksApplication extends Application {
     if (!BuildConfig.DEBUG) java.lang.System.setProperty(LocalLog.LOCAL_LOG_LEVEL_PROPERTY, "ERROR")
     AppCompatDelegate.setCompatVectorFromResourcesEnabled(true)
     checkChineseLocale(getResources.getConfiguration)
-    val tm = TagManager.getInstance(this)
+ /*
+   val tm = TagManager.getInstance(this)
     val pending = tm.loadContainerPreferNonDefault("GTM-NT8WS8", R.raw.gtm_default_container)
     val callback = new ResultCallback[ContainerHolder] {
       override def onResult(holder: ContainerHolder) {
@@ -167,16 +172,20 @@ class ShadowsocksApplication extends Application {
           })
       }
     }
-    pending.setResultCallback(callback, 2, TimeUnit.SECONDS)
+pending.setResultCallback(callback, 2, TimeUnit.SECONDS)
+*/
+    
     JobManager.create(this).addJobCreator(DonaldTrump)
 
     TcpFastOpen.enabled(settings.getBoolean(Key.tfo, TcpFastOpen.sendEnabled))
   }
 
+
   def refreshContainerHolder() {
-    val holder = app.containerHolder
-    if (holder != null) holder.refresh()
+   // val holder = app.containerHolder
+    //if (holder != null) holder.refresh()
   }
+
 
   def crashRecovery() {
     val cmd = new ArrayBuffer[String]()

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<string name="app_name">"影梭"</string>
+<string name="app_name">"Ss"</string>
 <string name="quick_toggle">"开关"</string>
+
+ <string name="header_title">Ss乱改版</string>
 
 <!-- global/misc category -->
 <string name="misc_cat">"其他"</string>
@@ -71,7 +73,7 @@
 <string name="faq">"常见问题"</string>
 <string name="recovery">"重置"</string>
 <string name="about">"关于"</string>
-<string name="about_title">"影梭 (shadowsocks) %s"</string>
+<string name="about_title">"ss (shadowsocks) %s"</string>
 <string name="edit">"编辑"</string>
 <string name="share">"分享"</string>
 <string name="add_profile">"添加配置文件"</string>

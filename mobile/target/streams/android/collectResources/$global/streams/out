@@ -1,0 +1,789 @@
+[0m[[0mdebug[0m] [0mLoading library manifest /home/senrsl/.android/sbt/exploded-aars/com.android.support-preference-v7-25.2.0/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mLoading library manifest /home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mLoading library manifest /home/senrsl/.android/sbt/exploded-aars/com.android.support-support-core-utils-25.2.0/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mLoading library manifest /home/senrsl/.android/sbt/exploded-aars/com.android.support-recyclerview-v7-25.2.0/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mLoading library manifest /home/senrsl/.android/sbt/exploded-aars/com.android.support-support-vector-drawable-25.2.0/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mLoading library manifest /home/senrsl/.android/sbt/exploded-aars/com.android.support-animated-vector-drawable-25.2.0/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mLoading library manifest /home/senrsl/.android/sbt/exploded-aars/com.android.support-support-fragment-25.2.0/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mLoading library manifest /home/senrsl/.android/sbt/exploded-aars/com.android.support-support-core-ui-25.2.0/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mLoading library manifest /home/senrsl/.android/sbt/exploded-aars/com.android.support-support-media-compat-25.2.0/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mLoading library manifest /home/senrsl/.android/sbt/exploded-aars/com.android.support-support-compat-25.2.0/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mLoading library manifest /home/senrsl/.android/sbt/exploded-aars/com.android.support-preference-v14-25.2.0/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mLoading library manifest /home/senrsl/.android/sbt/exploded-aars/com.android.support-cardview-v7-25.2.0/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mLoading library manifest /home/senrsl/.android/sbt/exploded-aars/com.android.support-customtabs-25.2.0/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mLoading library manifest /home/senrsl/.android/sbt/exploded-aars/com.android.support-gridlayout-v7-25.2.0/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mLoading library manifest /home/senrsl/.android/sbt/exploded-aars/com.futuremind.recyclerfastscroll-fastscroll-0.2.5/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mLocal/library-project resources: List((com.github.ss,/home/senrsl/test/temp/ss/shadowsocks-android/mobile/target/android/generated/res), (com.github.ss,/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/res), (com.github.ss,/home/senrsl/test/temp/ss/shadowsocks-android/mobile/target/android/intermediates/renderscript/res), (com.github.shadowsocks.plugin,/home/senrsl/test/temp/ss/shadowsocks-android/plugin/src/main/res), (android.support.v7.cardview,/home/senrsl/.android/sbt/exploded-aars/com.android.support-cardview-v7-25.2.0/res), (android.support.customtabs,/home/senrsl/.android/sbt/exploded-aars/com.android.support-customtabs-25.2.0/res), (android.support.v7.gridlayout,/home/senrsl/.android/sbt/exploded-aars/com.android.support-gridlayout-v7-25.2.0/res), (com.futuremind.recyclerviewfastscroll,/home/senrsl/.android/sbt/exploded-aars/com.futuremind.recyclerfastscroll-fastscroll-0.2.5/res), (com.evernote.android.job,/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/res), (net.vrallev.android.cat,/home/senrsl/.android/sbt/exploded-aars/net.vrallev.android-cat-1.0.5/res), (com.github.jorgecastilloprz.library,/home/senrsl/.android/sbt/exploded-aars/com.github.jorgecastilloprz-fabprogresscircle-1.01/res), (com.mikepenz.crossfader,/home/senrsl/.android/sbt/exploded-aars/com.mikepenz-crossfader-1.5.0/res), (com.mikepenz.fastadapter,/home/senrsl/.android/sbt/exploded-aars/com.mikepenz-fastadapter-2.5.0/res), (com.mikepenz.iconics.core,/home/senrsl/.android/sbt/exploded-aars/com.mikepenz-iconics-core-2.8.2/res), (com.mikepenz.materialdrawer,/home/senrsl/.android/sbt/exploded-aars/com.mikepenz-materialdrawer-5.9.0/res), (android.support.design,/home/senrsl/.android/sbt/exploded-aars/com.android.support-design-25.3.1/res), (android.support.transition,/home/senrsl/.android/sbt/exploded-aars/com.android.support-transition-25.3.1/res), (com.mikepenz.materialize,/home/senrsl/.android/sbt/exploded-aars/com.mikepenz-materialize-1.0.1/res), (com.twofortyfouram.locale.api,/home/senrsl/.android/sbt/exploded-aars/com.twofortyfouram-android-plugin-api-for-locale-1.0.2/res), (eu.chainfire.libsuperuser,/home/senrsl/.android/sbt/exploded-aars/eu.chainfire-libsuperuser-1.0.0.201704021214/res), (com.google.android.gms.ads.impl,/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-10.2.1/res), (com.google.android.gms.ads,/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-lite-10.2.1/res), (com.google.android.gms,/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-basement-10.2.1/res), (com.google.android.gms.base,/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-base-10.2.1/res), (com.google.android.gms.tasks,/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-tasks-10.2.1/res), (com.google.android.gms.clearcut,/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-clearcut-10.2.1/res), (com.google.android.gms.gass,/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-gass-10.2.1/res), (com.google.android.gms.analytics,/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-analytics-10.2.1/res), (com.google.android.gms.analytics,/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-analytics-impl-10.2.1/res), (com.google.android.gms.tagmanager,/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-tagmanager-v4-impl-10.2.1/res), (com.google.android.gms.gcm,/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-gcm-10.2.1/res), (com.google.android.gms.iid,/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-iid-10.2.1/res))[0m
+[0m[[0mdebug[0m] [0mLoading library manifest /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mLoading library manifest /home/senrsl/.android/sbt/exploded-aars/net.vrallev.android-cat-1.0.5/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mLoading library manifest /home/senrsl/.android/sbt/exploded-aars/com.github.jorgecastilloprz-fabprogresscircle-1.01/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mLoading library manifest /home/senrsl/.android/sbt/exploded-aars/com.mikepenz-crossfader-1.5.0/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mapklib/aar resources: List((android.support.v4,/home/senrsl/.android/sbt/exploded-aars/com.android.support-support-v4-25.2.0/res), (android.support.v7.preference,/home/senrsl/.android/sbt/exploded-aars/com.android.support-preference-v7-25.2.0/res), (android.support.v7.appcompat,/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res), (android.support.coreutils,/home/senrsl/.android/sbt/exploded-aars/com.android.support-support-core-utils-25.2.0/res), (android.support.v7.recyclerview,/home/senrsl/.android/sbt/exploded-aars/com.android.support-recyclerview-v7-25.2.0/res), (android.support.graphics.drawable,/home/senrsl/.android/sbt/exploded-aars/com.android.support-support-vector-drawable-25.2.0/res), (android.support.graphics.drawable.animated,/home/senrsl/.android/sbt/exploded-aars/com.android.support-animated-vector-drawable-25.2.0/res), (android.support.fragment,/home/senrsl/.android/sbt/exploded-aars/com.android.support-support-fragment-25.2.0/res), (android.support.coreui,/home/senrsl/.android/sbt/exploded-aars/com.android.support-support-core-ui-25.2.0/res), (android.support.mediacompat,/home/senrsl/.android/sbt/exploded-aars/com.android.support-support-media-compat-25.2.0/res), (android.support.compat,/home/senrsl/.android/sbt/exploded-aars/com.android.support-support-compat-25.2.0/res), (android.support.v14.preference,/home/senrsl/.android/sbt/exploded-aars/com.android.support-preference-v14-25.2.0/res), (android.support.v7.cardview,/home/senrsl/.android/sbt/exploded-aars/com.android.support-cardview-v7-25.2.0/res), (android.support.customtabs,/home/senrsl/.android/sbt/exploded-aars/com.android.support-customtabs-25.2.0/res), (android.support.v7.gridlayout,/home/senrsl/.android/sbt/exploded-aars/com.android.support-gridlayout-v7-25.2.0/res), (com.futuremind.recyclerviewfastscroll,/home/senrsl/.android/sbt/exploded-aars/com.futuremind.recyclerfastscroll-fastscroll-0.2.5/res), (com.evernote.android.job,/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/res), (net.vrallev.android.cat,/home/senrsl/.android/sbt/exploded-aars/net.vrallev.android-cat-1.0.5/res), (com.github.jorgecastilloprz.library,/home/senrsl/.android/sbt/exploded-aars/com.github.jorgecastilloprz-fabprogresscircle-1.01/res), (com.mikepenz.crossfader,/home/senrsl/.android/sbt/exploded-aars/com.mikepenz-crossfader-1.5.0/res), (com.mikepenz.fastadapter,/home/senrsl/.android/sbt/exploded-aars/com.mikepenz-fastadapter-2.5.0/res), (com.mikepenz.iconics.core,/home/senrsl/.android/sbt/exploded-aars/com.mikepenz-iconics-core-2.8.2/res), (com.mikepenz.materialdrawer,/home/senrsl/.android/sbt/exploded-aars/com.mikepenz-materialdrawer-5.9.0/res), (android.support.design,/home/senrsl/.android/sbt/exploded-aars/com.android.support-design-25.3.1/res), (android.support.transition,/home/senrsl/.android/sbt/exploded-aars/com.android.support-transition-25.3.1/res), (com.mikepenz.materialize,/home/senrsl/.android/sbt/exploded-aars/com.mikepenz-materialize-1.0.1/res), (com.twofortyfouram.locale.api,/home/senrsl/.android/sbt/exploded-aars/com.twofortyfouram-android-plugin-api-for-locale-1.0.2/res), (eu.chainfire.libsuperuser,/home/senrsl/.android/sbt/exploded-aars/eu.chainfire-libsuperuser-1.0.0.201704021214/res), (com.google.android.gms.ads.impl,/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-10.2.1/res), (com.google.android.gms.ads,/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-lite-10.2.1/res), (com.google.android.gms,/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-basement-10.2.1/res), (com.google.android.gms.base,/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-base-10.2.1/res), (com.google.android.gms.tasks,/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-tasks-10.2.1/res), (com.google.android.gms.clearcut,/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-clearcut-10.2.1/res), (com.google.android.gms.gass,/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-gass-10.2.1/res), (com.google.android.gms.analytics,/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-analytics-10.2.1/res), (com.google.android.gms.analytics,/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-analytics-impl-10.2.1/res), (com.google.android.gms.tagmanager,/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-tagmanager-v4-impl-10.2.1/res), (com.google.android.gms.gcm,/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-gcm-10.2.1/res), (com.google.android.gms.iid,/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-iid-10.2.1/res))[0m
+[0m[[0mdebug[0m] [0mLoading library manifest /home/senrsl/.android/sbt/exploded-aars/com.mikepenz-fastadapter-2.5.0/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mLoading library manifest /home/senrsl/.android/sbt/exploded-aars/com.mikepenz-iconics-core-2.8.2/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mLoading library manifest /home/senrsl/.android/sbt/exploded-aars/com.mikepenz-materialdrawer-5.9.0/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mAdding resource path: /home/senrsl/.android/sbt/exploded-aars/com.android.support-support-v4-25.2.0/res[0m
+[0m[[0mdebug[0m] [0mLoading library manifest /home/senrsl/.android/sbt/exploded-aars/com.android.support-design-25.3.1/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mLoading library manifest /home/senrsl/.android/sbt/exploded-aars/com.android.support-transition-25.3.1/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mAdding resource path: /home/senrsl/.android/sbt/exploded-aars/com.android.support-preference-v7-25.2.0/res[0m
+[0m[[0mdebug[0m] [0mAdding resource path: /home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res[0m
+[0m[[0mdebug[0m] [0mAdding resource path: /home/senrsl/.android/sbt/exploded-aars/com.android.support-support-core-utils-25.2.0/res[0m
+[0m[[0mdebug[0m] [0mAdding resource path: /home/senrsl/.android/sbt/exploded-aars/com.android.support-recyclerview-v7-25.2.0/res[0m
+[0m[[0mdebug[0m] [0mAdding resource path: /home/senrsl/.android/sbt/exploded-aars/com.android.support-support-vector-drawable-25.2.0/res[0m
+[0m[[0mdebug[0m] [0mAdding resource path: /home/senrsl/.android/sbt/exploded-aars/com.android.support-animated-vector-drawable-25.2.0/res[0m
+[0m[[0mdebug[0m] [0mAdding resource path: /home/senrsl/.android/sbt/exploded-aars/com.android.support-support-fragment-25.2.0/res[0m
+[0m[[0mdebug[0m] [0mAdding resource path: /home/senrsl/.android/sbt/exploded-aars/com.android.support-support-core-ui-25.2.0/res[0m
+[0m[[0mdebug[0m] [0mAdding resource path: /home/senrsl/.android/sbt/exploded-aars/com.android.support-support-media-compat-25.2.0/res[0m
+[0m[[0mdebug[0m] [0mAdding resource path: /home/senrsl/.android/sbt/exploded-aars/com.android.support-support-compat-25.2.0/res[0m
+[0m[[0mdebug[0m] [0mAdding resource path: /home/senrsl/.android/sbt/exploded-aars/com.android.support-preference-v14-25.2.0/res[0m
+[0m[[0mdebug[0m] [0mAdding resource path: /home/senrsl/.android/sbt/exploded-aars/com.android.support-cardview-v7-25.2.0/res[0m
+[0m[[0mdebug[0m] [0mAdding resource path: /home/senrsl/.android/sbt/exploded-aars/com.android.support-customtabs-25.2.0/res[0m
+[0m[[0mdebug[0m] [0mAdding resource path: /home/senrsl/.android/sbt/exploded-aars/com.android.support-gridlayout-v7-25.2.0/res[0m
+[0m[[0mdebug[0m] [0mAdding resource path: /home/senrsl/.android/sbt/exploded-aars/com.futuremind.recyclerfastscroll-fastscroll-0.2.5/res[0m
+[0m[[0mdebug[0m] [0mAdding resource path: /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/res[0m
+[0m[[0mdebug[0m] [0mAdding resource path: /home/senrsl/.android/sbt/exploded-aars/net.vrallev.android-cat-1.0.5/res[0m
+[0m[[0mdebug[0m] [0mAdding resource path: /home/senrsl/.android/sbt/exploded-aars/com.github.jorgecastilloprz-fabprogresscircle-1.01/res[0m
+[0m[[0mdebug[0m] [0mAdding resource path: /home/senrsl/.android/sbt/exploded-aars/com.mikepenz-crossfader-1.5.0/res[0m
+[0m[[0mdebug[0m] [0mAdding resource path: /home/senrsl/.android/sbt/exploded-aars/com.mikepenz-fastadapter-2.5.0/res[0m
+[0m[[0mdebug[0m] [0mAdding resource path: /home/senrsl/.android/sbt/exploded-aars/com.mikepenz-iconics-core-2.8.2/res[0m
+[0m[[0mdebug[0m] [0mLoading library manifest /home/senrsl/.android/sbt/exploded-aars/com.mikepenz-materialize-1.0.1/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mAdding resource path: /home/senrsl/.android/sbt/exploded-aars/com.mikepenz-materialdrawer-5.9.0/res[0m
+[0m[[0mdebug[0m] [0mAdding resource path: /home/senrsl/.android/sbt/exploded-aars/com.android.support-design-25.3.1/res[0m
+[0m[[0mdebug[0m] [0mAdding resource path: /home/senrsl/.android/sbt/exploded-aars/com.android.support-transition-25.3.1/res[0m
+[0m[[0mdebug[0m] [0mAdding resource path: /home/senrsl/.android/sbt/exploded-aars/com.mikepenz-materialize-1.0.1/res[0m
+[0m[[0mdebug[0m] [0mAdding resource path: /home/senrsl/.android/sbt/exploded-aars/com.twofortyfouram-android-plugin-api-for-locale-1.0.2/res[0m
+[0m[[0mdebug[0m] [0mAdding resource path: /home/senrsl/.android/sbt/exploded-aars/eu.chainfire-libsuperuser-1.0.0.201704021214/res[0m
+[0m[[0mdebug[0m] [0mAdding resource path: /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-10.2.1/res[0m
+[0m[[0mdebug[0m] [0mAdding resource path: /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-lite-10.2.1/res[0m
+[0m[[0mdebug[0m] [0mAdding resource path: /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-basement-10.2.1/res[0m
+[0m[[0mdebug[0m] [0mAdding resource path: /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-base-10.2.1/res[0m
+[0m[[0mdebug[0m] [0mAdding resource path: /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-tasks-10.2.1/res[0m
+[0m[[0mdebug[0m] [0mAdding resource path: /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-clearcut-10.2.1/res[0m
+[0m[[0mdebug[0m] [0mAdding resource path: /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-gass-10.2.1/res[0m
+[0m[[0mdebug[0m] [0mAdding resource path: /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-analytics-10.2.1/res[0m
+[0m[[0mdebug[0m] [0mAdding resource path: /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-analytics-impl-10.2.1/res[0m
+[0m[[0mdebug[0m] [0mAdding resource path: /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-tagmanager-v4-impl-10.2.1/res[0m
+[0m[[0mdebug[0m] [0mAdding resource path: /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-gcm-10.2.1/res[0m
+[0m[[0mdebug[0m] [0mAdding resource path: /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-iid-10.2.1/res[0m
+[0m[[0mdebug[0m] [0mAdding resource path: /home/senrsl/test/temp/ss/shadowsocks-android/plugin/src/main/res[0m
+[0m[[0mdebug[0m] [0mAdding resource path: /home/senrsl/test/temp/ss/shadowsocks-android/mobile/target/android/intermediates/renderscript/res[0m
+[0m[[0mdebug[0m] [0mAdding resource path: /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/res[0m
+[0m[[0mdebug[0m] [0mAdding resource path: /home/senrsl/test/temp/ss/shadowsocks-android/mobile/target/android/generated/res[0m
+[0m[[0mdebug[0m] [0mLoading library manifest /home/senrsl/.android/sbt/exploded-aars/com.twofortyfouram-android-plugin-api-for-locale-1.0.2/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mLoading library manifest /home/senrsl/.android/sbt/exploded-aars/eu.chainfire-libsuperuser-1.0.0.201704021214/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mLoading library manifest /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-10.2.1/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mLoading library manifest /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-lite-10.2.1/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mLoading library manifest /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-basement-10.2.1/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mLoading library manifest /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-base-10.2.1/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mLoading library manifest /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-tasks-10.2.1/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mLoading library manifest /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-clearcut-10.2.1/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mLoading library manifest /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-gass-10.2.1/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mLoading library manifest /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-analytics-10.2.1/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mLoading library manifest /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-analytics-impl-10.2.1/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mLoading library manifest /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-tagmanager-v4-impl-10.2.1/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mLoading library manifest /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-gcm-10.2.1/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mLoading library manifest /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-iid-10.2.1/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mMerging main manifest /home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml[0m
+[0m[[0minfo[0m] [0mCollecting resources[0m
+[0m[[0mdebug[0m] [0mMerging library manifest /home/senrsl/test/temp/ss/shadowsocks-android/plugin/src/main/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mMerging manifest with lower [/home/senrsl/test/temp/ss/shadowsocks-android/plugin] AndroidManifest.xml:1:1-11:12[0m
+[0m[[0mdebug[0m] [0muses-sdk defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-sdk with lower [/home/senrsl/test/temp/ss/shadowsocks-android/plugin] AndroidManifest.xml:3:5-5:44[0m
+[0m[[0mdebug[0m] [0mapplication defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging application with lower [/home/senrsl/test/temp/ss/shadowsocks-android/plugin] AndroidManifest.xml:6:5-10:19[0m
+[0m[[0mdebug[0m] [0mAdopted [meta-data: null][0m
+[0m[[0mdebug[0m] [0mMerging library manifest /home/senrsl/.android/sbt/exploded-aars/com.android.support-support-v4-25.2.0/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mMerging manifest with lower [/home/senrsl/.android/sbt/exploded-aars/com.android.support-support-v4-25.2.0] AndroidManifest.xml:17:1-27:12[0m
+[0m[[0mdebug[0m] [0muses-sdk defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-sdk with lower [/home/senrsl/.android/sbt/exploded-aars/com.android.support-support-v4-25.2.0] AndroidManifest.xml:21:5-23:54[0m
+[0m[[0mdebug[0m] [0mapplication defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging application with lower [/home/senrsl/.android/sbt/exploded-aars/com.android.support-support-v4-25.2.0] AndroidManifest.xml:25:5-20[0m
+[0m[[0mdebug[0m] [0mMerging library manifest /home/senrsl/.android/sbt/exploded-aars/com.android.support-preference-v7-25.2.0/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mMerging manifest with lower [/home/senrsl/.android/sbt/exploded-aars/com.android.support-preference-v7-25.2.0] AndroidManifest.xml:2:1-11:12[0m
+[0m[[0mdebug[0m] [0muses-sdk defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-sdk with lower [/home/senrsl/.android/sbt/exploded-aars/com.android.support-preference-v7-25.2.0] AndroidManifest.xml:7:5-43[0m
+[0m[[0mdebug[0m] [0mapplication defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging application with lower [/home/senrsl/.android/sbt/exploded-aars/com.android.support-preference-v7-25.2.0] AndroidManifest.xml:9:5-20[0m
+[0m[[0mdebug[0m] [0mMerging library manifest /home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mMerging manifest with lower [/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0] AndroidManifest.xml:17:1-27:12[0m
+[0m[[0mdebug[0m] [0muses-sdk defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-sdk with lower [/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0] AndroidManifest.xml:21:5-23:78[0m
+[0m[[0mdebug[0m] [0mapplication defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging application with lower [/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0] AndroidManifest.xml:25:5-20[0m
+[0m[[0mdebug[0m] [0mMerging library manifest /home/senrsl/.android/sbt/exploded-aars/com.android.support-support-core-utils-25.2.0/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mMerging manifest with lower [/home/senrsl/.android/sbt/exploded-aars/com.android.support-support-core-utils-25.2.0] AndroidManifest.xml:17:1-27:12[0m
+[0m[[0mdebug[0m] [0muses-sdk defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-sdk with lower [/home/senrsl/.android/sbt/exploded-aars/com.android.support-support-core-utils-25.2.0] AndroidManifest.xml:21:5-23:61[0m
+[0m[[0mdebug[0m] [0mapplication defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging application with lower [/home/senrsl/.android/sbt/exploded-aars/com.android.support-support-core-utils-25.2.0] AndroidManifest.xml:25:5-20[0m
+[0m[[0mdebug[0m] [0mMerging library manifest /home/senrsl/.android/sbt/exploded-aars/com.android.support-recyclerview-v7-25.2.0/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mMerging manifest with lower [/home/senrsl/.android/sbt/exploded-aars/com.android.support-recyclerview-v7-25.2.0] AndroidManifest.xml:17:1-22:12[0m
+[0m[[0mdebug[0m] [0muses-sdk defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-sdk with lower [/home/senrsl/.android/sbt/exploded-aars/com.android.support-recyclerview-v7-25.2.0] AndroidManifest.xml:20:5-43[0m
+[0m[[0mdebug[0m] [0mMerging library manifest /home/senrsl/.android/sbt/exploded-aars/com.android.support-support-vector-drawable-25.2.0/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mMerging manifest with lower [/home/senrsl/.android/sbt/exploded-aars/com.android.support-support-vector-drawable-25.2.0] AndroidManifest.xml:17:1-25:12[0m
+[0m[[0mdebug[0m] [0muses-sdk defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-sdk with lower [/home/senrsl/.android/sbt/exploded-aars/com.android.support-support-vector-drawable-25.2.0] AndroidManifest.xml:21:5-43[0m
+[0m[[0mdebug[0m] [0mapplication defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging application with lower [/home/senrsl/.android/sbt/exploded-aars/com.android.support-support-vector-drawable-25.2.0] AndroidManifest.xml:23:5-20[0m
+[0m[[0mdebug[0m] [0mMerging library manifest /home/senrsl/.android/sbt/exploded-aars/com.android.support-animated-vector-drawable-25.2.0/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mMerging manifest with lower [/home/senrsl/.android/sbt/exploded-aars/com.android.support-animated-vector-drawable-25.2.0] AndroidManifest.xml:17:1-24:12[0m
+[0m[[0mdebug[0m] [0muses-sdk defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-sdk with lower [/home/senrsl/.android/sbt/exploded-aars/com.android.support-animated-vector-drawable-25.2.0] AndroidManifest.xml:20:5-44[0m
+[0m[[0mdebug[0m] [0mapplication defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging application with lower [/home/senrsl/.android/sbt/exploded-aars/com.android.support-animated-vector-drawable-25.2.0] AndroidManifest.xml:22:5-20[0m
+[0m[[0mdebug[0m] [0mMerging library manifest /home/senrsl/.android/sbt/exploded-aars/com.android.support-support-fragment-25.2.0/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mMerging manifest with lower [/home/senrsl/.android/sbt/exploded-aars/com.android.support-support-fragment-25.2.0] AndroidManifest.xml:17:1-27:12[0m
+[0m[[0mdebug[0m] [0muses-sdk defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-sdk with lower [/home/senrsl/.android/sbt/exploded-aars/com.android.support-support-fragment-25.2.0] AndroidManifest.xml:21:5-23:60[0m
+[0m[[0mdebug[0m] [0mapplication defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging application with lower [/home/senrsl/.android/sbt/exploded-aars/com.android.support-support-fragment-25.2.0] AndroidManifest.xml:25:5-20[0m
+[0m[[0mdebug[0m] [0mMerging library manifest /home/senrsl/.android/sbt/exploded-aars/com.android.support-support-core-ui-25.2.0/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mMerging manifest with lower [/home/senrsl/.android/sbt/exploded-aars/com.android.support-support-core-ui-25.2.0] AndroidManifest.xml:17:1-27:12[0m
+[0m[[0mdebug[0m] [0muses-sdk defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-sdk with lower [/home/senrsl/.android/sbt/exploded-aars/com.android.support-support-core-ui-25.2.0] AndroidManifest.xml:21:5-23:58[0m
+[0m[[0mdebug[0m] [0mapplication defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging application with lower [/home/senrsl/.android/sbt/exploded-aars/com.android.support-support-core-ui-25.2.0] AndroidManifest.xml:25:5-20[0m
+[0m[[0mdebug[0m] [0mMerging library manifest /home/senrsl/.android/sbt/exploded-aars/com.android.support-support-media-compat-25.2.0/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mMerging manifest with lower [/home/senrsl/.android/sbt/exploded-aars/com.android.support-support-media-compat-25.2.0] AndroidManifest.xml:17:1-27:12[0m
+[0m[[0mdebug[0m] [0muses-sdk defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-sdk with lower [/home/senrsl/.android/sbt/exploded-aars/com.android.support-support-media-compat-25.2.0] AndroidManifest.xml:21:5-23:63[0m
+[0m[[0mdebug[0m] [0mapplication defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging application with lower [/home/senrsl/.android/sbt/exploded-aars/com.android.support-support-media-compat-25.2.0] AndroidManifest.xml:25:5-20[0m
+[0m[[0mdebug[0m] [0mMerging library manifest /home/senrsl/.android/sbt/exploded-aars/com.android.support-support-compat-25.2.0/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mMerging manifest with lower [/home/senrsl/.android/sbt/exploded-aars/com.android.support-support-compat-25.2.0] AndroidManifest.xml:17:1-27:12[0m
+[0m[[0mdebug[0m] [0muses-sdk defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-sdk with lower [/home/senrsl/.android/sbt/exploded-aars/com.android.support-support-compat-25.2.0] AndroidManifest.xml:21:5-23:58[0m
+[0m[[0mdebug[0m] [0mapplication defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging application with lower [/home/senrsl/.android/sbt/exploded-aars/com.android.support-support-compat-25.2.0] AndroidManifest.xml:25:5-20[0m
+[0m[[0mdebug[0m] [0mMerging library manifest /home/senrsl/.android/sbt/exploded-aars/com.android.support-preference-v14-25.2.0/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mMerging manifest with lower [/home/senrsl/.android/sbt/exploded-aars/com.android.support-preference-v14-25.2.0] AndroidManifest.xml:2:1-11:12[0m
+[0m[[0mdebug[0m] [0muses-sdk defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-sdk with lower [/home/senrsl/.android/sbt/exploded-aars/com.android.support-preference-v14-25.2.0] AndroidManifest.xml:7:5-44[0m
+[0m[[0mdebug[0m] [0mapplication defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging application with lower [/home/senrsl/.android/sbt/exploded-aars/com.android.support-preference-v14-25.2.0] AndroidManifest.xml:9:5-20[0m
+[0m[[0mdebug[0m] [0mMerging library manifest /home/senrsl/.android/sbt/exploded-aars/com.android.support-cardview-v7-25.2.0/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mMerging manifest with lower [/home/senrsl/.android/sbt/exploded-aars/com.android.support-cardview-v7-25.2.0] AndroidManifest.xml:17:1-24:12[0m
+[0m[[0mdebug[0m] [0muses-sdk defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-sdk with lower [/home/senrsl/.android/sbt/exploded-aars/com.android.support-cardview-v7-25.2.0] AndroidManifest.xml:20:5-43[0m
+[0m[[0mdebug[0m] [0mapplication defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging application with lower [/home/senrsl/.android/sbt/exploded-aars/com.android.support-cardview-v7-25.2.0] AndroidManifest.xml:22:5-20[0m
+[0m[[0mdebug[0m] [0mMerging library manifest /home/senrsl/.android/sbt/exploded-aars/com.android.support-customtabs-25.2.0/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mMerging manifest with lower [/home/senrsl/.android/sbt/exploded-aars/com.android.support-customtabs-25.2.0] AndroidManifest.xml:17:1-24:12[0m
+[0m[[0mdebug[0m] [0muses-sdk defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-sdk with lower [/home/senrsl/.android/sbt/exploded-aars/com.android.support-customtabs-25.2.0] AndroidManifest.xml:20:5-44[0m
+[0m[[0mdebug[0m] [0mapplication defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging application with lower [/home/senrsl/.android/sbt/exploded-aars/com.android.support-customtabs-25.2.0] AndroidManifest.xml:22:5-20[0m
+[0m[[0mdebug[0m] [0mMerging library manifest /home/senrsl/.android/sbt/exploded-aars/com.android.support-gridlayout-v7-25.2.0/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mMerging manifest with lower [/home/senrsl/.android/sbt/exploded-aars/com.android.support-gridlayout-v7-25.2.0] AndroidManifest.xml:17:1-24:12[0m
+[0m[[0mdebug[0m] [0muses-sdk defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-sdk with lower [/home/senrsl/.android/sbt/exploded-aars/com.android.support-gridlayout-v7-25.2.0] AndroidManifest.xml:20:5-43[0m
+[0m[[0mdebug[0m] [0mapplication defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging application with lower [/home/senrsl/.android/sbt/exploded-aars/com.android.support-gridlayout-v7-25.2.0] AndroidManifest.xml:22:5-20[0m
+[0m[[0mdebug[0m] [0mMerging library manifest /home/senrsl/.android/sbt/exploded-aars/com.futuremind.recyclerfastscroll-fastscroll-0.2.5/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mMerging manifest with lower [/home/senrsl/.android/sbt/exploded-aars/com.futuremind.recyclerfastscroll-fastscroll-0.2.5] AndroidManifest.xml:2:1-13:12[0m
+[0m[[0mdebug[0m] [0muses-sdk defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-sdk with lower [/home/senrsl/.android/sbt/exploded-aars/com.futuremind.recyclerfastscroll-fastscroll-0.2.5] AndroidManifest.xml:7:5-9:41[0m
+[0m[[0mdebug[0m] [0mapplication defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging application with lower [/home/senrsl/.android/sbt/exploded-aars/com.futuremind.recyclerfastscroll-fastscroll-0.2.5] AndroidManifest.xml:11:5-20[0m
+[0m[[0mdebug[0m] [0mMerging library manifest /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mMerging manifest with lower [/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] AndroidManifest.xml:2:1-60:12[0m
+[0m[[0mdebug[0m] [0muses-sdk defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-sdk with lower [/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] AndroidManifest.xml:8:5-10:41[0m
+[0m[[0mdebug[0m] [0mAdopted [uses-permission: null][0m
+[0m[[0mdebug[0m] [0mAdopted [uses-permission: null][0m
+[0m[[0mdebug[0m] [0muses-permission#android.permission.RECEIVE_BOOT_COMPLETED defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-permission#android.permission.RECEIVE_BOOT_COMPLETED with lower [/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] AndroidManifest.xml:14:5-81[0m
+[0m[[0mdebug[0m] [0mapplication defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging application with lower [/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] AndroidManifest.xml:16:5-58:19[0m
+[0m[[0mdebug[0m] [0mservice#com.evernote.android.job.v21.PlatformJobService defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging service#com.evernote.android.job.v21.PlatformJobService with lower [/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] AndroidManifest.xml:17:9-20:72[0m
+[0m[[0mdebug[0m] [0mservice#com.evernote.android.job.v14.PlatformAlarmService defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging service#com.evernote.android.job.v14.PlatformAlarmService with lower [/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] AndroidManifest.xml:21:9-23:40[0m
+[0m[[0mdebug[0m] [0mreceiver#com.evernote.android.job.v14.PlatformAlarmReceiver defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging receiver#com.evernote.android.job.v14.PlatformAlarmReceiver with lower [/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] AndroidManifest.xml:25:9-34:20[0m
+[0m[[0mdebug[0m] [0mAdopted [intent-filter: null][0m
+[0m[[0mdebug[0m] [0mreceiver#com.evernote.android.job.JobBootReceiver defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging receiver#com.evernote.android.job.JobBootReceiver with lower [/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] AndroidManifest.xml:35:9-44:20[0m
+[0m[[0mdebug[0m] [0mAdopted [intent-filter: null][0m
+[0m[[0mdebug[0m] [0mservice#com.evernote.android.job.gcm.PlatformGcmService defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging service#com.evernote.android.job.gcm.PlatformGcmService with lower [/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] AndroidManifest.xml:46:9-54:19[0m
+[0m[[0mdebug[0m] [0mAdopted [intent-filter: null][0m
+[0m[[0mdebug[0m] [0mservice#com.evernote.android.job.JobRescheduleService defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging service#com.evernote.android.job.JobRescheduleService with lower [/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] AndroidManifest.xml:55:9-57:40[0m
+[0m[[0mdebug[0m] [0mMerging library manifest /home/senrsl/.android/sbt/exploded-aars/net.vrallev.android-cat-1.0.5/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mMerging manifest with lower [/home/senrsl/.android/sbt/exploded-aars/net.vrallev.android-cat-1.0.5] AndroidManifest.xml:2:1-11:12[0m
+[0m[[0mdebug[0m] [0muses-sdk defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-sdk with lower [/home/senrsl/.android/sbt/exploded-aars/net.vrallev.android-cat-1.0.5] AndroidManifest.xml:7:5-9:41[0m
+[0m[[0mdebug[0m] [0mMerging library manifest /home/senrsl/.android/sbt/exploded-aars/com.github.jorgecastilloprz-fabprogresscircle-1.01/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mMerging manifest with lower [/home/senrsl/.android/sbt/exploded-aars/com.github.jorgecastilloprz-fabprogresscircle-1.01] AndroidManifest.xml:2:1-16:12[0m
+[0m[[0mdebug[0m] [0muses-sdk defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-sdk with lower [/home/senrsl/.android/sbt/exploded-aars/com.github.jorgecastilloprz-fabprogresscircle-1.01] AndroidManifest.xml:7:5-9:41[0m
+[0m[[0mdebug[0m] [0mapplication defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging application with lower [/home/senrsl/.android/sbt/exploded-aars/com.github.jorgecastilloprz-fabprogresscircle-1.01] AndroidManifest.xml:11:5-14:19[0m
+[0m[[0mdebug[0m] [0mMerging library manifest /home/senrsl/.android/sbt/exploded-aars/com.mikepenz-crossfader-1.5.0/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mMerging manifest with lower [/home/senrsl/.android/sbt/exploded-aars/com.mikepenz-crossfader-1.5.0] AndroidManifest.xml:2:1-12:12[0m
+[0m[[0mdebug[0m] [0muses-sdk defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-sdk with lower [/home/senrsl/.android/sbt/exploded-aars/com.mikepenz-crossfader-1.5.0] AndroidManifest.xml:8:5-10:41[0m
+[0m[[0mdebug[0m] [0mMerging library manifest /home/senrsl/.android/sbt/exploded-aars/com.mikepenz-fastadapter-2.5.0/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mMerging manifest with lower [/home/senrsl/.android/sbt/exploded-aars/com.mikepenz-fastadapter-2.5.0] AndroidManifest.xml:2:1-12:12[0m
+[0m[[0mdebug[0m] [0muses-sdk defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-sdk with lower [/home/senrsl/.android/sbt/exploded-aars/com.mikepenz-fastadapter-2.5.0] AndroidManifest.xml:8:5-10:41[0m
+[0m[[0mdebug[0m] [0mMerging library manifest /home/senrsl/.android/sbt/exploded-aars/com.mikepenz-iconics-core-2.8.2/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mMerging manifest with lower [/home/senrsl/.android/sbt/exploded-aars/com.mikepenz-iconics-core-2.8.2] AndroidManifest.xml:2:1-12:12[0m
+[0m[[0mdebug[0m] [0muses-sdk defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-sdk with lower [/home/senrsl/.android/sbt/exploded-aars/com.mikepenz-iconics-core-2.8.2] AndroidManifest.xml:8:5-10:41[0m
+[0m[[0mdebug[0m] [0mMerging library manifest /home/senrsl/.android/sbt/exploded-aars/com.mikepenz-materialdrawer-5.9.0/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mMerging manifest with lower [/home/senrsl/.android/sbt/exploded-aars/com.mikepenz-materialdrawer-5.9.0] AndroidManifest.xml:2:1-12:12[0m
+[0m[[0mdebug[0m] [0muses-sdk defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-sdk with lower [/home/senrsl/.android/sbt/exploded-aars/com.mikepenz-materialdrawer-5.9.0] AndroidManifest.xml:8:5-10:41[0m
+[0m[[0mdebug[0m] [0mMerging library manifest /home/senrsl/.android/sbt/exploded-aars/com.android.support-design-25.3.1/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mMerging manifest with lower [/home/senrsl/.android/sbt/exploded-aars/com.android.support-design-25.3.1] AndroidManifest.xml:17:1-31:12[0m
+[0m[[0mdebug[0m] [0muses-sdk defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-sdk with lower [/home/senrsl/.android/sbt/exploded-aars/com.android.support-design-25.3.1] AndroidManifest.xml:21:5-23:62[0m
+[0m[[0mdebug[0m] [0mAdopted [meta-data: null][0m
+[0m[[0mdebug[0m] [0mapplication defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging application with lower [/home/senrsl/.android/sbt/exploded-aars/com.android.support-design-25.3.1] AndroidManifest.xml:29:5-20[0m
+[0m[[0mdebug[0m] [0mMerging library manifest /home/senrsl/.android/sbt/exploded-aars/com.android.support-transition-25.3.1/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mMerging manifest with lower [/home/senrsl/.android/sbt/exploded-aars/com.android.support-transition-25.3.1] AndroidManifest.xml:17:1-28:12[0m
+[0m[[0mdebug[0m] [0muses-sdk defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-sdk with lower [/home/senrsl/.android/sbt/exploded-aars/com.android.support-transition-25.3.1] AndroidManifest.xml:20:5-44[0m
+[0m[[0mdebug[0m] [0mmeta-data#android.support.VERSION defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging meta-data#android.support.VERSION with lower [/home/senrsl/.android/sbt/exploded-aars/com.android.support-transition-25.3.1] AndroidManifest.xml:22:5-24:34[0m
+[0m[[0mdebug[0m] [0mapplication defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging application with lower [/home/senrsl/.android/sbt/exploded-aars/com.android.support-transition-25.3.1] AndroidManifest.xml:26:5-20[0m
+[0m[[0mdebug[0m] [0mMerging library manifest /home/senrsl/.android/sbt/exploded-aars/com.mikepenz-materialize-1.0.1/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mMerging manifest with lower [/home/senrsl/.android/sbt/exploded-aars/com.mikepenz-materialize-1.0.1] AndroidManifest.xml:2:1-12:12[0m
+[0m[[0mdebug[0m] [0muses-sdk defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-sdk with lower [/home/senrsl/.android/sbt/exploded-aars/com.mikepenz-materialize-1.0.1] AndroidManifest.xml:8:5-10:41[0m
+[0m[[0mdebug[0m] [0mMerging library manifest /home/senrsl/.android/sbt/exploded-aars/com.twofortyfouram-android-plugin-api-for-locale-1.0.2/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mMerging manifest with lower [/home/senrsl/.android/sbt/exploded-aars/com.twofortyfouram-android-plugin-api-for-locale-1.0.2] AndroidManifest.xml:2:1-14:12[0m
+[0m[[0mdebug[0m] [0muses-sdk defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-sdk with lower [/home/senrsl/.android/sbt/exploded-aars/com.twofortyfouram-android-plugin-api-for-locale-1.0.2] AndroidManifest.xml:8:5-10:41[0m
+[0m[[0mdebug[0m] [0mapplication defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging application with lower [/home/senrsl/.android/sbt/exploded-aars/com.twofortyfouram-android-plugin-api-for-locale-1.0.2] AndroidManifest.xml:12:5-20[0m
+[0m[[0mdebug[0m] [0mMerging library manifest /home/senrsl/.android/sbt/exploded-aars/eu.chainfire-libsuperuser-1.0.0.201704021214/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mMerging manifest with lower [/home/senrsl/.android/sbt/exploded-aars/eu.chainfire-libsuperuser-1.0.0.201704021214] AndroidManifest.xml:2:1-11:12[0m
+[0m[[0mdebug[0m] [0muses-sdk defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-sdk with lower [/home/senrsl/.android/sbt/exploded-aars/eu.chainfire-libsuperuser-1.0.0.201704021214] AndroidManifest.xml:7:5-9:41[0m
+[0m[[0mdebug[0m] [0mMerging library manifest /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-10.2.1/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mMerging manifest with lower [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-10.2.1] AndroidManifest.xml:16:1-18:12[0m
+[0m[[0mdebug[0m] [0muses-sdk defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-sdk with lower [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-10.2.1] AndroidManifest.xml:17:5-43[0m
+[0m[[0mdebug[0m] [0mMerging library manifest /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-lite-10.2.1/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mMerging manifest with lower [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-lite-10.2.1] AndroidManifest.xml:16:1-28:12[0m
+[0m[[0mdebug[0m] [0muses-permission#android.permission.INTERNET defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-permission#android.permission.INTERNET with lower [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-lite-10.2.1] AndroidManifest.xml:19:5-66[0m
+[0m[[0mdebug[0m] [0muses-permission#android.permission.ACCESS_NETWORK_STATE defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-permission#android.permission.ACCESS_NETWORK_STATE with lower [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-lite-10.2.1] AndroidManifest.xml:20:5-78[0m
+[0m[[0mdebug[0m] [0muses-sdk defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-sdk with lower [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-lite-10.2.1] AndroidManifest.xml:22:5-43[0m
+[0m[[0mdebug[0m] [0mapplication defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging application with lower [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-lite-10.2.1] AndroidManifest.xml:23:5-27:19[0m
+[0m[[0mdebug[0m] [0mAdopted [activity: null][0m
+[0m[[0mdebug[0m] [0mAdopted [activity: null][0m
+[0m[[0mdebug[0m] [0mMerging library manifest /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-basement-10.2.1/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mMerging manifest with lower [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-basement-10.2.1] AndroidManifest.xml:16:1-23:12[0m
+[0m[[0mdebug[0m] [0muses-sdk defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-sdk with lower [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-basement-10.2.1] AndroidManifest.xml:17:5-43[0m
+[0m[[0mdebug[0m] [0mapplication defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging application with lower [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-basement-10.2.1] AndroidManifest.xml:19:5-21:19[0m
+[0m[[0mdebug[0m] [0mmeta-data#com.google.android.gms.version defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging meta-data#com.google.android.gms.version with lower [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-basement-10.2.1] AndroidManifest.xml:20:9-121[0m
+[0m[[0mdebug[0m] [0mMerging library manifest /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-base-10.2.1/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mMerging manifest with lower [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-base-10.2.1] AndroidManifest.xml:16:1-21:12[0m
+[0m[[0mdebug[0m] [0muses-sdk defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-sdk with lower [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-base-10.2.1] AndroidManifest.xml:17:5-43[0m
+[0m[[0mdebug[0m] [0mapplication defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging application with lower [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-base-10.2.1] AndroidManifest.xml:18:5-20:19[0m
+[0m[[0mdebug[0m] [0mAdopted [activity: null][0m
+[0m[[0mdebug[0m] [0mMerging library manifest /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-tasks-10.2.1/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mMerging manifest with lower [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-tasks-10.2.1] AndroidManifest.xml:2:1-5:12[0m
+[0m[[0mdebug[0m] [0muses-sdk defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-sdk with lower [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-tasks-10.2.1] AndroidManifest.xml:3:5-43[0m
+[0m[[0mdebug[0m] [0mapplication defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging application with lower [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-tasks-10.2.1] AndroidManifest.xml:4:5-19[0m
+[0m[[0mdebug[0m] [0mMerging library manifest /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-clearcut-10.2.1/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mMerging manifest with lower [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-clearcut-10.2.1] AndroidManifest.xml:16:1-19:12[0m
+[0m[[0mdebug[0m] [0muses-sdk defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-sdk with lower [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-clearcut-10.2.1] AndroidManifest.xml:17:5-43[0m
+[0m[[0mdebug[0m] [0mapplication defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging application with lower [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-clearcut-10.2.1] AndroidManifest.xml:18:5-19[0m
+[0m[[0mdebug[0m] [0mMerging library manifest /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-gass-10.2.1/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mMerging manifest with lower [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-gass-10.2.1] AndroidManifest.xml:2:1-5:12[0m
+[0m[[0mdebug[0m] [0muses-sdk defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-sdk with lower [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-gass-10.2.1] AndroidManifest.xml:3:5-43[0m
+[0m[[0mdebug[0m] [0mapplication defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging application with lower [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-gass-10.2.1] AndroidManifest.xml:4:5-19[0m
+[0m[[0mdebug[0m] [0mMerging library manifest /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-analytics-10.2.1/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mMerging manifest with lower [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-analytics-10.2.1] AndroidManifest.xml:16:1-27:12[0m
+[0m[[0mdebug[0m] [0muses-sdk defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-sdk with lower [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-analytics-10.2.1] AndroidManifest.xml:17:5-43[0m
+[0m[[0mdebug[0m] [0muses-permission#android.permission.INTERNET defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-permission#android.permission.INTERNET with lower [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-analytics-10.2.1] AndroidManifest.xml:20:5-66[0m
+[0m[[0mdebug[0m] [0muses-permission#android.permission.ACCESS_NETWORK_STATE defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-permission#android.permission.ACCESS_NETWORK_STATE with lower [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-analytics-10.2.1] AndroidManifest.xml:21:5-78[0m
+[0m[[0mdebug[0m] [0muses-permission#android.permission.WAKE_LOCK defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-permission#android.permission.WAKE_LOCK with lower [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-analytics-10.2.1] AndroidManifest.xml:24:5-67[0m
+[0m[[0mdebug[0m] [0mapplication defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging application with lower [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-analytics-10.2.1] AndroidManifest.xml:26:5-19[0m
+[0m[[0mdebug[0m] [0mMerging library manifest /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-analytics-impl-10.2.1/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mMerging manifest with lower [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-analytics-impl-10.2.1] AndroidManifest.xml:16:1-27:12[0m
+[0m[[0mdebug[0m] [0muses-sdk defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-sdk with lower [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-analytics-impl-10.2.1] AndroidManifest.xml:17:5-43[0m
+[0m[[0mdebug[0m] [0muses-permission#android.permission.INTERNET defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-permission#android.permission.INTERNET with lower [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-analytics-impl-10.2.1] AndroidManifest.xml:20:5-66[0m
+[0m[[0mdebug[0m] [0muses-permission#android.permission.ACCESS_NETWORK_STATE defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-permission#android.permission.ACCESS_NETWORK_STATE with lower [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-analytics-impl-10.2.1] AndroidManifest.xml:21:5-78[0m
+[0m[[0mdebug[0m] [0muses-permission#android.permission.WAKE_LOCK defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-permission#android.permission.WAKE_LOCK with lower [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-analytics-impl-10.2.1] AndroidManifest.xml:24:5-67[0m
+[0m[[0mdebug[0m] [0mapplication defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging application with lower [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-analytics-impl-10.2.1] AndroidManifest.xml:26:5-19[0m
+[0m[[0mdebug[0m] [0mMerging library manifest /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-tagmanager-v4-impl-10.2.1/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mMerging manifest with lower [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-tagmanager-v4-impl-10.2.1] AndroidManifest.xml:16:1-20:12[0m
+[0m[[0mdebug[0m] [0muses-sdk defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-sdk with lower [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-tagmanager-v4-impl-10.2.1] AndroidManifest.xml:17:5-43[0m
+[0m[[0mdebug[0m] [0mapplication defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging application with lower [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-tagmanager-v4-impl-10.2.1] AndroidManifest.xml:19:5-19[0m
+[0m[[0mdebug[0m] [0mMerging library manifest /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-gcm-10.2.1/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mMerging manifest with lower [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-gcm-10.2.1] AndroidManifest.xml:16:1-24:12[0m
+[0m[[0mdebug[0m] [0muses-sdk defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-sdk with lower [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-gcm-10.2.1] AndroidManifest.xml:17:5-43[0m
+[0m[[0mdebug[0m] [0mAdopted [uses-permission: null][0m
+[0m[[0mdebug[0m] [0muses-permission#android.permission.INTERNET defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-permission#android.permission.INTERNET with lower [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-gcm-10.2.1] AndroidManifest.xml:21:5-66[0m
+[0m[[0mdebug[0m] [0mapplication defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging application with lower [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-gcm-10.2.1] AndroidManifest.xml:23:5-19[0m
+[0m[[0mdebug[0m] [0mMerging library manifest /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-iid-10.2.1/AndroidManifest.xml[0m
+[0m[[0mdebug[0m] [0mMerging manifest with lower [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-iid-10.2.1] AndroidManifest.xml:16:1-24:12[0m
+[0m[[0mdebug[0m] [0muses-sdk defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-sdk with lower [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-iid-10.2.1] AndroidManifest.xml:17:5-43[0m
+[0m[[0mdebug[0m] [0muses-permission#com.google.android.c2dm.permission.RECEIVE defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-permission#com.google.android.c2dm.permission.RECEIVE with lower [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-iid-10.2.1] AndroidManifest.xml:20:5-81[0m
+[0m[[0mdebug[0m] [0muses-permission#android.permission.INTERNET defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging uses-permission#android.permission.INTERNET with lower [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-iid-10.2.1] AndroidManifest.xml:21:5-66[0m
+[0m[[0mdebug[0m] [0mapplication defined in both files...[0m
+[0m[[0mdebug[0m] [0mMerging application with lower [/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-iid-10.2.1] AndroidManifest.xml:23:5-19[0m
+[0m[[0mdebug[0m] [0mMerging result:SUCCESS[0m
+[0m[[0mdebug[0m] [0m1<?xml version="1.0" encoding="utf-8"?>[0m
+[0m[[0mdebug[0m] [0m2<manifest xmlns:android="http://schemas.android.com/apk/res/android"[0m
+[0m[[0mdebug[0m] [0m3    package="com.github.ss"[0m
+[0m[[0mdebug[0m] [0m4    android:versionCode="184"[0m
+[0m[[0mdebug[0m] [0m5    android:versionName="4.1.4" >[0m
+[0m[[0mdebug[0m] [0m6[0m
+[0m[[0mdebug[0m] [0m7    <uses-sdk[0m
+[0m[[0mdebug[0m] [0m7-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:15:5-17:44[0m
+[0m[[0mdebug[0m] [0m8        android:minSdkVersion="19"[0m
+[0m[[0mdebug[0m] [0m8-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:16:13-39[0m
+[0m[[0mdebug[0m] [0m9        android:targetSdkVersion="25" />[0m
+[0m[[0mdebug[0m] [0m9-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:17:13-42[0m
+[0m[[0mdebug[0m] [0m10[0m
+[0m[[0mdebug[0m] [0m11    <uses-permission android:name="android.permission.INTERNET" />[0m
+[0m[[0mdebug[0m] [0m11-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:4:5-66[0m
+[0m[[0mdebug[0m] [0m11-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:4:22-64[0m
+[0m[[0mdebug[0m] [0m12    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />[0m
+[0m[[0mdebug[0m] [0m12-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:5:5-80[0m
+[0m[[0mdebug[0m] [0m12-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:5:22-78[0m
+[0m[[0mdebug[0m] [0m13    <uses-permission android:name="android.permission.NFC" />[0m
+[0m[[0mdebug[0m] [0m13-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:6:5-62[0m
+[0m[[0mdebug[0m] [0m13-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:6:22-59[0m
+[0m[[0mdebug[0m] [0m14[0m
+[0m[[0mdebug[0m] [0m15    <uses-feature[0m
+[0m[[0mdebug[0m] [0m15-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:8:5-9:45[0m
+[0m[[0mdebug[0m] [0m16        android:name="android.hardware.touchscreen"[0m
+[0m[[0mdebug[0m] [0m16-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:8:19-62[0m
+[0m[[0mdebug[0m] [0m17        android:required="false" />[0m
+[0m[[0mdebug[0m] [0m17-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:9:19-43[0m
+[0m[[0mdebug[0m] [0m18    <uses-feature[0m
+[0m[[0mdebug[0m] [0m18-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:10:5-11:45[0m
+[0m[[0mdebug[0m] [0m19        android:name="android.hardware.nfc"[0m
+[0m[[0mdebug[0m] [0m19-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:10:19-54[0m
+[0m[[0mdebug[0m] [0m20        android:required="false" />[0m
+[0m[[0mdebug[0m] [0m20-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:11:19-43[0m
+[0m[[0mdebug[0m] [0m21    <uses-feature[0m
+[0m[[0mdebug[0m] [0m21-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:12:5-13:45[0m
+[0m[[0mdebug[0m] [0m22        android:name="android.software.leanback"[0m
+[0m[[0mdebug[0m] [0m22-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:12:19-59[0m
+[0m[[0mdebug[0m] [0m23        android:required="false" />[0m
+[0m[[0mdebug[0m] [0m23-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:13:19-43[0m
+[0m[[0mdebug[0m] [0m24[0m
+[0m[[0mdebug[0m] [0m25    <uses-permission android:name="android.permission.WAKE_LOCK" />[0m
+[0m[[0mdebug[0m] [0m25-->[/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:12:5-68[0m
+[0m[[0mdebug[0m] [0m25-->[/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:12:22-65[0m
+[0m[[0mdebug[0m] [0m26    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />[0m
+[0m[[0mdebug[0m] [0m26-->[/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:13:5-79[0m
+[0m[[0mdebug[0m] [0m26-->[/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:13:22-76[0m
+[0m[[0mdebug[0m] [0m27[0m
+[0m[[0mdebug[0m] [0m28    <meta-data[0m
+[0m[[0mdebug[0m] [0m28-->[/home/senrsl/.android/sbt/exploded-aars/com.android.support-design-25.3.1] /home/senrsl/.android/sbt/exploded-aars/com.android.support-design-25.3.1/AndroidManifest.xml:25:5-27:34[0m
+[0m[[0mdebug[0m] [0m29        android:name="android.support.VERSION"[0m
+[0m[[0mdebug[0m] [0m29-->[/home/senrsl/.android/sbt/exploded-aars/com.android.support-design-25.3.1] /home/senrsl/.android/sbt/exploded-aars/com.android.support-design-25.3.1/AndroidManifest.xml:26:9-47[0m
+[0m[[0mdebug[0m] [0m30        android:value="25.3.1" /> <!-- Permissions required for GCM -->[0m
+[0m[[0mdebug[0m] [0m30-->[/home/senrsl/.android/sbt/exploded-aars/com.android.support-design-25.3.1] /home/senrsl/.android/sbt/exploded-aars/com.android.support-design-25.3.1/AndroidManifest.xml:27:9-31[0m
+[0m[[0mdebug[0m] [0m31    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />[0m
+[0m[[0mdebug[0m] [0m31-->[/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-gcm-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-gcm-10.2.1/AndroidManifest.xml:20:5-81[0m
+[0m[[0mdebug[0m] [0m31-->[/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-gcm-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-gcm-10.2.1/AndroidManifest.xml:20:22-79[0m
+[0m[[0mdebug[0m] [0m32[0m
+[0m[[0mdebug[0m] [0m33    <application[0m
+[0m[[0mdebug[0m] [0m33-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:19:5-152:19[0m
+[0m[[0mdebug[0m] [0m34        android:name="com.github.shadowsocks.ShadowsocksApplication"[0m
+[0m[[0mdebug[0m] [0m34-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:20:13-73[0m
+[0m[[0mdebug[0m] [0m35        android:allowBackup="true"[0m
+[0m[[0mdebug[0m] [0m35-->[/home/senrsl/.android/sbt/exploded-aars/com.github.jorgecastilloprz-fabprogresscircle-1.01] /home/senrsl/.android/sbt/exploded-aars/com.github.jorgecastilloprz-fabprogresscircle-1.01/AndroidManifest.xml:12:9-35[0m
+[0m[[0mdebug[0m] [0m36        android:backupAgent="com.github.shadowsocks.ShadowsocksBackupAgent"[0m
+[0m[[0mdebug[0m] [0m36-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:22:13-80[0m
+[0m[[0mdebug[0m] [0m37        android:banner="@drawable/ic_start_connected"[0m
+[0m[[0mdebug[0m] [0m37-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:24:13-58[0m
+[0m[[0mdebug[0m] [0m38        android:icon="@mipmap/ic_launcher"[0m
+[0m[[0mdebug[0m] [0m38-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:21:13-47[0m
+[0m[[0mdebug[0m] [0m39        android:label="@string/app_name"[0m
+[0m[[0mdebug[0m] [0m39-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:23:13-45[0m
+[0m[[0mdebug[0m] [0m40        android:theme="@style/Theme.Shadowsocks" >[0m
+[0m[[0mdebug[0m] [0m40-->[/home/senrsl/test/temp/ss/shadowsocks-android/plugin] /home/senrsl/test/temp/ss/shadowsocks-android/plugin/src/main/AndroidManifest.xml:7:13-53[0m
+[0m[[0mdebug[0m] [0m41        <meta-data[0m
+[0m[[0mdebug[0m] [0m41-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:26:9-27:75[0m
+[0m[[0mdebug[0m] [0m42            android:name="com.google.android.gms.version"[0m
+[0m[[0mdebug[0m] [0m42-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:26:20-65[0m
+[0m[[0mdebug[0m] [0m43            android:value="@integer/google_play_services_version" />[0m
+[0m[[0mdebug[0m] [0m43-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:27:20-73[0m
+[0m[[0mdebug[0m] [0m44[0m
+[0m[[0mdebug[0m] [0m45        <activity[0m
+[0m[[0mdebug[0m] [0m45-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:29:9-54:20[0m
+[0m[[0mdebug[0m] [0m46            android:name="com.github.shadowsocks.MainActivity"[0m
+[0m[[0mdebug[0m] [0m46-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:30:17-67[0m
+[0m[[0mdebug[0m] [0m47            android:label="@string/app_name"[0m
+[0m[[0mdebug[0m] [0m47-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:31:17-49[0m
+[0m[[0mdebug[0m] [0m48            android:launchMode="singleTask" >[0m
+[0m[[0mdebug[0m] [0m48-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:32:17-48[0m
+[0m[[0mdebug[0m] [0m49            <intent-filter>[0m
+[0m[[0mdebug[0m] [0m49-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:33:13-37:29[0m
+[0m[[0mdebug[0m] [0m50                <action android:name="android.intent.action.MAIN" />[0m
+[0m[[0mdebug[0m] [0m50-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:34:17-68[0m
+[0m[[0mdebug[0m] [0m50-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:34:25-66[0m
+[0m[[0mdebug[0m] [0m51[0m
+[0m[[0mdebug[0m] [0m52                <category android:name="android.intent.category.LAUNCHER" />[0m
+[0m[[0mdebug[0m] [0m52-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:35:17-76[0m
+[0m[[0mdebug[0m] [0m52-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:35:27-74[0m
+[0m[[0mdebug[0m] [0m53                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />[0m
+[0m[[0mdebug[0m] [0m53-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:36:17-85[0m
+[0m[[0mdebug[0m] [0m53-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:36:27-83[0m
+[0m[[0mdebug[0m] [0m54            </intent-filter>[0m
+[0m[[0mdebug[0m] [0m55            <intent-filter>[0m
+[0m[[0mdebug[0m] [0m55-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:38:13-40:29[0m
+[0m[[0mdebug[0m] [0m56                <action android:name="android.service.quicksettings.action.QS_TILE_PREFERENCES" />[0m
+[0m[[0mdebug[0m] [0m56-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:39:17-99[0m
+[0m[[0mdebug[0m] [0m56-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:39:25-96[0m
+[0m[[0mdebug[0m] [0m57            </intent-filter>[0m
+[0m[[0mdebug[0m] [0m58            <intent-filter>[0m
+[0m[[0mdebug[0m] [0m58-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:41:13-46:29[0m
+[0m[[0mdebug[0m] [0m59                <action android:name="android.intent.action.VIEW" />[0m
+[0m[[0mdebug[0m] [0m59-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:42:17-68[0m
+[0m[[0mdebug[0m] [0m59-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:42:25-66[0m
+[0m[[0mdebug[0m] [0m60[0m
+[0m[[0mdebug[0m] [0m61                <category android:name="android.intent.category.DEFAULT" />[0m
+[0m[[0mdebug[0m] [0m61-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:43:17-75[0m
+[0m[[0mdebug[0m] [0m61-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:43:27-73[0m
+[0m[[0mdebug[0m] [0m62                <category android:name="android.intent.category.BROWSABLE" />[0m
+[0m[[0mdebug[0m] [0m62-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:44:17-77[0m
+[0m[[0mdebug[0m] [0m62-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:44:27-75[0m
+[0m[[0mdebug[0m] [0m63[0m
+[0m[[0mdebug[0m] [0m64                <data android:scheme="ss" />[0m
+[0m[[0mdebug[0m] [0m64-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:45:17-44[0m
+[0m[[0mdebug[0m] [0m64-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:45:23-42[0m
+[0m[[0mdebug[0m] [0m65            </intent-filter>[0m
+[0m[[0mdebug[0m] [0m66            <intent-filter>[0m
+[0m[[0mdebug[0m] [0m66-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:47:13-51:29[0m
+[0m[[0mdebug[0m] [0m67                <action android:name="android.nfc.action.NDEF_DISCOVERED" />[0m
+[0m[[0mdebug[0m] [0m67-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:48:17-76[0m
+[0m[[0mdebug[0m] [0m67-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:48:25-74[0m
+[0m[[0mdebug[0m] [0m68[0m
+[0m[[0mdebug[0m] [0m69                <category android:name="android.intent.category.DEFAULT" />[0m
+[0m[[0mdebug[0m] [0m69-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:43:17-75[0m
+[0m[[0mdebug[0m] [0m69-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:43:27-73[0m
+[0m[[0mdebug[0m] [0m70[0m
+[0m[[0mdebug[0m] [0m71                <data android:scheme="ss" />[0m
+[0m[[0mdebug[0m] [0m71-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:45:17-44[0m
+[0m[[0mdebug[0m] [0m71-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:45:23-42[0m
+[0m[[0mdebug[0m] [0m72            </intent-filter>[0m
+[0m[[0mdebug[0m] [0m73[0m
+[0m[[0mdebug[0m] [0m74            <meta-data[0m
+[0m[[0mdebug[0m] [0m74-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:52:13-53:59[0m
+[0m[[0mdebug[0m] [0m75                android:name="android.app.shortcuts"[0m
+[0m[[0mdebug[0m] [0m75-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:52:24-60[0m
+[0m[[0mdebug[0m] [0m76                android:resource="@xml/shortcuts" />[0m
+[0m[[0mdebug[0m] [0m76-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:53:24-57[0m
+[0m[[0mdebug[0m] [0m77        </activity>[0m
+[0m[[0mdebug[0m] [0m78        <activity[0m
+[0m[[0mdebug[0m] [0m78-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:56:9-60:50[0m
+[0m[[0mdebug[0m] [0m79            android:name="com.github.shadowsocks.ProfileConfigActivity"[0m
+[0m[[0mdebug[0m] [0m79-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:57:17-76[0m
+[0m[[0mdebug[0m] [0m80            android:excludeFromRecents="true"[0m
+[0m[[0mdebug[0m] [0m80-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:58:17-50[0m
+[0m[[0mdebug[0m] [0m81            android:label="@string/profile_config"[0m
+[0m[[0mdebug[0m] [0m81-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:59:17-55[0m
+[0m[[0mdebug[0m] [0m82            android:launchMode="singleTask" />[0m
+[0m[[0mdebug[0m] [0m82-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:60:17-48[0m
+[0m[[0mdebug[0m] [0m83        <activity[0m
+[0m[[0mdebug[0m] [0m83-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:62:9-67:50[0m
+[0m[[0mdebug[0m] [0m84            android:name="com.github.shadowsocks.ShadowsocksRunnerActivity"[0m
+[0m[[0mdebug[0m] [0m84-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:63:17-80[0m
+[0m[[0mdebug[0m] [0m85            android:excludeFromRecents="true"[0m
+[0m[[0mdebug[0m] [0m85-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:65:17-50[0m
+[0m[[0mdebug[0m] [0m86            android:launchMode="singleTask"[0m
+[0m[[0mdebug[0m] [0m86-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:67:17-48[0m
+[0m[[0mdebug[0m] [0m87            android:taskAffinity=""[0m
+[0m[[0mdebug[0m] [0m87-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:66:11-34[0m
+[0m[[0mdebug[0m] [0m88            android:theme="@android:style/Theme.Translucent.NoTitleBar" />[0m
+[0m[[0mdebug[0m] [0m88-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:64:17-76[0m
+[0m[[0mdebug[0m] [0m89        <activity[0m
+[0m[[0mdebug[0m] [0m89-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:69:9-74:50[0m
+[0m[[0mdebug[0m] [0m90            android:name="com.github.shadowsocks.AppManager"[0m
+[0m[[0mdebug[0m] [0m90-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:70:17-65[0m
+[0m[[0mdebug[0m] [0m91            android:excludeFromRecents="true"[0m
+[0m[[0mdebug[0m] [0m91-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:73:17-50[0m
+[0m[[0mdebug[0m] [0m92            android:label="@string/proxied_apps"[0m
+[0m[[0mdebug[0m] [0m92-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:71:17-53[0m
+[0m[[0mdebug[0m] [0m93            android:launchMode="singleTask"[0m
+[0m[[0mdebug[0m] [0m93-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:74:17-48[0m
+[0m[[0mdebug[0m] [0m94            android:parentActivityName="com.github.ss.ProfileConfigActivity" />[0m
+[0m[[0mdebug[0m] [0m94-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:72:17-68[0m
+[0m[[0mdebug[0m] [0m95        <activity[0m
+[0m[[0mdebug[0m] [0m95-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:76:9-81:20[0m
+[0m[[0mdebug[0m] [0m96            android:name="com.github.shadowsocks.TaskerActivity"[0m
+[0m[[0mdebug[0m] [0m96-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:76:19-71[0m
+[0m[[0mdebug[0m] [0m97            android:icon="@mipmap/ic_launcher" >[0m
+[0m[[0mdebug[0m] [0m97-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:77:19-53[0m
+[0m[[0mdebug[0m] [0m98            <intent-filter>[0m
+[0m[[0mdebug[0m] [0m98-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:78:13-80:29[0m
+[0m[[0mdebug[0m] [0m99                <action android:name="com.twofortyfouram.locale.intent.action.EDIT_SETTING" />[0m
+[0m[[0mdebug[0m] [0m99-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:79:17-95[0m
+[0m[[0mdebug[0m] [0m99-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:79:25-92[0m
+[0m[[0mdebug[0m] [0m100            </intent-filter>[0m
+[0m[[0mdebug[0m] [0m101        </activity>[0m
+[0m[[0mdebug[0m] [0m102        <activity[0m
+[0m[[0mdebug[0m] [0m102-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:83:9-93:20[0m
+[0m[[0mdebug[0m] [0m103            android:name="com.github.shadowsocks.QuickToggleShortcut"[0m
+[0m[[0mdebug[0m] [0m103-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:84:17-74[0m
+[0m[[0mdebug[0m] [0m104            android:excludeFromRecents="true"[0m
+[0m[[0mdebug[0m] [0m104-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:87:17-50[0m
+[0m[[0mdebug[0m] [0m105            android:label="@string/quick_toggle"[0m
+[0m[[0mdebug[0m] [0m105-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:85:17-53[0m
+[0m[[0mdebug[0m] [0m106            android:launchMode="singleTask"[0m
+[0m[[0mdebug[0m] [0m106-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:89:17-48[0m
+[0m[[0mdebug[0m] [0m107            android:taskAffinity=""[0m
+[0m[[0mdebug[0m] [0m107-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:88:3-26[0m
+[0m[[0mdebug[0m] [0m108            android:theme="@android:style/Theme.Translucent.NoTitleBar" >[0m
+[0m[[0mdebug[0m] [0m108-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:86:17-76[0m
+[0m[[0mdebug[0m] [0m109            <intent-filter>[0m
+[0m[[0mdebug[0m] [0m109-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:90:13-92:29[0m
+[0m[[0mdebug[0m] [0m110                <action android:name="android.intent.action.CREATE_SHORTCUT" />[0m
+[0m[[0mdebug[0m] [0m110-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:91:17-80[0m
+[0m[[0mdebug[0m] [0m110-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:91:25-77[0m
+[0m[[0mdebug[0m] [0m111            </intent-filter>[0m
+[0m[[0mdebug[0m] [0m112        </activity>[0m
+[0m[[0mdebug[0m] [0m113[0m
+[0m[[0mdebug[0m] [0m114        <service[0m
+[0m[[0mdebug[0m] [0m114-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:95:9-98:19[0m
+[0m[[0mdebug[0m] [0m115            android:name="com.github.shadowsocks.ShadowsocksRunnerService"[0m
+[0m[[0mdebug[0m] [0m115-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:96:17-79[0m
+[0m[[0mdebug[0m] [0m116            android:exported="false" >[0m
+[0m[[0mdebug[0m] [0m116-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:97:17-41[0m
+[0m[[0mdebug[0m] [0m117        </service>[0m
+[0m[[0mdebug[0m] [0m118        <service[0m
+[0m[[0mdebug[0m] [0m118-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:100:9-104:19[0m
+[0m[[0mdebug[0m] [0m119            android:name="com.github.shadowsocks.ShadowsocksNatService"[0m
+[0m[[0mdebug[0m] [0m119-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:101:17-76[0m
+[0m[[0mdebug[0m] [0m120            android:exported="false"[0m
+[0m[[0mdebug[0m] [0m120-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:103:17-41[0m
+[0m[[0mdebug[0m] [0m121            android:process=":bg" >[0m
+[0m[[0mdebug[0m] [0m121-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:102:17-38[0m
+[0m[[0mdebug[0m] [0m122        </service>[0m
+[0m[[0mdebug[0m] [0m123        <service[0m
+[0m[[0mdebug[0m] [0m123-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:106:9-115:19[0m
+[0m[[0mdebug[0m] [0m124            android:name="com.github.shadowsocks.ShadowsocksVpnService"[0m
+[0m[[0mdebug[0m] [0m124-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:107:17-76[0m
+[0m[[0mdebug[0m] [0m125            android:exported="false"[0m
+[0m[[0mdebug[0m] [0m125-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:111:17-41[0m
+[0m[[0mdebug[0m] [0m126            android:label="@string/app_name"[0m
+[0m[[0mdebug[0m] [0m126-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:109:17-49[0m
+[0m[[0mdebug[0m] [0m127            android:permission="android.permission.BIND_VPN_SERVICE"[0m
+[0m[[0mdebug[0m] [0m127-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:110:17-73[0m
+[0m[[0mdebug[0m] [0m128            android:process=":bg" >[0m
+[0m[[0mdebug[0m] [0m128-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:108:17-38[0m
+[0m[[0mdebug[0m] [0m129            <intent-filter>[0m
+[0m[[0mdebug[0m] [0m129-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:112:13-114:29[0m
+[0m[[0mdebug[0m] [0m130                <action android:name="android.net.VpnService" />[0m
+[0m[[0mdebug[0m] [0m130-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:113:17-64[0m
+[0m[[0mdebug[0m] [0m130-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:113:25-62[0m
+[0m[[0mdebug[0m] [0m131            </intent-filter>[0m
+[0m[[0mdebug[0m] [0m132        </service>[0m
+[0m[[0mdebug[0m] [0m133        <service[0m
+[0m[[0mdebug[0m] [0m133-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:117:9-124:19[0m
+[0m[[0mdebug[0m] [0m134            android:name="com.github.shadowsocks.ShadowsocksTileService"[0m
+[0m[[0mdebug[0m] [0m134-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:117:18-78[0m
+[0m[[0mdebug[0m] [0m135            android:icon="@drawable/ic_start_connected"[0m
+[0m[[0mdebug[0m] [0m135-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:119:18-61[0m
+[0m[[0mdebug[0m] [0m136            android:label="@string/quick_toggle"[0m
+[0m[[0mdebug[0m] [0m136-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:117:79-115[0m
+[0m[[0mdebug[0m] [0m137            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"[0m
+[0m[[0mdebug[0m] [0m137-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:120:18-82[0m
+[0m[[0mdebug[0m] [0m138            android:process=":bg" >[0m
+[0m[[0mdebug[0m] [0m138-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:118:18-39[0m
+[0m[[0mdebug[0m] [0m139            <intent-filter>[0m
+[0m[[0mdebug[0m] [0m139-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:121:13-123:29[0m
+[0m[[0mdebug[0m] [0m140                <action android:name="android.service.quicksettings.action.QS_TILE" />[0m
+[0m[[0mdebug[0m] [0m140-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:122:17-87[0m
+[0m[[0mdebug[0m] [0m140-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:122:25-84[0m
+[0m[[0mdebug[0m] [0m141            </intent-filter>[0m
+[0m[[0mdebug[0m] [0m142        </service>[0m
+[0m[[0mdebug[0m] [0m143[0m
+[0m[[0mdebug[0m] [0m144        <receiver[0m
+[0m[[0mdebug[0m] [0m144-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:126:9-130:20[0m
+[0m[[0mdebug[0m] [0m145            android:name="com.github.shadowsocks.BootReceiver"[0m
+[0m[[0mdebug[0m] [0m145-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:126:19-69[0m
+[0m[[0mdebug[0m] [0m146            android:enabled="false" >[0m
+[0m[[0mdebug[0m] [0m146-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:126:70-93[0m
+[0m[[0mdebug[0m] [0m147            <intent-filter>[0m
+[0m[[0mdebug[0m] [0m147-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:127:13-129:29[0m
+[0m[[0mdebug[0m] [0m148                <action android:name="android.intent.action.BOOT_COMPLETED" />[0m
+[0m[[0mdebug[0m] [0m148-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:128:17-78[0m
+[0m[[0mdebug[0m] [0m148-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:128:25-76[0m
+[0m[[0mdebug[0m] [0m149            </intent-filter>[0m
+[0m[[0mdebug[0m] [0m150        </receiver>[0m
+[0m[[0mdebug[0m] [0m151        <receiver android:name="com.github.shadowsocks.TaskerReceiver" >[0m
+[0m[[0mdebug[0m] [0m151-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:132:9-136:20[0m
+[0m[[0mdebug[0m] [0m151-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:132:19-71[0m
+[0m[[0mdebug[0m] [0m152            <intent-filter>[0m
+[0m[[0mdebug[0m] [0m152-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:133:13-135:29[0m
+[0m[[0mdebug[0m] [0m153                <action android:name="com.twofortyfouram.locale.intent.action.FIRE_SETTING" />[0m
+[0m[[0mdebug[0m] [0m153-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:134:17-94[0m
+[0m[[0mdebug[0m] [0m153-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:134:25-92[0m
+[0m[[0mdebug[0m] [0m154            </intent-filter>[0m
+[0m[[0mdebug[0m] [0m155        </receiver>[0m
+[0m[[0mdebug[0m] [0m156[0m
+[0m[[0mdebug[0m] [0m157        <!-- android-job components -->[0m
+[0m[[0mdebug[0m] [0m158        <service[0m
+[0m[[0mdebug[0m] [0m158-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:139:9-140:41[0m
+[0m[[0mdebug[0m] [0m159            android:name="com.evernote.android.job.v21.PlatformJobService"[0m
+[0m[[0mdebug[0m] [0m159-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:139:18-80[0m
+[0m[[0mdebug[0m] [0m160            android:exported="false"[0m
+[0m[[0mdebug[0m] [0m160-->[/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:19:13-37[0m
+[0m[[0mdebug[0m] [0m161            android:permission="android.permission.BIND_JOB_SERVICE"[0m
+[0m[[0mdebug[0m] [0m161-->[/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:20:13-69[0m
+[0m[[0mdebug[0m] [0m162            android:process=":bg" />[0m
+[0m[[0mdebug[0m] [0m162-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:140:18-39[0m
+[0m[[0mdebug[0m] [0m163        <service[0m
+[0m[[0mdebug[0m] [0m163-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:141:9-142:41[0m
+[0m[[0mdebug[0m] [0m164            android:name="com.evernote.android.job.v14.PlatformAlarmService"[0m
+[0m[[0mdebug[0m] [0m164-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:141:18-82[0m
+[0m[[0mdebug[0m] [0m165            android:exported="false"[0m
+[0m[[0mdebug[0m] [0m165-->[/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:23:13-37[0m
+[0m[[0mdebug[0m] [0m166            android:process=":bg" />[0m
+[0m[[0mdebug[0m] [0m166-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:142:18-39[0m
+[0m[[0mdebug[0m] [0m167        <service[0m
+[0m[[0mdebug[0m] [0m167-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:143:9-144:41[0m
+[0m[[0mdebug[0m] [0m168            android:name="com.evernote.android.job.gcm.PlatformGcmService"[0m
+[0m[[0mdebug[0m] [0m168-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:143:18-80[0m
+[0m[[0mdebug[0m] [0m169            android:enabled="false"[0m
+[0m[[0mdebug[0m] [0m169-->[/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:48:13-36[0m
+[0m[[0mdebug[0m] [0m170            android:exported="true"[0m
+[0m[[0mdebug[0m] [0m170-->[/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:49:13-36[0m
+[0m[[0mdebug[0m] [0m171            android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE"[0m
+[0m[[0mdebug[0m] [0m171-->[/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:50:13-93[0m
+[0m[[0mdebug[0m] [0m172            android:process=":bg" >[0m
+[0m[[0mdebug[0m] [0m172-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:144:18-39[0m
+[0m[[0mdebug[0m] [0m173            <intent-filter>[0m
+[0m[[0mdebug[0m] [0m173-->[/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:51:13-53:29[0m
+[0m[[0mdebug[0m] [0m174                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY" />[0m
+[0m[[0mdebug[0m] [0m174-->[/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:52:17-87[0m
+[0m[[0mdebug[0m] [0m174-->[/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:52:25-84[0m
+[0m[[0mdebug[0m] [0m175            </intent-filter>[0m
+[0m[[0mdebug[0m] [0m176        </service>[0m
+[0m[[0mdebug[0m] [0m177        <service[0m
+[0m[[0mdebug[0m] [0m177-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:145:9-146:41[0m
+[0m[[0mdebug[0m] [0m178            android:name="com.evernote.android.job.JobRescheduleService"[0m
+[0m[[0mdebug[0m] [0m178-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:145:18-78[0m
+[0m[[0mdebug[0m] [0m179            android:exported="false"[0m
+[0m[[0mdebug[0m] [0m179-->[/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:57:13-37[0m
+[0m[[0mdebug[0m] [0m180            android:process=":bg" />[0m
+[0m[[0mdebug[0m] [0m180-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:146:18-39[0m
+[0m[[0mdebug[0m] [0m181[0m
+[0m[[0mdebug[0m] [0m182        <receiver[0m
+[0m[[0mdebug[0m] [0m182-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:147:9-148:42[0m
+[0m[[0mdebug[0m] [0m183            android:name="com.evernote.android.job.v14.PlatformAlarmReceiver"[0m
+[0m[[0mdebug[0m] [0m183-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:147:19-84[0m
+[0m[[0mdebug[0m] [0m184            android:exported="false"[0m
+[0m[[0mdebug[0m] [0m184-->[/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:27:13-37[0m
+[0m[[0mdebug[0m] [0m185            android:process=":bg" >[0m
+[0m[[0mdebug[0m] [0m185-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:148:19-40[0m
+[0m[[0mdebug[0m] [0m186            <intent-filter>[0m
+[0m[[0mdebug[0m] [0m186-->[/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:28:13-33:29[0m
+[0m[[0mdebug[0m] [0m187[0m
+[0m[[0mdebug[0m] [0m188                <!-- Keep the filter for legacy intents -->[0m
+[0m[[0mdebug[0m] [0m189                <action android:name="com.evernote.android.job.v14.RUN_JOB" />[0m
+[0m[[0mdebug[0m] [0m189-->[/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:31:17-79[0m
+[0m[[0mdebug[0m] [0m189-->[/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:31:25-76[0m
+[0m[[0mdebug[0m] [0m190                <action android:name="net.vrallev.android.job.v14.RUN_JOB" />[0m
+[0m[[0mdebug[0m] [0m190-->[/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:32:17-78[0m
+[0m[[0mdebug[0m] [0m190-->[/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:32:25-75[0m
+[0m[[0mdebug[0m] [0m191            </intent-filter>[0m
+[0m[[0mdebug[0m] [0m192        </receiver>[0m
+[0m[[0mdebug[0m] [0m193        <receiver[0m
+[0m[[0mdebug[0m] [0m193-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:149:9-150:42[0m
+[0m[[0mdebug[0m] [0m194            android:name="com.evernote.android.job.JobBootReceiver"[0m
+[0m[[0mdebug[0m] [0m194-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:149:19-74[0m
+[0m[[0mdebug[0m] [0m195            android:exported="false"[0m
+[0m[[0mdebug[0m] [0m195-->[/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:37:13-37[0m
+[0m[[0mdebug[0m] [0m196            android:process=":bg" >[0m
+[0m[[0mdebug[0m] [0m196-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:150:19-40[0m
+[0m[[0mdebug[0m] [0m197            <intent-filter>[0m
+[0m[[0mdebug[0m] [0m197-->[/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:38:13-43:29[0m
+[0m[[0mdebug[0m] [0m198                <action android:name="android.intent.action.BOOT_COMPLETED" />[0m
+[0m[[0mdebug[0m] [0m198-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:128:17-78[0m
+[0m[[0mdebug[0m] [0m198-->/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/AndroidManifest.xml:128:25-76[0m
+[0m[[0mdebug[0m] [0m199                <action android:name="android.intent.action.QUICKBOOT_POWERON" />[0m
+[0m[[0mdebug[0m] [0m199-->[/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:40:17-82[0m
+[0m[[0mdebug[0m] [0m199-->[/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:40:25-79[0m
+[0m[[0mdebug[0m] [0m200                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />[0m
+[0m[[0mdebug[0m] [0m200-->[/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:41:17-82[0m
+[0m[[0mdebug[0m] [0m200-->[/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:41:25-79[0m
+[0m[[0mdebug[0m] [0m201                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />[0m
+[0m[[0mdebug[0m] [0m201-->[/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:42:17-84[0m
+[0m[[0mdebug[0m] [0m201-->[/home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8] /home/senrsl/.android/sbt/exploded-aars/com.evernote-android-job-1.1.8/AndroidManifest.xml:42:25-81[0m
+[0m[[0mdebug[0m] [0m202            </intent-filter>[0m
+[0m[[0mdebug[0m] [0m203        </receiver>[0m
+[0m[[0mdebug[0m] [0m204[0m
+[0m[[0mdebug[0m] [0m205        <meta-data[0m
+[0m[[0mdebug[0m] [0m205-->[/home/senrsl/test/temp/ss/shadowsocks-android/plugin] /home/senrsl/test/temp/ss/shadowsocks-android/plugin/src/main/AndroidManifest.xml:8:9-9:43[0m
+[0m[[0mdebug[0m] [0m206            android:name="com.github.shadowsocks.plugin.version"[0m
+[0m[[0mdebug[0m] [0m206-->[/home/senrsl/test/temp/ss/shadowsocks-android/plugin] /home/senrsl/test/temp/ss/shadowsocks-android/plugin/src/main/AndroidManifest.xml:8:20-72[0m
+[0m[[0mdebug[0m] [0m207            android:value="0.0.2" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->[0m
+[0m[[0mdebug[0m] [0m207-->[/home/senrsl/test/temp/ss/shadowsocks-android/plugin] /home/senrsl/test/temp/ss/shadowsocks-android/plugin/src/main/AndroidManifest.xml:9:20-41[0m
+[0m[[0mdebug[0m] [0m208        <activity[0m
+[0m[[0mdebug[0m] [0m208-->[/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-lite-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-lite-10.2.1/AndroidManifest.xml:25:9-232[0m
+[0m[[0mdebug[0m] [0m209            android:name="com.google.android.gms.ads.AdActivity"[0m
+[0m[[0mdebug[0m] [0m209-->[/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-lite-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-lite-10.2.1/AndroidManifest.xml:25:19-71[0m
+[0m[[0mdebug[0m] [0m210            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"[0m
+[0m[[0mdebug[0m] [0m210-->[/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-lite-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-lite-10.2.1/AndroidManifest.xml:25:72-181[0m
+[0m[[0mdebug[0m] [0m211            android:theme="@android:style/Theme.Translucent" />[0m
+[0m[[0mdebug[0m] [0m211-->[/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-lite-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-lite-10.2.1/AndroidManifest.xml:25:182-230[0m
+[0m[[0mdebug[0m] [0m212        <activity[0m
+[0m[[0mdebug[0m] [0m212-->[/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-lite-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-lite-10.2.1/AndroidManifest.xml:26:9-131[0m
+[0m[[0mdebug[0m] [0m213            android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity"[0m
+[0m[[0mdebug[0m] [0m213-->[/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-lite-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-lite-10.2.1/AndroidManifest.xml:26:19-91[0m
+[0m[[0mdebug[0m] [0m214            android:theme="@style/Theme.IAPTheme" />[0m
+[0m[[0mdebug[0m] [0m214-->[/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-lite-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-ads-lite-10.2.1/AndroidManifest.xml:26:92-129[0m
+[0m[[0mdebug[0m] [0m215        <activity[0m
+[0m[[0mdebug[0m] [0m215-->[/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-base-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-base-10.2.1/AndroidManifest.xml:19:9-172[0m
+[0m[[0mdebug[0m] [0m216            android:name="com.google.android.gms.common.api.GoogleApiActivity"[0m
+[0m[[0mdebug[0m] [0m216-->[/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-base-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-base-10.2.1/AndroidManifest.xml:19:19-85[0m
+[0m[[0mdebug[0m] [0m217            android:exported="false"[0m
+[0m[[0mdebug[0m] [0m217-->[/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-base-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-base-10.2.1/AndroidManifest.xml:19:146-170[0m
+[0m[[0mdebug[0m] [0m218            android:theme="@android:style/Theme.Translucent.NoTitleBar" />[0m
+[0m[[0mdebug[0m] [0m218-->[/home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-base-10.2.1] /home/senrsl/.android/sbt/exploded-aars/com.google.android.gms-play-services-base-10.2.1/AndroidManifest.xml:19:86-145[0m
+[0m[[0mdebug[0m] [0m219    </application>[0m
+[0m[[0mdebug[0m] [0m220[0m
+[0m[[0mdebug[0m] [0m221</manifest>[0m
+[0m[[0mdebug[0m] [0mMerged manifest saved to /home/senrsl/test/temp/ss/shadowsocks-android/mobile/target/android/intermediates/manifest/AndroidManifest.xml[0m
+[0m[[0minfo[0m] [0mPerforming incremental resource merge[0m
+[0m[[0minfo[0m] [0mQueuedCruncher is using /home/senrsl/android/android-sdk-linux/build-tools/25.0.2/aapt[0m

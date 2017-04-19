@@ -1,0 +1,43 @@
+[0m[[0mdebug[0m] [0mInvalidated cache because: List(/home/senrsl/test/temp/ss/shadowsocks-android/mobile/target/android/intermediates/proguard/classes.proguard.jar)[0m
+[0m[[0minfo[0m] [0mGenerating dex, multidex=false[0m
+[0m[[0mdebug[0m] [0mDex inputs: List(/home/senrsl/test/temp/ss/shadowsocks-android/mobile/target/android/intermediates/proguard/classes.proguard.jar)[0m
+[0m[[0mdebug[0m] [0mDEX IN: List(/home/senrsl/test/temp/ss/shadowsocks-android/mobile/target/android/intermediates/proguard/classes.proguard.jar)[0m
+[0m[[0mdebug[0m] [0mPRE-DEXED: List()[0m
+[0m[[0mdebug[0m] [0mestimated method counts:[0m
+[0m[[0mdebug[0m] [0m      34772 - /home/senrsl/test/temp/ss/shadowsocks-android/mobile/target/android/intermediates/proguard/classes.proguard.jar[0m
+[0m[[0mdebug[0m] [0mAllocated dexExecutorService of size 8.[0m
+[0m[[0mdebug[0m] [0mDexing out-of-process : /home/senrsl/test/temp/ss/shadowsocks-android/mobile/target/android/intermediates/proguard/classes.proguard.jar[0m
+[0m[[31merror[0m] [0mwarning: Ignoring InnerClasses attribute for an anonymous inner class[0m
+[0m[[31merror[0m] [0m(org.xbill.DNS.APLRecord$1) that doesn't come with an[0m
+[0m[[31merror[0m] [0massociated EnclosingMethod attribute. This class was probably produced by a[0m
+[0m[[31merror[0m] [0mcompiler that did not target the modern .class file format. The recommended[0m
+[0m[[31merror[0m] [0msolution is to recompile the class from source, using an up-to-date compiler[0m
+[0m[[31merror[0m] [0mand without specifying any "-target" type options. The consequence of ignoring[0m
+[0m[[31merror[0m] [0mthis warning is that reflective operations on this class will incorrectly[0m
+[0m[[31merror[0m] [0mindicate that it is *not* an inner class.[0m
+[0m[[31merror[0m] [0mwarning: Ignoring InnerClasses attribute for an anonymous inner class[0m
+[0m[[31merror[0m] [0m(org.xbill.DNS.Compression$1) that doesn't come with an[0m
+[0m[[31merror[0m] [0massociated EnclosingMethod attribute. This class was probably produced by a[0m
+[0m[[31merror[0m] [0mcompiler that did not target the modern .class file format. The recommended[0m
+[0m[[31merror[0m] [0msolution is to recompile the class from source, using an up-to-date compiler[0m
+[0m[[31merror[0m] [0mand without specifying any "-target" type options. The consequence of ignoring[0m
+[0m[[31merror[0m] [0mthis warning is that reflective operations on this class will incorrectly[0m
+[0m[[31merror[0m] [0mindicate that it is *not* an inner class.[0m
+[0m[[31merror[0m] [0mwarning: Ignoring InnerClasses attribute for an anonymous inner class[0m
+[0m[[31merror[0m] [0m(org.xbill.DNS.UDPClient$1) that doesn't come with an[0m
+[0m[[31merror[0m] [0massociated EnclosingMethod attribute. This class was probably produced by a[0m
+[0m[[31merror[0m] [0mcompiler that did not target the modern .class file format. The recommended[0m
+[0m[[31merror[0m] [0msolution is to recompile the class from source, using an up-to-date compiler[0m
+[0m[[31merror[0m] [0mand without specifying any "-target" type options. The consequence of ignoring[0m
+[0m[[31merror[0m] [0mthis warning is that reflective operations on this class will incorrectly[0m
+[0m[[31merror[0m] [0mindicate that it is *not* an inner class.[0m
+[0m[[31merror[0m] [0mwarning: Ignoring InnerClasses attribute for an anonymous inner class[0m
+[0m[[31merror[0m] [0m(org.xbill.DNS.ZoneTransferIn$1) that doesn't come with an[0m
+[0m[[31merror[0m] [0massociated EnclosingMethod attribute. This class was probably produced by a[0m
+[0m[[31merror[0m] [0mcompiler that did not target the modern .class file format. The recommended[0m
+[0m[[31merror[0m] [0msolution is to recompile the class from source, using an up-to-date compiler[0m
+[0m[[31merror[0m] [0mand without specifying any "-target" type options. The consequence of ignoring[0m
+[0m[[31merror[0m] [0mthis warning is that reflective operations on this class will incorrectly[0m
+[0m[[31merror[0m] [0mindicate that it is *not* an inner class.[0m
+[0m[[0mdebug[0m] [0mDexing /home/senrsl/test/temp/ss/shadowsocks-android/mobile/target/android/intermediates/proguard/classes.proguard.jar took 14.71 s.[0m
+[0m[[0minfo[0m] [0mdex method count: 38664[0m

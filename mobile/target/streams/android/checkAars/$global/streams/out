@@ -1,0 +1,37 @@
+[0m[[33mwarn[0m] [0maar support-v4 older than latest version 25.3.1[0m
+[0m[[33mwarn[0m] [0m * 25.3.1 as transitive dep[0m
+[0m[[33mwarn[0m] [0m * 25.2.0 as transitive dep[0m
+[0m[[33mwarn[0m] [0m * 24.0.0 as transitive dep[0m
+[0m[[33mwarn[0m] [0m * 22.2.0 as transitive dep[0m
+[0m[[33mwarn[0m] [0maar support-compat older than latest version 25.3.1[0m
+[0m[[33mwarn[0m] [0m * 25.3.1 as transitive dep[0m
+[0m[[33mwarn[0m] [0m * 25.2.0 as transitive dep[0m
+[0m[[33mwarn[0m] [0m * 25.1.1 as transitive dep[0m
+[0m[[33mwarn[0m] [0maar support-media-compat older than latest version 25.3.1[0m
+[0m[[33mwarn[0m] [0m * 25.3.1 as transitive dep[0m
+[0m[[33mwarn[0m] [0m * 25.2.0 as transitive dep[0m
+[0m[[33mwarn[0m] [0maar support-core-utils older than latest version 25.3.1[0m
+[0m[[33mwarn[0m] [0m * 25.3.1 as transitive dep[0m
+[0m[[33mwarn[0m] [0m * 25.2.0 as transitive dep[0m
+[0m[[33mwarn[0m] [0maar support-core-ui older than latest version 25.3.1[0m
+[0m[[33mwarn[0m] [0m * 25.3.1 as transitive dep[0m
+[0m[[33mwarn[0m] [0m * 25.2.0 as transitive dep[0m
+[0m[[33mwarn[0m] [0maar support-fragment older than latest version 25.3.1[0m
+[0m[[33mwarn[0m] [0m * 25.3.1 as transitive dep[0m
+[0m[[33mwarn[0m] [0m * 25.2.0 as transitive dep[0m
+[0m[[33mwarn[0m] [0maar appcompat-v7 older than latest version 25.3.1[0m
+[0m[[33mwarn[0m] [0m * 25.3.1 as transitive dep[0m
+[0m[[33mwarn[0m] [0m * 25.2.0 as transitive dep[0m
+[0m[[33mwarn[0m] [0m * 25.1.1 as transitive dep[0m
+[0m[[33mwarn[0m] [0m * 24.2.0 as transitive dep[0m
+[0m[[33mwarn[0m] [0m * 25.1.0 as transitive dep[0m
+[0m[[33mwarn[0m] [0maar support-vector-drawable older than latest version 25.3.1[0m
+[0m[[33mwarn[0m] [0m * 25.3.1 as transitive dep[0m
+[0m[[33mwarn[0m] [0m * 25.2.0 as transitive dep[0m
+[0m[[33mwarn[0m] [0maar animated-vector-drawable older than latest version 25.3.1[0m
+[0m[[33mwarn[0m] [0m * 25.3.1 as transitive dep[0m
+[0m[[33mwarn[0m] [0m * 25.2.0 as transitive dep[0m
+[0m[[33mwarn[0m] [0maar recyclerview-v7 older than latest version 25.3.1[0m
+[0m[[33mwarn[0m] [0m * 25.3.1 as transitive dep[0m
+[0m[[33mwarn[0m] [0m * 25.2.0 as transitive dep[0m
+[0m[[33mwarn[0m] [0m * 25.1.0 as transitive dep[0m

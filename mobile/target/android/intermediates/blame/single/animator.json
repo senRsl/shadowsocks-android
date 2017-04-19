@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/mobile/target/android/intermediates/res/animator/fastscroll__default_show.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.futuremind.recyclerfastscroll-fastscroll-0.2.5/res/animator/fastscroll__default_show.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/mobile/target/android/intermediates/res/animator/fastscroll__default_hide.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.futuremind.recyclerfastscroll-fastscroll-0.2.5/res/animator/fastscroll__default_hide.xml"
+    }
+]

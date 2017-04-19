@@ -1,0 +1,4 @@
+[0m[[33mwarn[0m] [0m[UnusedAttribute] src/main/res/layout/toolbar_light_dark.xml:8:Attribute elevation is only used in API level 21 and higher (current min is 19)[0m
+[0m[[33mwarn[0m] [0m    android:elevation="4dp"[0m
+[0m[[33mwarn[0m] [0m    ~~~~~~~~~~~~~~~~~~~~~~~[0m
+[0m[[33mwarn[0m] [0mlint found 1 warning[0m

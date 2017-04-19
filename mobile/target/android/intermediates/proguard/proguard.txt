@@ -1,0 +1,258 @@
+# view res/layout/design_bottom_navigation_item.xml #generated:26
+-keep class android.support.design.internal.BaselineLayout { <init>(...); }
+
+# view res/layout/design_navigation_item.xml #generated:17
+-keep class android.support.design.internal.NavigationMenuItemView { <init>(...); }
+
+# view res/layout/design_navigation_menu.xml #generated:17
+-keep class android.support.design.internal.NavigationMenuView { <init>(...); }
+
+# view res/layout/design_layout_snackbar_include.xml #generated:18
+-keep class android.support.design.internal.SnackbarContentLayout { <init>(...); }
+
+# view res/layout/design_text_input_password_icon.xml #generated:18
+-keep class android.support.design.widget.CheckableImageButton { <init>(...); }
+
+# view res/layout/design_bottom_sheet_dialog.xml #generated:17
+# view res/layout/layout_main.xml #generated:86
+-keep class android.support.design.widget.CoordinatorLayout { <init>(...); }
+
+# view res/layout/layout_main.xml #generated:78
+-keep class android.support.design.widget.FloatingActionButton { <init>(...); }
+
+# view res/layout/design_layout_snackbar.xml #generated:18
+# view sw600dp-v13/res/layout-sw600dp-v13/design_layout_snackbar.xml #generated:18
+-keep class android.support.design.widget.Snackbar$SnackbarLayout { <init>(...); }
+
+# view res/layout/material_drawer.xml #generated:2
+# view res/layout/material_drawer_fits_not.xml #generated:2
+-keep class android.support.v4.widget.DrawerLayout { <init>(...); }
+
+# view res/layout/abc_alert_dialog_material.xml #generated:41
+-keep class android.support.v4.widget.NestedScrollView { <init>(...); }
+
+# view res/layout/abc_alert_dialog_button_bar_material.xml #generated:43
+# view res/layout/abc_alert_dialog_material.xml #generated:52
+# view res/layout/abc_alert_dialog_material.xml #generated:66
+# view res/layout/abc_alert_dialog_title_material.xml #generated:56
+-keep class android.support.v4.widget.Space { <init>(...); }
+
+# view res/layout/abc_select_dialog_material.xml #generated:23
+-keep class android.support.v7.app.AlertController$RecycleListView { <init>(...); }
+
+# view v11/res/layout-v11/preference.xml #generated:32
+# view v11/res/layout-v11/preference_dropdown.xml #generated:38
+# view v17/res/layout-v17/preference_dropdown_material.xml #generated:47
+# view v17/res/layout-v17/preference_material.xml #generated:41
+# view v21/res/layout-v21/preference_dropdown_material.xml #generated:47
+# view v21/res/layout-v21/preference_material.xml #generated:41
+-keep class android.support.v7.internal.widget.PreferenceImageView { <init>(...); }
+
+# view res/layout/preference_widget_seekbar.xml #generated:66
+-keep class android.support.v7.preference.UnPressableLinearLayout { <init>(...); }
+
+# view res/layout/abc_action_menu_item_layout.xml #generated:17
+-keep class android.support.v7.view.menu.ActionMenuItemView { <init>(...); }
+
+# view res/layout/abc_expanded_menu_layout.xml #generated:17
+-keep class android.support.v7.view.menu.ExpandedMenuView { <init>(...); }
+
+# view res/layout/abc_list_menu_item_layout.xml #generated:17
+# view res/layout/abc_popup_menu_item_layout.xml #generated:17
+-keep class android.support.v7.view.menu.ListMenuItemView { <init>(...); }
+
+# view res/layout/abc_screen_toolbar.xml #generated:27
+-keep class android.support.v7.widget.ActionBarContainer { <init>(...); }
+
+# view res/layout/abc_action_mode_bar.xml #generated:19
+# view res/layout/abc_screen_toolbar.xml #generated:43
+-keep class android.support.v7.widget.ActionBarContextView { <init>(...); }
+
+# view res/layout/abc_screen_toolbar.xml #generated:17
+-keep class android.support.v7.widget.ActionBarOverlayLayout { <init>(...); }
+
+# view res/layout/abc_action_menu_layout.xml #generated:17
+-keep class android.support.v7.widget.ActionMenuView { <init>(...); }
+
+# view res/layout/abc_activity_chooser_view.xml #generated:19
+-keep class android.support.v7.widget.ActivityChooserView$InnerLayout { <init>(...); }
+
+# view res/layout/abc_alert_dialog_material.xml #generated:18
+-keep class android.support.v7.widget.AlertDialogLayout { <init>(...); }
+
+# view res/layout/layout_profile.xml #generated:37
+# view res/layout/layout_profile.xml #generated:49
+-keep class android.support.v7.widget.AppCompatImageView { <init>(...); }
+
+# view res/layout/abc_alert_dialog_button_bar_material.xml #generated:26
+-keep class android.support.v7.widget.ButtonBarLayout { <init>(...); }
+
+# view res/layout/abc_screen_content_include.xml #generated:19
+-keep class android.support.v7.widget.ContentFrameLayout { <init>(...); }
+
+# view res/layout/abc_alert_dialog_title_material.xml #generated:45
+-keep class android.support.v7.widget.DialogTitle { <init>(...); }
+
+# view res/layout/abc_screen_simple_overlay_action_mode.xml #generated:23
+-keep class android.support.v7.widget.FitWindowsFrameLayout { <init>(...); }
+
+# view res/layout/abc_dialog_title_material.xml #generated:22
+# view res/layout/abc_screen_simple.xml #generated:17
+-keep class android.support.v7.widget.FitWindowsLinearLayout { <init>(...); }
+
+# view res/layout/layout_apps.xml #generated:47
+# view res/layout/layout_custom_rules.xml #generated:11
+# view res/layout/layout_list.xml #generated:7
+# view res/layout/layout_tasker.xml #generated:18
+# view res/layout/material_drawer_recycler_view.xml #generated:2
+# view res/layout/preference_recyclerview.xml #generated:18
+-keep class android.support.v7.widget.RecyclerView { <init>(...); }
+
+# view res/layout/abc_search_view.xml #generated:75
+-keep class android.support.v7.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# view res/layout/material_drawer_item_secondary_switch.xml #generated:58
+# view res/layout/material_drawer_item_switch.xml #generated:58
+# view res/layout/preference_widget_switch_compat.xml #generated:20
+-keep class android.support.v7.widget.SwitchCompat { <init>(...); }
+
+# view res/layout/abc_screen_toolbar.xml #generated:36
+# view res/layout/toolbar_light_dark.xml #generated:2
+-keep class android.support.v7.widget.Toolbar { <init>(...); }
+
+# view res/layout/abc_screen_simple.xml #generated:25
+# view res/layout/abc_screen_simple_overlay_action_mode.xml #generated:32
+-keep class android.support.v7.widget.ViewStubCompat { <init>(...); }
+
+# view res/xml/pref_profile.xml #generated:13
+# view res/xml/pref_profile.xml #generated:29
+# view res/xml/pref_profile.xml #generated:5
+# view res/xml/pref_profile.xml #generated:52
+# view res/xml/pref_profile.xml #generated:79
+-keep class be.mygod.preference.EditTextPreference { <init>(...); }
+
+# view res/xml/pref_profile.xml #generated:17
+# view res/xml/pref_profile.xml #generated:23
+-keep class be.mygod.preference.NumberPickerPreference { <init>(...); }
+
+# view res/xml/pref_profile.xml #generated:10
+# view res/xml/pref_profile.xml #generated:43
+# view res/xml/pref_profile.xml #generated:71
+-keep class be.mygod.preference.PreferenceCategory { <init>(...); }
+
+# view AndroidManifest.xml #generated:193
+-keep class com.evernote.android.job.JobBootReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:177
+-keep class com.evernote.android.job.JobRescheduleService { <init>(...); }
+
+# view AndroidManifest.xml #generated:167
+-keep class com.evernote.android.job.gcm.PlatformGcmService { <init>(...); }
+
+# view AndroidManifest.xml #generated:182
+-keep class com.evernote.android.job.v14.PlatformAlarmReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:163
+-keep class com.evernote.android.job.v14.PlatformAlarmService { <init>(...); }
+
+# view AndroidManifest.xml #generated:158
+-keep class com.evernote.android.job.v21.PlatformJobService { <init>(...); }
+
+# view res/layout/layout_apps.xml #generated:52
+# view res/layout/layout_custom_rules.xml #generated:16
+-keep class com.futuremind.recyclerviewfastscroll.FastScroller { <init>(...); }
+
+# view res/layout/layout_main.xml #generated:69
+-keep class com.github.jorgecastilloprz.FABProgressCircle { <init>(...); }
+
+# view AndroidManifest.xml #generated:89
+-keep class com.github.shadowsocks.AppManager { <init>(...); }
+
+# view AndroidManifest.xml #generated:144
+-keep class com.github.shadowsocks.BootReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:45
+-keep class com.github.shadowsocks.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:78
+-keep class com.github.shadowsocks.ProfileConfigActivity { <init>(...); }
+
+# view res/layout/layout_profile_config.xml #generated:7
+-keep class com.github.shadowsocks.ProfileConfigFragment { <init>(...); }
+
+# view AndroidManifest.xml #generated:102
+-keep class com.github.shadowsocks.QuickToggleShortcut { <init>(...); }
+
+# view AndroidManifest.xml #generated:33
+-keep class com.github.shadowsocks.ShadowsocksApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:33
+-keep class com.github.shadowsocks.ShadowsocksBackupAgent { <init>(...); }
+
+# view AndroidManifest.xml #generated:118
+-keep class com.github.shadowsocks.ShadowsocksNatService { <init>(...); }
+
+# view AndroidManifest.xml #generated:83
+-keep class com.github.shadowsocks.ShadowsocksRunnerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:114
+-keep class com.github.shadowsocks.ShadowsocksRunnerService { <init>(...); }
+
+# view AndroidManifest.xml #generated:133
+-keep class com.github.shadowsocks.ShadowsocksTileService { <init>(...); }
+
+# view AndroidManifest.xml #generated:123
+-keep class com.github.shadowsocks.ShadowsocksVpnService { <init>(...); }
+
+# view AndroidManifest.xml #generated:95
+-keep class com.github.shadowsocks.TaskerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:151
+-keep class com.github.shadowsocks.TaskerReceiver { <init>(...); }
+
+# view res/xml/pref_profile.xml #generated:74
+-keep class com.github.shadowsocks.preference.IconListPreference { <init>(...); }
+
+# view res/layout/layout_profile.xml #generated:7
+-keep class com.github.shadowsocks.widget.BoundedCardView { <init>(...); }
+
+# view res/layout/layout_main.xml #generated:30
+-keep class com.github.shadowsocks.widget.BoundedGridLayout { <init>(...); }
+
+# view AndroidManifest.xml #generated:208
+-keep class com.google.android.gms.ads.AdActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:212
+-keep class com.google.android.gms.ads.purchase.InAppPurchaseActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:215
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(...); }
+
+# view res/layout/crossfader_base.xml #generated:1
+-keep class com.mikepenz.crossfader.view.CrossFadeSlidingPaneLayout { <init>(...); }
+
+# view res/layout/crossfader_gmail_style.xml #generated:1
+-keep class com.mikepenz.crossfader.view.GmailStyleCrossFadeSlidingPaneLayout { <init>(...); }
+
+# view res/layout/material_drawer_item_expandable.xml #generated:67
+# view res/layout/material_drawer_item_expandable_badge.xml #generated:93
+-keep class com.mikepenz.iconics.view.IconicsImageView { <init>(...); }
+
+# view res/layout/material_drawer_compact_header.xml #generated:18
+# view res/layout/material_drawer_compact_header.xml #generated:24
+# view res/layout/material_drawer_compact_header.xml #generated:30
+# view res/layout/material_drawer_compact_header.xml #generated:36
+# view res/layout/material_drawer_header.xml #generated:17
+# view res/layout/material_drawer_header.xml #generated:36
+# view res/layout/material_drawer_header.xml #generated:45
+# view res/layout/material_drawer_header.xml #generated:54
+# view res/layout/material_drawer_item_mini_profile.xml #generated:6
+# view res/layout/material_drawer_item_profile.xml #generated:22
+-keep class com.mikepenz.materialdrawer.view.BezelImageView { <init>(...); }
+
+# view res/layout/materialize.xml #generated:5
+-keep class com.mikepenz.materialize.view.ScrimInsetsFrameLayout { <init>(...); }
+
+# view res/layout/material_drawer_slider.xml #generated:2
+-keep class com.mikepenz.materialize.view.ScrimInsetsRelativeLayout { <init>(...); }
+

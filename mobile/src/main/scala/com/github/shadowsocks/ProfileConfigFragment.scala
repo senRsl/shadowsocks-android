@@ -61,7 +61,7 @@ class ProfileConfigFragment extends PreferenceFragment with OnMenuItemClickListe
     }
     addPreferencesFromResource(R.xml.pref_profile)
     if (Build.VERSION.SDK_INT >= 25 && getActivity.getSystemService(classOf[UserManager]).isDemoUser) {
-      findPreference(Key.host).setSummary("shadowsocks.example.org")
+      findPreference(Key.host).setSummary("ss.example.org")
       findPreference(Key.remotePort).setSummary("1337")
       findPreference(Key.password).setSummary("\u2022" * 32)
     }

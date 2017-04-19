@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="removed">
+<item quantity="other">"已删除 %d 项"</item>
+</plurals>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"转到主屏幕"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s：%2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s - %2$s：%3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"转到上一层级"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"更多选项"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"完成"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"查看全部"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"选择应用"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"关闭"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"开启"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"搜索…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"清除查询"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"搜索查询"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"搜索"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"提交查询"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"语音搜索"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"分享方式"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"通过%s分享"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"收起"</string>
+    <string name="about">"关于"</string>
+    <string name="about_title">"ss (shadowsocks) %s"</string>
+    <string msgid="5835639618285370804" name="accept">"接受"</string>
+    <string name="acl_rule_templates_domain">"域名及其子域名"</string>
+    <string name="acl_rule_templates_generic">"子网/域名 PCRE 正则表达式"</string>
+    <string name="action_add_rule">"添加规则…"</string>
+    <string name="action_apply_all">"应用设置到所有配置文件"</string>
+    <string name="action_export">"导出至剪贴板"</string>
+    <string name="action_export_err">"导出至剪贴板失败"</string>
+    <string name="action_export_msg">"导出至剪贴板成功"</string>
+    <string name="action_import">"从剪贴板导入"</string>
+    <string name="action_import_err">"导入失败"</string>
+    <string name="action_import_msg">"导入成功"</string>
+    <string name="action_selection">"选择…"</string>
+    <string name="add_profile">"添加配置文件"</string>
+    <string name="add_profile_dialog">"为影梭添加此配置文件？"</string>
+    <string name="add_profile_methods_manual_settings">"手动设置"</string>
+    <string name="add_profile_methods_scan_qr_code">"扫描二维码"</string>
+    <string name="add_profile_scanner_not_installed">"请安装任意兼容 ZXing 的二维码扫描应用。"</string>
+    <string name="app_name">"Ss"</string>
+    <string name="apply">"应用"</string>
+    <string name="auto_connect">"自动连接"</string>
+    <string name="auto_connect_summary">"随系统启动后台服务"</string>
+    <string name="bypass_apps">"绕行模式"</string>
+    <string name="bypass_apps_summary">"启用该选项，以使所选应用程序的流量不经过代理"</string>
+    <string name="close">"关闭"</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"启用"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"您必须先启用 Google Play 服务，然后才能运行<ns1:g id="APP_NAME">%1$s</ns1:g>。"</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"启用 Google Play 服务"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"安装"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"您的设备没有安装 Google Play 服务，因此无法运行<ns1:g id="APP_NAME">%1$s</ns1:g>。"</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"获取 Google Play 服务"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Google Play服务出错"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g>无法访问 Google Play 服务，请重试。"</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"您的设备不支持 Google Play 服务，因此无法运行<ns1:g id="APP_NAME">%1$s</ns1:g>。"</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"更新"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"您必须先更新 Google Play 服务，然后才能运行<ns1:g id="APP_NAME">%1$s</ns1:g>。"</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"更新 Google Play 服务"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"Google Play 服务当前正在更新，因此您无法运行<ns1:g id="APP_NAME">%1$s</ns1:g>。"</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"必须使用新版 Google Play 服务。该服务很快就会自行更新。"</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"在手机上打开"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"登录"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"使用 Google 帐号登录"</string>
+    <string name="connect">"连接"</string>
+    <string name="connecting">"连接中…"</string>
+    <string name="connection_test_available">"连接有效：延时 %d 毫秒"</string>
+    <string name="connection_test_error">"失败：%s"</string>
+    <string name="connection_test_error_status_code">"状态码无效（#%d）"</string>
+    <string name="connection_test_fail">"无互联网连接"</string>
+    <string name="connection_test_pending">"检查网络连接"</string>
+    <string name="connection_test_testing">"测试中…"</string>
+    <string msgid="6155048007205742679" name="create_calendar_message">"允许广告创建日历活动吗？"</string>
+    <string msgid="7967007864778154790" name="create_calendar_title">"创建日历活动"</string>
+    <string name="custom_rules">"自定义规则"</string>
+    <string msgid="4722375419392727435" name="debug_menu_ad_information">"广告信息"</string>
+    <string msgid="1605938743055376690" name="debug_menu_creative_preview">"广告素材预览"</string>
+    <string msgid="2039274714455389140" name="debug_menu_title">"选择调试模式"</string>
+    <string msgid="1173358804935285568" name="debug_menu_troubleshooting">"问题排查"</string>
+    <string msgid="6099173376375995052" name="decline">"拒绝"</string>
+    <string name="delete">"删除"</string>
+    <string name="delete_confirm_prompt">"您确定要删除此配置文件？"</string>
+    <string name="edit">"编辑"</string>
+    <string name="edit_rule">"编辑规则"</string>
+    <string name="enc_method">"加密方法"</string>
+    <string name="faq">"常见问题"</string>
+    <string name="feature_cat">"功能设置"</string>
+    <string name="forward_success">"后台服务已开始运行。"</string>
+    <string name="header_title">Ss乱改版</string>
+    <string name="invalid_server">"服务器名无效"</string>
+    <string name="ipv6">"IPv6 路由"</string>
+    <string name="ipv6_summary">"向远程服务器转发 IPv6 流量"</string>
+    <string name="misc_cat">"其他"</string>
+    <string name="nat">"NAT 模式（仅限调试）"</string>
+    <string name="nat_connected">"已连接"</string>
+    <string name="nat_deprecated">"警告：在 Android 5.0 及更高版本中不建议使用 NAT 模式"</string>
+    <string name="nat_no_root">"NAT 模式需要 ROOT 权限"</string>
+    <string name="nat_summary">"从 VPN 模式切换为 NAT 模式，需要 ROOT 权限"</string>
+    <string name="no">"否"</string>
+    <string name="not_connected">"未连接"</string>
+    <string name="on">"开"</string>
+    <string name="plugin">"插件"</string>
+    <string name="plugin_configure">"配置…"</string>
+    <string name="plugin_disabled">"禁用"</string>
+    <string name="plugin_unknown">"未知插件 %s"</string>
+    <string name="plugin_untrusted">"警告：该插件似乎并非来自已知的可信源。"</string>
+    <string name="port">"本地端口"</string>
+    <string name="profile">"配置文件"</string>
+    <string name="profile_config">"配置文件设置"</string>
+    <string name="profile_default">"使用当前配置"</string>
+    <string name="profile_empty">"请选择配置文件"</string>
+    <string name="profile_invalid_input">"未找到有效的配置文件。"</string>
+    <string name="profile_name">"配置名称"</string>
+    <string name="profile_plugin">"插件：%s"</string>
+    <string name="profile_summary">"新建或切换到其他配置文件"</string>
+    <string name="profiles">"配置文件"</string>
+    <string name="proxied_apps">"分应用代理"</string>
+    <string name="proxied_apps_summary">"为应用程序分别设置代理，在 4.x 下需要启用 NAT 模式"</string>
+    <string name="proxied_apps_summary_v21">"为应用程序分别设置代理"</string>
+    <string name="proxy">"服务器"</string>
+    <string name="proxy_cat">"服务器设置"</string>
+    <string name="proxy_empty">"代理服务器地址及密码不能为空"</string>
+    <string name="quick_toggle">"开关"</string>
+    <string name="reboot_required">"VPN 服务启动失败。你可能需要重启设备。"</string>
+    <string name="received">"接收："</string>
+    <string name="recovering">"重置中…"</string>
+    <string name="recovery">"重置"</string>
+    <string name="remote_dns">"远程 DNS"</string>
+    <string name="remote_port">"远程端口"</string>
+    <string name="remove_profile">"删除此配置文件“%s”?"</string>
+    <string name="route_entry_all">"全局"</string>
+    <string name="route_entry_bypass_chn">"绕过中国大陆地址"</string>
+    <string name="route_entry_bypass_lan">"绕过局域网地址"</string>
+    <string name="route_entry_bypass_lan_chn">"绕过局域网及中国大陆地址"</string>
+    <string name="route_entry_chinalist">"仅代理中国大陆地址"</string>
+    <string name="route_entry_gfwlist">"仅代理中国大陆无法访问的地址"</string>
+    <string name="route_list">"路由"</string>
+    <string msgid="146198913615257606" name="search_menu_title">"搜索"</string>
+    <string name="sent">"发送："</string>
+    <string name="service_failed">"无法连接远程服务器"</string>
+    <string name="settings">"设置选项"</string>
+    <string name="share">"分享"</string>
+    <string name="share_qr_nfc">"二维码 / NFC"</string>
+    <string name="sitekey">"密码"</string>
+    <string name="start_service">"连接到 %s"</string>
+    <string name="start_service_default">"连接到当前服务器"</string>
+    <string name="stat_summary">"发送: \t%3$s\t↑\t%1$s/s
+接收: \t%4$s\t↓\t%2$s/s"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="stop">"停止"</string>
+    <string name="stop_service">"切换到 %s"</string>
+    <string name="stopping">"正在关闭…"</string>
+    <string msgid="8020323581538738027" name="store_picture_message">"允许广告将图片存储在图库中吗？"</string>
+    <string msgid="4180630057627064606" name="store_picture_title">"保存图片"</string>
+    <string name="switch_to_vpn">"切换到 VPN 模式"</string>
+    <string name="tcp_fastopen_summary">"切换需要 ROOT 权限"</string>
+    <string name="tcp_fastopen_summary_unsupported">"不支持的内核版本：%s &lt; 3.7.1"</string>
+    <string name="toggle_service_state">"启动服务"</string>
+    <string name="udp_dns">"DNS 转发"</string>
+    <string name="udp_dns_summary">"通过 UDP 将所有 DNS 查询全部转发至远程服务器"</string>
+    <string name="undo">"撤销"</string>
+    <string name="unsaved_changes_prompt">"保存修改吗？"</string>
+    <string name="vpn_connected">"已连接，点击测试连接"</string>
+    <string name="vpn_error">"后台服务启动失败：%s"</string>
+    <string name="yes">"是"</string>
+</resources>

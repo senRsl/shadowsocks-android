@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/mobile/target/android/intermediates/res/color-v23/abc_color_highlight_material.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/mobile/target/android/intermediates/res/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/mobile/target/android/intermediates/res/color-v23/design_tint_password_toggle.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-design-25.3.1/res/color-v23/design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/mobile/target/android/intermediates/res/color-v23/abc_tint_edittext.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/mobile/target/android/intermediates/res/color-v23/abc_tint_spinner.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/mobile/target/android/intermediates/res/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/mobile/target/android/intermediates/res/color-v23/abc_tint_default.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/mobile/target/android/intermediates/res/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/mobile/target/android/intermediates/res/color-v23/abc_tint_switch_track.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/mobile/target/android/intermediates/res/color-v23/abc_tint_switch_thumb.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/color-v23/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/mobile/target/android/intermediates/res/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/color-v23/abc_btn_colored_text_material.xml"
+    }
+]

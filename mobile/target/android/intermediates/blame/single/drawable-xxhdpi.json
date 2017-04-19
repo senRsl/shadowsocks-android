@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/mobile/target/android/intermediates/res/drawable-xxhdpi/ic_done.png",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.github.jorgecastilloprz-fabprogresscircle-1.01/res/drawable-xxhdpi/ic_done.png"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/mobile/target/android/intermediates/res/drawable-xxhdpi/ic_stat_shadowsocks.png",
+        "source": "/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/res/drawable-xxhdpi/ic_stat_shadowsocks.png"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/mobile/target/android/intermediates/res/drawable-xxhdpi/ic_navigation_close.png",
+        "source": "/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/res/drawable-xxhdpi/ic_navigation_close.png"
+    }
+]

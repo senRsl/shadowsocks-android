@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout-v21/preference_information_material.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-preference-v14-25.2.0/res/layout-v21/preference_information_material.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout-v21/preference_material.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-preference-v14-25.2.0/res/layout-v21/preference_material.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout-v21/notification_action.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout-v21/preference_category_material.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-preference-v14-25.2.0/res/layout-v21/preference_category_material.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout-v21/preference_dropdown_material.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-preference-v14-25.2.0/res/layout-v21/preference_dropdown_material.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/plugin/target/android/intermediates/res/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-appcompat-v7-25.2.0/res/layout-v21/notification_template_custom_big.xml"
+    }
+]

@@ -1,0 +1,32 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/plugin/src/main/AndroidManifest.xml:1:1-11:12
+	package
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/plugin/src/main/AndroidManifest.xml:2:11-50
+		INJECTED from /home/senrsl/test/temp/ss/shadowsocks-android/plugin/src/main/AndroidManifest.xml
+		INJECTED from /home/senrsl/test/temp/ss/shadowsocks-android/plugin/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/senrsl/test/temp/ss/shadowsocks-android/plugin/src/main/AndroidManifest.xml
+		INJECTED from /home/senrsl/test/temp/ss/shadowsocks-android/plugin/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/plugin/src/main/AndroidManifest.xml:1:11-69
+uses-sdk
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/plugin/src/main/AndroidManifest.xml:3:5-5:44
+	android:targetSdkVersion
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/plugin/src/main/AndroidManifest.xml:5:13-42
+		INJECTED from /home/senrsl/test/temp/ss/shadowsocks-android/plugin/src/main/AndroidManifest.xml
+		INJECTED from /home/senrsl/test/temp/ss/shadowsocks-android/plugin/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/plugin/src/main/AndroidManifest.xml:4:13-39
+		INJECTED from /home/senrsl/test/temp/ss/shadowsocks-android/plugin/src/main/AndroidManifest.xml
+		INJECTED from /home/senrsl/test/temp/ss/shadowsocks-android/plugin/src/main/AndroidManifest.xml
+application
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/plugin/src/main/AndroidManifest.xml:6:5-10:19
+	android:theme
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/plugin/src/main/AndroidManifest.xml:7:13-53
+meta-data#com.github.shadowsocks.plugin.version
+ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/plugin/src/main/AndroidManifest.xml:8:9-9:43
+	android:value
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/plugin/src/main/AndroidManifest.xml:9:20-41
+	android:name
+		ADDED from /home/senrsl/test/temp/ss/shadowsocks-android/plugin/src/main/AndroidManifest.xml:8:20-72

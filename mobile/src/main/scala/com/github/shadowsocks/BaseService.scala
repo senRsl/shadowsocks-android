@@ -128,9 +128,10 @@ trait BaseService extends Service {
   def connect() {
     profile.name = profile.getName  // save original name before it's (possibly) overwritten by IP addresses
     if (profile.host == "198.199.101.152") {
-      val holder = app.containerHolder
-      val container = holder.getContainer
-      val url = container.getString("proxy_url")
+     // val holder = app.containerHolder
+      //val container = holder.getContainer
+     // val url = container.getString("proxy_url")
+      var url = "127.0.0.1"
       val sig = Utils.getSignature(this)
 
       val client = new OkHttpClient.Builder()
@@ -305,9 +306,10 @@ trait BaseService extends Service {
   def getBlackList: String = {
     val default = getString(R.string.black_list)
     try {
-      val container = app.containerHolder.getContainer
-      val update = container.getString("black_list_lite")
-      val list = if (update == null || update.isEmpty) default else update
+      //val container = app.containerHolder.getContainer
+      //val update = container.getString("black_list_lite")
+      //val list = if (update == null || update.isEmpty) default else update
+      val list = default
       "exclude = " + list + ";"
     } catch {
       case _: Exception => "exclude = " + default + ";"

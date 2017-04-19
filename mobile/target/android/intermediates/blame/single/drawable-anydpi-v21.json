@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/mobile/target/android/intermediates/res/drawable-anydpi-v21/ic_navigation_close.xml",
+        "source": "/home/senrsl/test/temp/ss/shadowsocks-android/mobile/src/main/res/drawable-anydpi-v21/ic_navigation_close.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/mobile/target/android/intermediates/res/drawable-anydpi-v21/design_ic_visibility.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-design-25.3.1/res/drawable-anydpi-v21/design_ic_visibility.xml"
+    },
+    {
+        "merged": "/home/senrsl/test/temp/ss/shadowsocks-android/mobile/target/android/intermediates/res/drawable-anydpi-v21/design_ic_visibility_off.xml",
+        "source": "/home/senrsl/.android/sbt/exploded-aars/com.android.support-design-25.3.1/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
+    }
+]
